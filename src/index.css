@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif !important;
+}
+
+* {
+  scroll-behavior: smooth;
+  scrollbar-width: normal;
+  scrollbar-color: #87ceeb, #003366;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background-color: #87ceeb;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #003366;
+  border-radius: 1rem;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
