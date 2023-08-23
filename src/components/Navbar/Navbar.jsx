@@ -5,7 +5,7 @@ import { navs } from "./NavItems";
 
 const Navbar = () => {
   return (
-    <section className="bg-[#0B0B0B] fixed w-full z-50">
+    <section className="bg-[#0B0B0B] fixed w-full z-50 backdrop-filter backdrop-blur-lg bg-opacity-30 font-roboto">
       <div className="w-90%]  mx-auto flex items-center justify-around">
         {/* logo */}
         <div>

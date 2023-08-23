@@ -1,13 +1,15 @@
 import React from "react";
-
+import "./AboutStyles.css";
 const About = () => {
   return (
     <section
       id="about"
       className="bg-primary flex-col text-white text-2xl	 w-[100%]  flex items-center justify-center px-[10%]"
     >
-      <div className="text-[#FFD866] mb-[5%] text-8xl ">About</div>
-      <div className="flex flex-col gap-10 ">
+      <div className="text-[#FFD866] mb-[5%] text-8xl font-roboto font-medium ">
+        About Us
+      </div>
+      <div className="flex flex-col gap-10 font-fira">
         <div>
           REVA HACK is an annual tech and innovation fest organized by The
           Hackathon Club at REVA University, the yearly event has only seen
@@ -29,9 +31,12 @@ const About = () => {
           registered entrants and prices over INR 2.5 Cr. REVA HACK's schedule
           also accommodates pre-event workshops, learnathons, and semi-formal
           engagement events like Kahoots, stressbusters, etc. that come with
-          goodies. Our mission at The Hackathon Club is to fuel your innovation
-          and REVA HACK is our way of doing just that.
+          goodies.
         </div>
+        <p className=" inline-block	 text">
+          Our mission at The Hackathon Club is to fuel your innovation and REVA
+          HACK is our way of doing just that.
+        </p>
       </div>
       {/* <p>About</p>
       <p className=" text-4xl text-secondary drop-shadow-lg shadow-secondary ">

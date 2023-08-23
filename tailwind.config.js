@@ -4,9 +4,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#003366",
+        primary: "#000",
         secondary: "#87CEEB",
       },
+    },
+    fontFamily: {
+      roboto: ["Roboto", "sans-serif"],
+      fira: ["Fira Code", "monospace"],
     },
   },
   plugins: [],
