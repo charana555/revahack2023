@@ -15,8 +15,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#0B0B0B] fixed w-full z-50 backdrop-filter backdrop-blur-lg bg-opacity-30">
-      <div className="container mx-auto flex flex-wrap items-center justify-between p-4">
+    <nav className="bg-primary fixed w-full z-50 backdrop-filter backdrop-blur-lg bg-opacity-30">
+      <div className="container mx-auto flex flex-wrap items-center justify-between p-4 font-roboto">
         {/* Logo */}
         <div>
           <Link
@@ -35,14 +35,12 @@ const Navbar = () => {
         </div>
         {/* Navlinks for Desktop */}
         <div
-          className={`hidden md:flex md:gap-14 font-semibold ${
-            menubarOpen ? "hidden" : ""
-          }`}
+          className={`hidden md:flex md:gap-14 ${menubarOpen ? "hidden" : ""}`}
         >
           {navs.map((item, i) => (
             <Link
               key={i}
-              className="underline-hover cursor-pointer text-[#737373] text-md tracking-widest hover:text-secondary transition-all duration-200 ease-in-out"
+              className="underline-hover cursor-pointer text-white text-md tracking-widest hover:text-secondary transition-all duration-200 ease-in-out"
               to={item.navid}
               duration={100}
               smooth={true}

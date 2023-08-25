@@ -6,7 +6,7 @@ const Hero = () => {
 
   return (
       <section id="Hero">
-        <div className="hero min-h-screen flex items-center justify-center bg-[#0d0f16] text-white">
+        <div className="hero min-h-screen flex items-center justify-center text-white">
           <div>
             <div className="my-32">
               <div className="text-center mb-4">
@@ -15,7 +15,7 @@ const Hero = () => {
 
               {/* The typewriter text */}
               <div className="text-center">
-                <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl relative mb-4 text-neutral-500 font-mono font-medium">
+                <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl relative mb-4 text-DeepCharcoal font-fira font-medium">
                   {currentText}
                   <span className="cursor" style={cursorStyle}></span>
                 </p>

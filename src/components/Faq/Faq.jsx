@@ -4,7 +4,7 @@ const Faq = () => {
   return (
     <section
       id="FAQs"
-      className="bg-primary flex-col text-white text-3xl w-full h-screen flex items-center justify-center z-10"
+      className="flex-col text-white text-3xl w-full h-screen flex items-center justify-center"
     >
       <p>FAQ</p>
       <p className=" text-4xl text-secondary drop-shadow-lg shadow-secondary ">

@@ -20,7 +20,7 @@ const Sponsors = () => {
   return (
     <section
       id="Sponsors"
-      className="bg-primary flex-col text-white text-3xl w-full h-screen flex items-center justify-center"
+      className="flex-col text-white text-3xl w-full h-screen flex items-center justify-center"
     >
       <img className="absolute mt-[10%] " src={sponsorbg} />
       <div className="text-LushGreen  text-6xl md:text-7xl font-roboto font-bold ">
