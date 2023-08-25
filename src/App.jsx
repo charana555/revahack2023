@@ -1,13 +1,13 @@
 import About from "./components/About/About";
-import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
-import Tracks from "./components/Tracks/Tracks";
-import Prizes from "./components/Prizes/Prizes";
-import Timeline from "./components/Timeline/Timeline";
 import Contact from "./components/Contact/Contact";
-import Faq from "./components/Faq/Faq";
-import Sponsers from "./components/Sponsers/Sponsers";
 import Crew from "./components/Crew/Crew";
+import Faq from "./components/Faq/Faq";
+import Hero from "./components/Hero/Hero";
+import Navbar from "./components/Navbar/Navbar";
+import Prizes from "./components/Prizes/Prizes";
+import Sponsers from "./components/Sponsers/Sponsers";
+import Timeline from "./components/Timeline/Timeline";
+import Tracks from "./components/Tracks/Tracks";
 
 const App = () => {
   return (

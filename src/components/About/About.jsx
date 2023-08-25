@@ -4,19 +4,19 @@ const About = () => {
   return (
     <section
       id="about"
-      className="bg-primary flex-col text-white text-2xl	 w-[100%]  flex items-center justify-center px-[10%]"
+      className="bg-primary flex-col text-white text-xl	 w-[100%]  flex items-center justify-center px-[10%]"
     >
-      <div className="text-[#FFD866] mb-[5%] text-8xl font-roboto font-medium ">
+      <div className="text-[#939AFF] mb-[5%] text-8xl font-roboto font-medium ">
         About Us
       </div>
       <div className="flex flex-col gap-10 font-fira">
         <div>
-          REVA HACK is an annual tech and innovation fest organized by The
-          Hackathon Club at REVA University, the yearly event has only seen
-          growth year over year since its inception in 2016. Once started as a
-          university-wide event, REVA HACK now sees participants from all over
-          the world showcasing their creativity and displaying their drive to
-          innovate.
+          <span className="text-3xl font-semibold"> REVA HACK</span> is an
+          annual tech and innovation fest organized by The Hackathon Club at
+          REVA University, the yearly event has only seen growth year over year
+          since its inception in 2016. Once started as a university-wide event,
+          REVA HACK now sees participants from all over the world showcasing
+          their creativity and displaying their drive to innovate.
         </div>
         <div>
           Today REVA HACK has become our University's flagship technological
@@ -33,7 +33,7 @@ const About = () => {
           engagement events like Kahoots, stressbusters, etc. that come with
           goodies.
         </div>
-        <p className=" inline-block	 text">
+        <p className="inline-block text">
           Our mission at The Hackathon Club is to fuel your innovation and REVA
           HACK is our way of doing just that.
         </p>
