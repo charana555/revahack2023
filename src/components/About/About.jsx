@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section
       id="About"
-      className="bg-primary flex-col text-white text-2xl	 w-[100%]  flex items-center justify-center px-[10%]"
+      className="flex-col text-white text-2xl	 w-[100%]  flex items-center justify-center px-[10%]"
     >
       <div className="text-[#FFD866] mb-[5%] text-8xl font-roboto font-medium ">
         About Us

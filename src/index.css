@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +10,13 @@
   scroll-behavior: smooth;
   scrollbar-width: normal;
   scrollbar-color: #87ceeb, #003366;
+}
+
+/* background */
+body {
+  margin: 0;
+  padding: 0;
+  background: url('Images/hero_bgf.svg') no-repeat, #0d0f16;
 }
 
 ::-webkit-scrollbar {
