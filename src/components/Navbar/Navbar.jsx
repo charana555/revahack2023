@@ -28,8 +28,8 @@ const Navbar = () => {
             {navs.map((item, i) => (
                 <Link
                     key={i}
-                    // underline-hover class can be added
-                    className="color-transition cursor-pointer text-white text-md tracking-widest hover:text-secondary transition-all duration-200 ease-in-out"
+                    // underline-hover color-transition class can be added
+                    className="underline-hover cursor-pointer text-white text-md tracking-widest hover:text-secondary transition-all duration-200 ease-in-out"
                     to={item.navid}
                     duration={100}
                     smooth={true}

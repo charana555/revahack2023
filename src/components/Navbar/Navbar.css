@@ -30,7 +30,7 @@
   width: 100%;
 }
 
-/* Define the hover styles for links */
+/* color change animation */
 .color-transition {
   transition: color 0.1s ease-in-out;
 }
@@ -38,7 +38,6 @@
   animation: colorChange 2s infinite alternate;
 }
 
-/* Define the keyframes for the color change animation */
 @keyframes colorChange {
   0% {
     color: #924a4a;
@@ -56,6 +55,6 @@
     color: #2ccdca;
   }
   100% {
-    color: #e11a1a; /* Back to the initial color */
+    color: #e11a1a;
   }
 }
