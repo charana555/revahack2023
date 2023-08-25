@@ -3,7 +3,7 @@ import React from "react";
 const Timeline = () => {
   return (
     <section
-      id="timeline"
+      id="Timeline"
       className="bg-primary flex-col text-white text-3xl w-full h-screen flex items-center justify-center"
     >
       <p>Timeline</p>

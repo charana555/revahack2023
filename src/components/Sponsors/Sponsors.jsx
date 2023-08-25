@@ -16,11 +16,11 @@ const saplinglogos = [
   { logo: reva, alt: "sad" },
 ];
 
-const Sponsers = () => {
+const Sponsors = () => {
   return (
     <section
-      id="sponsers"
-      className="bg-primary flex-col  text-white text-3xl w-full h-auto flex items-center justify-center px-[10%] py-[5%]"
+      id="Sponsors"
+      className="bg-primary flex-col text-white text-3xl w-full h-screen flex items-center justify-center"
     >
       <img className="absolute mt-[10%] " src={sponsorbg} />
       <div className="text-LushGreen  text-6xl md:text-7xl font-roboto font-bold ">
@@ -124,4 +124,4 @@ const Sponsers = () => {
   );
 };
 
-export default Sponsers;
+export default Sponsors;

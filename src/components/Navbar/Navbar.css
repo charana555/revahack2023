@@ -1,14 +1,9 @@
-.__drop_shadow {
-  filter: drop-shadow(-3px -3px 2px #003366)
-  drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2))
-  drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
-}
+
 /* expanding underline on hover */
 .underline-hover {
   position: relative;
   display: inline-block;
   text-decoration: none;
-  font-style: italic;
   color: #c3dcd9;
 }
 
@@ -57,4 +52,16 @@
   100% {
     color: #e11a1a;
   }
+}
+
+/* Menu Button */
+.menu-button {
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  filter: drop-shadow(-3px -3px 2px #003366) drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
+}
+
+.menu-button:hover {
+  transform: scale(1.1);
 }

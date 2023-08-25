@@ -3,7 +3,7 @@ import React from "react";
 const Tracks = () => {
   return (
     <section
-      id="tracks"
+      id="Tracks"
       className="bg-primary flex-col text-white text-3xl w-full h-screen flex items-center justify-center"
     >
       <p>Tracks</p>

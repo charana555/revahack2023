@@ -3,7 +3,7 @@ import React from "react";
 const Faq = () => {
   return (
     <section
-      id="faq"
+      id="FAQs"
       className="bg-primary flex-col text-white text-3xl w-full h-screen flex items-center justify-center z-10"
     >
       <p>FAQ</p>

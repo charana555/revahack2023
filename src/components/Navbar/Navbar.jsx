@@ -1,18 +1,28 @@
+import { useState } from "react";
 import { Link } from "react-scroll";
+import { navs } from "./NavItems";
 import "./Navbar.css";
 
-import { navs } from "./NavItems";
-
 const Navbar = () => {
+  const [menubarOpen, setMenubarOpen] = useState(false);
+
+  const toggleMenubar = () => {
+    setMenubarOpen(!menubarOpen);
+  };
+
+  const closeMenubar = () => {
+    setMenubarOpen(false);
+  };
+
   return (
-    <section className="bg-[#0B0B0B] fixed w-full z-50 backdrop-filter backdrop-blur-lg bg-opacity-30 font-roboto">
-      <div className="w-90%]  mx-auto flex items-center justify-around">
-        {/* logo */}
+    <nav className="bg-[#0B0B0B] fixed w-full z-50 backdrop-filter backdrop-blur-lg bg-opacity-30">
+      <div className="container mx-auto flex flex-wrap items-center justify-between p-4">
+        {/* Logo */}
         <div>
           <Link
             duration={100}
             smooth={true}
-            className=" cursor-pointer"
+            className="cursor-pointer"
             to="hero"
           >
             <img
@@ -23,24 +33,53 @@ const Navbar = () => {
             />
           </Link>
         </div>
-        {/* navlinks */}
-        <div className="flex gap-14 font-[500] ">
+        {/* Navlinks for Desktop */}
+        <div
+          className={`hidden md:flex md:gap-14 font-semibold ${
+            menubarOpen ? "hidden" : ""
+          }`}
+        >
           {navs.map((item, i) => (
             <Link
               key={i}
-              // underline-hover color-transition class can be added
-              className="underline-hover cursor-pointer text-white text-md tracking-widest hover:text-secondary transition-all duration-200 ease-in-out"
+              className="cursor-pointer text-[#737373] text-md tracking-widest hover:text-secondary transition-all duration-200 ease-in-out"
               to={item.navid}
               duration={100}
               smooth={true}
+              onClick={closeMenubar}
             >
               {item.navid}
             </Link>
           ))}
         </div>
-        {/* timer */}
+        {/* Hamburger Menu */}
+        <div className="md:hidden">
+          <button
+            className="text-white cursor-pointer menu-button"
+            onClick={toggleMenubar}
+          >
+            ☰{/* Hamburger icon */}
+          </button>
+        </div>
+        {/* Menubar */}
+        {menubarOpen && (
+          <div className="md:hidden text-center w-full mt-4">
+            {navs.map((item, i) => (
+              <Link
+                key={i}
+                className="block text-[#737373] cursor-pointer py-2 transition-all duration-200 ease-in-out hover:text-[#81D9D2FF]"
+                to={item.navid}
+                duration={100}
+                smooth={true}
+                onClick={closeMenubar}
+              >
+                {item.navid}
+              </Link>
+            ))}
+          </div>
+        )}
       </div>
-    </section>
+    </nav>
   );
 };
 
