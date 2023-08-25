@@ -16,7 +16,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url('Images/hero_bgf.svg') no-repeat, #0d0f16;
+  background: url("/public/Images/hero_bgf.svg") no-repeat, #0d0f16;
 }
 
 ::-webkit-scrollbar {
