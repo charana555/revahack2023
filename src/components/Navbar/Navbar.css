@@ -1,5 +1,32 @@
 .__drop_shadow {
-  filter: drop-shadow(-3px -3px 2px #003366)
+  filter: drop-shadow(-3px -3px 2px #1d2332)
     drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2))
     drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
+}
+
+/* expanding underline on hover */
+.underline-hover {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  font-style: italic;
+  color: #c3dcd9;
+}
+
+.underline-hover::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background-color: #c3dcd9;
+  bottom: 0;
+  left: 50%;
+  /* start the line from the middle of the text */
+  transform: translateX(-50%);
+  transition: width 0.3s ease-in-out;
+}
+
+.underline-hover:hover::before {
+  /* Expand the line to both sides */
+  width: 100%;
 }

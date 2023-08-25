@@ -1,0 +1,26 @@
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Media query for responsive text size and padding */
+@media (max-width: 768px) {
+    .hero p {
+        font-size: 2rem;
+        padding: 0 20px;
+    }
+}
+
+/* Cursor style */
+.cursor {
+    width: 3px;
+    height: 30px;
+    background-color: #737373;
+    display: inline-block;
+    margin-left: 3px;
+    animation: blink 1s infinite;
+}
