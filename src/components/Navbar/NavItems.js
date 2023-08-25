@@ -15,6 +15,6 @@ export const navs = [
     navid: "Sponsors",
   },
   {
-    navid: "FAQ's",
+    navid: "FAQs",
   },
 ];

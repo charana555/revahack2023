@@ -1,5 +1,67 @@
-.__drop_shadow {
-  filter: drop-shadow(-3px -3px 2px #003366)
-    drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2))
-    drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
+
+/* expanding underline on hover */
+.underline-hover {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #c3dcd9;
+}
+
+.underline-hover::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background-color: #4460ad;
+  bottom: 0;
+  left: 50%;
+  /* start the line from the middle of the text */
+  transform: translateX(-50%);
+  transition: width 0.3s ease-in-out;
+}
+
+.underline-hover:hover::before {
+  /* Expand the line to both sides */
+  width: 100%;
+}
+
+/* color change animation */
+.color-transition {
+  transition: color 0.1s ease-in-out;
+}
+.color-transition:hover {
+  animation: colorChange 2s infinite alternate;
+}
+
+@keyframes colorChange {
+  0% {
+    color: #924a4a;
+  }
+  20% {
+    color: orange;
+  }
+  40% {
+    color: yellow;
+  }
+  60% {
+    color: green;
+  }
+  80% {
+    color: #2ccdca;
+  }
+  100% {
+    color: #e11a1a;
+  }
+}
+
+/* Menu Button */
+.menu-button {
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  filter: drop-shadow(-3px -3px 2px #003366) drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
+}
+
+.menu-button:hover {
+  transform: scale(1.1);
 }
