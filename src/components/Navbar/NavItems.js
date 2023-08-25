@@ -1,20 +1,20 @@
 export const navs = [
   {
-    navid: "about",
+    navid: "About",
   },
   {
-    navid: "tracks",
+    navid: "Tracks",
   },
   {
-    navid: "prizes",
+    navid: "Prizes",
   },
   {
-    navid: "timeline",
+    navid: "Timeline",
   },
   {
-    navid: "sponsers",
+    navid: "Sponsors",
   },
   {
-    navid: "faq",
+    navid: "FAQ's",
   },
 ];
