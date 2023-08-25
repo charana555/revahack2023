@@ -3,7 +3,7 @@ import React from "react";
 const Prizes = () => {
   return (
     <section
-      id="prizes"
+      id="Prizes"
       className="bg-primary flex-col text-white text-3xl w-full h-screen flex items-center justify-center"
     >
       <p>Prizes</p>
