@@ -1,9 +1,8 @@
 .__drop_shadow {
-  filter: drop-shadow(-3px -3px 2px #1d2332)
-    drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2))
-    drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(-3px -3px 2px #003366)
+  drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2))
+  drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
 }
-
 /* expanding underline on hover */
 .underline-hover {
   position: relative;
@@ -18,7 +17,7 @@
   position: absolute;
   width: 0;
   height: 1px;
-  background-color: #c3dcd9;
+  background-color: #4460ad;
   bottom: 0;
   left: 50%;
   /* start the line from the middle of the text */
@@ -29,4 +28,34 @@
 .underline-hover:hover::before {
   /* Expand the line to both sides */
   width: 100%;
+}
+
+/* Define the hover styles for links */
+.color-transition {
+  transition: color 0.1s ease-in-out;
+}
+.color-transition:hover {
+  animation: colorChange 2s infinite alternate;
+}
+
+/* Define the keyframes for the color change animation */
+@keyframes colorChange {
+  0% {
+    color: #924a4a;
+  }
+  20% {
+    color: orange;
+  }
+  40% {
+    color: yellow;
+  }
+  60% {
+    color: green;
+  }
+  80% {
+    color: #2ccdca;
+  }
+  100% {
+    color: #e11a1a; /* Back to the initial color */
+  }
 }
