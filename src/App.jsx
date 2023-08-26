@@ -8,6 +8,7 @@ import Contact from "./components/Contact/Contact";
 import Faq from "./components/Faq/Faq";
 import Sponsors from "./components/Sponsors/Sponsors";
 import Crew from "./components/Crew/Crew";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <Crew />
       <Faq />
       <Contact />
+      <Footer />
     </>
   );
 };
