@@ -1,19 +1,14 @@
 import About from "./components/About/About";
-import {
-  default as Contact,
-  default as Contact,
-} from "./components/Contact/Contact";
-import { default as Crew, default as Crew } from "./components/Crew/Crew";
-import Card from "./components/Crew/components/Card";
-import { default as Faq, default as Faq } from "./components/Faq/Faq";
+import Contact from "./components/Contact/Contact";
+import Crew from "./components/Crew/Crew";
+import Faq from "./components/Faq/Faq";
+import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Prizes from "./components/Prizes/Prizes";
-import {
-  default as Sponsers,
-  default as Sponsers,
-} from "./components/Sponsers/Sponsers";
+import Sponsors from "./components/Sponsors/Sponsors";
 import Timeline from "./components/Timeline/Timeline";
+import Tracks from "./components/Tracks/Tracks";
 
 const App = () => {
   return (
@@ -28,6 +23,7 @@ const App = () => {
       <Crew />
       <Faq />
       <Contact />
+      <Footer />
     </>
   );
 };
