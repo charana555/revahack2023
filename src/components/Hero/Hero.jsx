@@ -24,11 +24,11 @@ const Hero = () => {
 
             {/* Responsive buttons */}
             <div className="flex flex-col items-center space-y-4 sm:flex-row sm:space-x-32 sm:space-y-0 justify-center">
-              <button className="bg-[#304ce4] hover:shadow-lg px-12 py-4 rounded-lg text-white text-3xl flex items-center">
+              <button className="cool-button bg-[#304ce4] text-white text-3xl px-12 py-4 rounded-lg flex items-center">
                 <span className="mr-4">Register</span>
                 <img src={"Images/devfolio.png"} alt="devfolio logo" className="w-6 h-6 ml-3" />
               </button>
-              <button className="bg-[#5c64f4] hover:shadow-lg px-12 py-4 rounded-lg text-white text-3xl flex items-center">
+              <button className="cool-button bg-[#5c64f4] text-white text-3xl px-12 py-4 rounded-lg flex items-center">
                 <span className="mr-4">Join Us</span>
                 <img src={"Images/discord.png"} alt="discord logo" className="w-8 h-6 ml-3" />
               </button>
