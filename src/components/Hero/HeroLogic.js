@@ -13,36 +13,38 @@ const useHeroTypingEffect = () => {
 
     useEffect(() => {
         const text = texts[currentTextIndex];
+        let typingInterval;
 
-        const typingInterval = setInterval(() => {
-            if (isTyping) {
-                if (isDeleting) {
-                    setCurrentText(text.substring(0, currentText.length - 1));
-                } else {
-                    setCurrentText(text.substring(0, currentText.length + 1));
+        if (isTyping) {
+            typingInterval = setInterval(() => {
+                setCurrentText(text.substring(0, currentText.length + 1));
+                if (currentText === text) {
+                    setIsTyping(false);
+                    setTimeout(() => {
+                        setIsDeleting(true);
+                    }, 1000); // Delay before deleting starts
                 }
-            }
+            }, 95); // Typing speed
+        }
 
-            if (isDeleting && currentText === '') {
+        const deletingInterval = setInterval(() => {
+            if (isDeleting && currentText.length > 0) {
+                setCurrentText(text.substring(0, currentText.length - 3));
+            } else if (isDeleting && currentText.length === 0) {
                 setIsTyping(true);
                 setIsDeleting(false);
                 setCurrentText('');
                 setCurrentTextIndex((currentTextIndex + 1) % texts.length);
-            }
-
-            if (!isDeleting && currentText === text) {
-                setIsTyping(false);
+                clearInterval(deletingInterval);
                 setTimeout(() => {
-                    setIsDeleting(true);
-                    setTimeout(() => {
-                        setIsTyping(true);
-                    }, 500);
-                }, 1000);
+                    setIsTyping(true);
+                }, 500); // Delay before typing starts again
             }
-        }, 100);
+        }, 10); // Deleting speed
 
         return () => {
             clearInterval(typingInterval);
+            clearInterval(deletingInterval);
         };
     }, [currentTextIndex, currentText, isTyping, isDeleting, texts]);
 
