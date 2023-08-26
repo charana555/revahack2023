@@ -7,13 +7,7 @@
     }
 }
 
-/* Media query for responsive text size and padding */
-@media (max-width: 768px) {
-    .hero p {
-        font-size: 2rem;
-        padding: 0 20px;
-    }
-}
+
 
 /* Cursor style */
 .cursor {
@@ -25,56 +19,85 @@
     animation: blink 1s infinite;
 }
 
-/* Button style */
-.cool-button {
-    background-color: #304ce4;
+/* Common styles for both buttons */
+.cssbuttons-io-button {
     color: white;
-    text-align: center;
-    font-size: 3rem;
-    padding: 1rem 2rem;
-    border-radius: 0.5rem;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
     display: flex;
     align-items: center;
-    transition: box-shadow 0.2s ease;
-    cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
 }
 
-.cool-button:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    right: 0.3em;
+    transition: all 0.3s;
 }
 
-.cool-button span {
-    transition: text-shadow 0.2s ease;
+.cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
 }
 
-.cool-button:hover span {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+.cssbuttons-io-button .icon svg {
+    width: 2em;
+    transition: transform 0.3s;
+    color: #7b52b9;
 }
 
-.cool-button:active {
-    transform: translateY(0);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+.cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
 }
 
+.cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+}
+
+/* Button style specific to IDs */
+#discord-button.cssbuttons-io-button {
+    background: #7289da;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #252b46;
+}
+
+#register-button.cssbuttons-io-button {
+    background: #1E90FF;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #232c39;
+}
+
+/* Media query for responsive text size and padding */
 @media (max-width: 768px) {
-    .cool-button {
-        font-size: 3rem;
-        padding: 1rem 2rem;
-        font-weight: bold; /* Maintain the same font weight */
+    .hero p {
+        font-size: 2rem;
+        padding: 0 20px;
     }
 
-    .cool-button span {
-        font-size: 1.5rem;
-        font-weight: bold; /* Maintain the same font weight for text inside */
+    .cssbuttons-io-button {
+        font-size: 20px;
+        padding: 0.5rem 1rem;
+        width: 7.8em;
+        height: 2.5em;
+    }
+
+    .cssbuttons-io-button .icon {
+        width: 1.8em;
+        height: 1.8em;
     }
 }
-
-
-
-
-
-
-
-
-
