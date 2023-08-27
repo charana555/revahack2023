@@ -28,20 +28,16 @@ const Glimpse = (props) => {
         <Swiper
           speed={5000}
           autoplay={{
-            delay: 0.1,
+            delay: 1,
             disableOnInteraction: false,
           }}
           loop={true}
           // install Swiper modules
-          modules={[
-            Keyboard,
-            Autoplay,
-            Navigation,
-            Pagination,
-            Scrollbar,
-            A11y,
-          ]}
+          modules={[Keyboard, Autoplay, Navigation, Pagination, Scrollbar]}
           grabCursor={true}
+          scrollbar={{
+            hide: true,
+          }}
           slidesPerView={"auto"}
           spaceBetween={20}
           // centeredSlides={true}
