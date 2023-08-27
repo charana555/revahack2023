@@ -21,7 +21,7 @@ const Glimpse = (props) => {
   return (
     <>
       <div className=" flex flex-col justify-center  ">
-        <div className="text-white font-bold text-5xl md:text-7xl text-center  mb-[1%] ">
+        <div className="text-white font-bold text-5xl md:text-7xl text-center  mb-[50px] ">
           <span className="text-RoyalPurple">REVA Hack 2022</span> Glimpse
         </div>
 
