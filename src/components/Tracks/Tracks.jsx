@@ -6,9 +6,8 @@ const Tracks = () => {
   
   useEffect(() => {
     VanillaTilt.init(document.querySelectorAll(".card"),{
-      max: 5,
-      tilt: 5,
-      speed: 100,
+      max: 25,
+      speed: 400,
       glare: true,
       "max-glare": 1,
     });
@@ -17,11 +16,11 @@ const Tracks = () => {
   return (
     <section
       id="Tracks"
-      className="m-0 p-0 bg-primary flex-col text-white flex items-center justify-center box-border">
+      className="m-0 p-0 bg-primary flex-col text-white flex items-center justify-center">
       <p className="text-8xl">Tracks</p>
       <div 
         id="container" 
-        className="flex-col flex-wrap flex items-center justify-center relative max-w-7xl z-1">
+        className="flex flex-row flex-wrap items-center justify-center relative max-w-7xl z-1">
         <div class="card">
           <div 
             id="head" 
