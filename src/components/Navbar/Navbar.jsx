@@ -1,9 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
+
+import "./Navbar.css";
+
 import { navs } from "./NavItems";
 import "./Navbar.css";
 
 const Navbar = () => {
+
   const [menubarOpen, setMenubarOpen] = useState(false);
 
   const toggleMenubar = () => {

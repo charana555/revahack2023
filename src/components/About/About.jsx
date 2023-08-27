@@ -4,7 +4,9 @@ const About = () => {
   return (
     <section
       id="About"
+
       className="flex-col text-white 	 w-[100%]  flex items-center justify-center px-[10%]"
+
     >
       <div className="text-[#939AFF] mb-[20px] text-6xl md:text-7xl font-roboto font-medium ">
         About Us

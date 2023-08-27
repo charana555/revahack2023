@@ -9,7 +9,9 @@ import Prizes from "./components/Prizes/Prizes";
 // import Sponsers from "./components/Sponsers/Sponsers";
 import Sponsors from "./components/Sponsors/Sponsors";
 import Timeline from "./components/Timeline/Timeline";
+
 import Tracks from "./components/Tracks/Tracks";
+
 const App = () => {
   return (
     <>

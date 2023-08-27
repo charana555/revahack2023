@@ -1,9 +1,11 @@
+
 /* expanding underline on hover */
 .underline-hover {
   position: relative;
   display: inline-block;
   text-decoration: none;
   color: #c3dcd9;
+
 }
 
 .underline-hover::before {
@@ -71,7 +73,9 @@
   opacity: 0;
   transform: translateY(-10px);
   visibility: hidden;
+
   text-align: right; /* Align the text to the left */
+
   transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
 }
 
@@ -83,9 +87,11 @@
 
 .menu-item {
   color: white;
+
   font-weight: 600;
 }
 
 .mobile-nav {
   font-size: 20px;
 }
+

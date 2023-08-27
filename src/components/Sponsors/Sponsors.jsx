@@ -1,4 +1,5 @@
 import React from "react";
+
 import ieee from "../../assets/SponsorLogos/titleSponsors/ieee.png";
 import reva from "../../assets/SponsorLogos/titleSponsors/reva.png";
 import sponsorbg from "../../assets/sponsorBg.png";
@@ -16,10 +17,12 @@ const saplinglogos = [
   { logo: reva, alt: "sad" },
 ];
 
+
 const Sponsors = () => {
   return (
     <section
       id="Sponsors"
+
       className="flex-col text-white text-3xl w-full h-screen flex items-center justify-center my-5"
     >
       <img className="absolute mt-[10%] " src={sponsorbg} />
@@ -120,6 +123,7 @@ const Sponsors = () => {
           <SponsorBox image={saplinglogos[1].logo} alt={saplinglogos[2].alt} />
         </div>
       </div>
+
     </section>
   );
 };
