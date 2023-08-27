@@ -6,18 +6,23 @@ const Tracks = () => {
   
   useEffect(() => {
     VanillaTilt.init(document.querySelectorAll(".card"),{
-      max: 25,
+      max: 3,
       speed: 400,
       glare: true,
       "max-glare": 1,
+      gyroscope: true,
+      gyroscopeMinAngleX: -20,
+      gyroscopeMaxAngleX: 20,
+      gyroscopeMinAngleY: -5,
+      gyroscopeMaxAngleY: 5,
     });
   }, []);
 
   return (
     <section
       id="Tracks"
-      className="m-0 p-0 bg-primary flex-col text-white flex items-center justify-center">
-      <p className="text-8xl">Tracks</p>
+      className="mt-[10%] p-10 bg-primary flex-col text-white flex items-center justify-center">
+      <p className="text-8xl text-secondary">Tracks</p>
       <div 
         id="container" 
         className="flex flex-row flex-wrap items-center justify-center relative max-w-7xl z-1">
@@ -53,7 +58,7 @@ const Tracks = () => {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate pellentesque massa quis tempus.</p>
           </div>
         </div>
-
+        
         <div class="card">
           <div 
             id="head" 
