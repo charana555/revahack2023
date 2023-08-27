@@ -370,16 +370,16 @@ const Crew = () => {
     <section
       id="Crew"
       className="flex-col text-white text-3xl w-full h-auto flex items-center justify-center crew-bg fadeeffect"
-
     >
       <Swiper
+        // speed={32000}
         lazy={true}
         spaceBetween={30}
         grabCursor={true}
         centeredSlides={true}
         autoplay={{
-          delay: 5000,
-          disableOnInteraction: false,
+          delay: 6000,
+          disableOnInteraction: true,
         }}
         pagination={{
           clickable: true,
