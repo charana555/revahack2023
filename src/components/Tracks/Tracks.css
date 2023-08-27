@@ -1,4 +1,4 @@
-#container #card{
+#container .card{
     position: relative;
     width: 280px;
     height: 400px;
@@ -14,3 +14,7 @@
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
 }
+/* #container .card:hover #content{
+    transform: translateY(0px);
+    opacity: 1;
+} */
