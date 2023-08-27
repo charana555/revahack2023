@@ -25,52 +25,6 @@
     animation: blink 1s infinite;
 }
 
-/* Button style */
-.cool-button {
-    background-color: #304ce4;
-    color: white;
-    text-align: center;
-    font-size: 3rem;
-    padding: 1rem 2rem;
-    border-radius: 0.5rem;
-    display: flex;
-    align-items: center;
-    transition: box-shadow 0.2s ease;
-    cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.cool-button:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.cool-button span {
-    transition: text-shadow 0.2s ease;
-}
-
-.cool-button:hover span {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.cool-button:active {
-    transform: translateY(0);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
-}
-
-@media (max-width: 768px) {
-    .cool-button {
-        font-size: 3rem;
-        padding: 1rem 2rem;
-        font-weight: bold; /* Maintain the same font weight */
-    }
-
-    .cool-button span {
-        font-size: 1.5rem;
-        font-weight: bold; /* Maintain the same font weight for text inside */
-    }
-}
-
-
 
 
 

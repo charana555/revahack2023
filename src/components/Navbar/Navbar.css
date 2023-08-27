@@ -65,3 +65,21 @@
 .menu-button:hover {
   transform: scale(1.1);
 }
+
+.dropdown-menu {
+  opacity: 0;
+  transform: translateY(-10px);
+  visibility: hidden;
+  text-align: left; /* Align the text to the left */
+  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+}
+
+.dropdown-menu.show {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.menu-item {
+  color: white;
+}

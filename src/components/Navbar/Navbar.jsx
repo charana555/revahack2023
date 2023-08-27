@@ -1,5 +1,5 @@
+import React, { useState } from "react";
 import { Link } from "react-scroll";
-import { useState } from "react";
 import "./Navbar.css";
 import { navs } from "./NavItems";
 
@@ -13,9 +13,12 @@ const Navbar = () => {
     const closeMenubar = () => {
         setMenubarOpen(false);
     };
+    
+    const menuClass = menubarOpen ? "dropdown-menu show" : "dropdown-menu";
+    const menuItemsClass = menubarOpen ? "block" : "hidden";
 
     return (
-        <nav className="bg-primary fixed w-full z-50 backdrop-filter backdrop-blur-lg bg-opacity-30">
+        <nav className={`bg-primary fixed w-full z-50 backdrop-filter backdrop-blur-lg bg-opacity-30`}>
             <div className="container mx-auto flex flex-wrap items-center justify-between p-4 font-roboto">
                 {/* Logo */}
                 <div>
@@ -32,7 +35,6 @@ const Navbar = () => {
                             to={item.navid}
                             duration={100}
                             smooth={true}
-                            onClick={closeMenubar}
                         >
                             {item.navid}
                         </Link>
@@ -40,30 +42,25 @@ const Navbar = () => {
                 </div>
                 {/* Hamburger Menu */}
                 <div className="md:hidden">
-                    <button
-                        className="text-white cursor-pointer menu-button"
-                        onClick={toggleMenubar}
-                    >
+                    <button className="text-white cursor-pointer menu-button" onClick={toggleMenubar}>
                         ☰{/* Hamburger icon */}
                     </button>
                 </div>
                 {/* Menubar */}
-                {menubarOpen && (
-                    <div className="md:hidden text-center w-full mt-4">
-                        {navs.map((item, i) => (
-                            <Link
-                                key={i}
-                                className="block text-[#737373] cursor-pointer py-2 transition-all duration-200 ease-in-out hover:text-[#81D9D2FF]"
-                                to={item.navid}
-                                duration={100}
-                                smooth={true}
-                                onClick={closeMenubar}
-                            >
-                                {item.navid}
-                            </Link>
-                        ))}
-                    </div>
-                )}
+                <div className={`md:hidden w-full mt-4 ${menuClass}`}>
+                    {navs.map((item, i) => (
+                        <Link
+                            key={i}
+                            className={`cursor-pointer py-2 transition-all duration-200 ease-in-out hover:text-[#81D9D2FF] ${menuItemsClass} menu-item`}
+                            to={item.navid}
+                            duration={100}
+                            smooth={true}
+                            onClick={closeMenubar}
+                        >
+                            {item.navid}
+                        </Link>
+                    ))}
+                </div>
             </div>
         </nav>
     );
