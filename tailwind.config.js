@@ -19,6 +19,9 @@ export default {
       roboto: ["Roboto", "sans-serif"],
       fira: ["Fira Code", "monospace"],
     },
+    // backgroundImage: {
+    //   "crew-pattern": "url('./src/assets/crewbg.webp')",
+    // },
   },
   plugins: [],
 };
