@@ -43,9 +43,8 @@ const Glimpse = (props) => {
           ]}
           grabCursor={true}
           slidesPerView={"auto"}
-          autoResize:false
           spaceBetween={20}
-          centeredSlides={true}
+          // centeredSlides={true}
           className="mySwiper2"
           keyboard={{
             enabled: true,
