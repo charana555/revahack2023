@@ -14,14 +14,14 @@ const Navbar = () => {
     setMenubarOpen(false);
   };
 
-  const menuClass = menubarOpen ? "dropdown-menu show" : "dropdown-menu";
+  const menuClass = menubarOpen ? "dropdown-menu show " : "dropdown-menu";
   const menuItemsClass = menubarOpen ? "block" : "hidden";
 
   return (
     <nav
       className={`bg-primary fixed w-full z-50 backdrop-filter backdrop-blur-lg bg-opacity-30`}
     >
-      <div className="container mx-auto flex flex-wrap items-center justify-between p-4 font-roboto">
+      <div className="container mx-auto flex flex-wrap items-center justify-between px-4 font-roboto">
         {/* Logo */}
         <div>
           <Link
@@ -40,7 +40,9 @@ const Navbar = () => {
         </div>
         {/* Navlinks for Desktop */}
         <div
-          className={`hidden md:flex md:gap-14 ${menubarOpen ? "hidden" : ""}`}
+          className={`hidden md:flex md:gap-14 font-semibold  ${
+            menubarOpen ? "hidden" : ""
+          }`}
         >
           {navs.map((item, i) => (
             <Link
@@ -64,11 +66,11 @@ const Navbar = () => {
           </button>
         </div>
         {/* Menubar */}
-        <div className={`md:hidden w-full mt-4 ${menuClass}`}>
+        <div className={`md:hidden w-full my-2  ${menuClass} mobile-nav`}>
           {navs.map((item, i) => (
             <Link
               key={i}
-              className={`cursor-pointer py-2 transition-all duration-200 ease-in-out hover:text-[#81D9D2FF] ${menuItemsClass} menu-item`}
+              className={`cursor-pointer py-4 transition-all duration-200 ease-in-out hover:text-[#81D9D2FF] ${menuItemsClass} menu-item`}
               to={item.navid}
               duration={100}
               smooth={true}

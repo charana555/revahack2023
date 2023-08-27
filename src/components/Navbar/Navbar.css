@@ -1,4 +1,3 @@
-
 /* expanding underline on hover */
 .underline-hover {
   position: relative;
@@ -8,7 +7,7 @@
 }
 
 .underline-hover::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 0;
   height: 1px;
@@ -59,7 +58,9 @@
   cursor: pointer;
   color: white;
   font-size: 24px;
-  filter: drop-shadow(-3px -3px 2px #003366) drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(-3px -3px 2px #003366)
+    drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2))
+    drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
 }
 
 .menu-button:hover {
@@ -70,7 +71,7 @@
   opacity: 0;
   transform: translateY(-10px);
   visibility: hidden;
-  text-align: left; /* Align the text to the left */
+  text-align: right; /* Align the text to the left */
   transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
 }
 
@@ -82,4 +83,9 @@
 
 .menu-item {
   color: white;
+  font-weight: 600;
+}
+
+.mobile-nav {
+  font-size: 20px;
 }
