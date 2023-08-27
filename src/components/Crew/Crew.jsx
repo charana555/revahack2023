@@ -10,13 +10,9 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import crewbg from "../../assets/crewbg.webp";
-import About from "../About/About";
-import pfp from "../Crew/components/person.png";
-// import pfp from "./person.png";
 
 import "./Crew.css";
-import Card from "./components/Card";
+// import Card from "./components/Card";
 import Slide from "./components/Slide";
 
 const teams = [
@@ -380,10 +376,10 @@ const Crew = () => {
         spaceBetween={30}
         grabCursor={true}
         centeredSlides={true}
-        // autoplay={{
-        //   delay: 5000,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction: false,
+        }}
         pagination={{
           clickable: true,
         }}

@@ -3,7 +3,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-250px * 6));
+    transform: translateX(calc(-249.9px * 6));
   }
 }
 
@@ -19,8 +19,10 @@
   height: auto;
   overflow: hidden;
   position: relative;
-  width: 100%;
+  width: 85%;
 }
+
+/* gradient effect on sides */
 .slider::before,
 .slider::after {
   background: linear-gradient(
@@ -44,7 +46,7 @@
   top: 0;
 }
 .slider .slide-track {
-  animation: scroll 30s linear infinite;
+  animation: scroll 35s linear infinite;
   display: flex;
   width: calc(250px * 12);
 }
@@ -75,7 +77,7 @@ second slider
   height: auto;
   overflow: hidden;
   position: relative;
-  width: 100%;
+  width: 90%;
 }
 .slider2::before,
 .slider2::after {
@@ -100,7 +102,7 @@ second slider
   top: 0;
 }
 .slider2 .slide-track2 {
-  animation: scroll 25s linear infinite;
+  animation: scroll 30s linear infinite;
   display: flex;
   width: calc(250px * 12);
 }
