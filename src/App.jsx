@@ -1,11 +1,7 @@
 import About from "./components/About/About";
-import {
-  default as Contact,
-  default as Contact,
-} from "./components/Contact/Contact";
-import { default as Crew, default as Crew } from "./components/Crew/Crew";
-import { default as Faq, default as Faq } from "./components/Faq/Faq";
-import Footer from "./components/Footer/Footer";
+import Contact from "./components/Contact/Contact";
+import Crew from "./components/Crew/Crew";
+import Faq from "./components/Faq/Faq";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Prizes from "./components/Prizes/Prizes";

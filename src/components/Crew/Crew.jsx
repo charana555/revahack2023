@@ -372,8 +372,8 @@ const Crew = () => {
 
   return (
     <section
-      id="Crew"
-      className="flex-col text-white text-3xl w-full h-screen flex items-center justify-center"
+      id="crew"
+      className="bg-primary  flex-col text-white text-3xl w-full h-auto flex items-center justify-center crew-bg fadeeffect"
     >
       <Swiper
         lazy={true}
