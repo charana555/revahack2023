@@ -3,15 +3,18 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-200px * 6));
+    transform: translateX(calc(-250px * 6));
   }
 }
 
 .title-sponsor {
-  width: 250px;
+  width: 300px;
   height: auto;
+  padding: 0 10px;
 }
+
 .slider {
+  margin: 10px 0;
   background: rgb(13, 15, 22);
   height: auto;
   overflow: hidden;
@@ -41,14 +44,71 @@
   top: 0;
 }
 .slider .slide-track {
-  animation: scroll 40s linear infinite;
+  animation: scroll 30s linear infinite;
   display: flex;
-  width: calc(200px * 12);
+  width: calc(250px * 12);
 }
+
 .slider .slide {
   height: auto;
-  width: 200px;
-  padding: 10px 30px;
+  width: 250px;
+  padding: 0 20px;
+}
+
+/* 
+////////////////////////////////###############################
+second slider 
+////////////////////////////////###############################
+*/
+
+@keyframes scroll2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 6));
+  }
+}
+.slider2 {
+  margin: 10px 0;
+  background: rgb(13, 15, 22);
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.slider2::before,
+.slider2::after {
+  background: linear-gradient(
+    to right,
+    rgba(13, 15, 22, 1) 0%,
+    rgba(13, 15, 22, 0) 100%
+  );
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 5%;
+  z-index: 2;
+}
+.slider2::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider2::before {
+  left: 0;
+  top: 0;
+}
+.slider2 .slide-track2 {
+  animation: scroll 25s linear infinite;
+  display: flex;
+  width: calc(250px * 12);
+}
+
+.slider2 .slide {
+  height: auto;
+  width: 250px;
+  padding: 0 20px;
 }
 
 .glassmorphic {
@@ -77,26 +137,8 @@
       transform: translateX(calc(-175px * 6));
     }
   }
-  .slider {
-    background: rgb(13, 15, 22);
-    height: 100px;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-  }
 
-  .slider::after {
-    right: 0;
-    top: 0;
-    transform: rotateZ(180deg);
-  }
-  .slider::before {
-    left: 0;
-    top: 0;
-  }
   .slider .slide-track {
-    animation: scroll 40s linear infinite;
-    display: flex;
     width: calc(175px * 12);
   }
   .slider .slide {
@@ -105,6 +147,28 @@
     padding: 5px 20px;
   }
 
+  /* 
+////////////////////////////////###############################
+second slider 
+////////////////////////////////###############################
+*/
+  @keyframes scroll2 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-175px * 6));
+    }
+  }
+
+  .slider2 .slide-track2 {
+    width: calc(175px * 12);
+  }
+  .slider2 .slide {
+    height: 50px;
+    width: 175px;
+    padding: 5px 20px;
+  }
   .glassmorphic {
     background: rgba(89, 92, 95, 0.5);
 
@@ -117,42 +181,48 @@
 
 @media (max-width: 600px) {
   .title-sponsor {
-    width: 150px;
+    width: 40%;
   }
   @keyframes scroll {
     0% {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(calc(-150px * 6));
+      transform: translateX(calc(-100px * 6));
     }
   }
-  .slider {
-    background: rgb(13, 15, 22);
-    height: 100px;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-  }
 
-  .slider::after {
-    right: 0;
-    top: 0;
-    transform: rotateZ(180deg);
-  }
-  .slider::before {
-    left: 0;
-    top: 0;
-  }
   .slider .slide-track {
-    animation: scroll 40s linear infinite;
-    display: flex;
-    width: calc(150px * 12);
+    width: calc(100px * 12);
   }
   .slider .slide {
     height: 40px;
-    width: 150px;
-    padding: 5px 10px;
+    width: 100px;
+    padding: 1px 10px;
+  }
+
+  /* 
+////////////////////////////////###############################
+second slider 
+////////////////////////////////###############################
+*/
+
+  @keyframes scroll2 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-100px * 6));
+    }
+  }
+
+  .slider2 .slide-track2 {
+    width: calc(100px * 12);
+  }
+  .slider2 .slide {
+    height: 40px;
+    width: 100px;
+    padding: 1px 2px;
   }
 
   .glassmorphic {

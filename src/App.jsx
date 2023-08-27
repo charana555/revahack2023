@@ -1,6 +1,7 @@
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Crew from "./components/Crew/Crew";
+import Card from "./components/Crew/components/Card";
 import Faq from "./components/Faq/Faq";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
