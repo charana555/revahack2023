@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <section
       id="Contact"
-      className=" text-white text-3xl w-full  px-[5%] py-5 md:px-[10%] md:py-10 gap-5 grid md:grid-cols-2 grid-cols-1"
+      className=" text-white text-3xl w-full   px-[5%] py-8 md:px-[10%] md:py-16 gap-5 grid md:grid-cols-2 grid-cols-1"
     >
       <div className=" w-full h-[400px] px-2 md:px-[22%]">
         <iframe
@@ -20,7 +20,7 @@ const Contact = () => {
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-      <div className=" w-full h-[10vh]  md:px-[10%]">
+      <div className=" w-full  md:px-[10%]">
         <h6 className="text-lg px-2 tracking-wider">Follow Us</h6>
         <Socialicons />
 

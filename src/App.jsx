@@ -14,6 +14,8 @@ import Timeline from "./components/Timeline/Timeline";
 
 import Tracks from "./components/Tracks/Tracks";
 
+import "./App.css";
+
 const App = () => {
   return (
     <>
