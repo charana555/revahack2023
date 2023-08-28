@@ -40,7 +40,7 @@ const Tracks = () => {
         <div class="card">
           <div id="img"
             className="absolute top-0 left-16 right-0 bottom-40 bg-cover bg-center bg-no-repeat">
-              <img src="./public/images/GenAI.svg" alt="genai" className="w-4/6 h-full" />
+              <img src="./Images/GenAI.svg" alt="genai" className="w-4/6 h-full" />
           </div>
           <div 
             id="head" 
@@ -55,7 +55,7 @@ const Tracks = () => {
         <div class="card">
         <div id="img"
             className="absolute top-0 left-0 right-0 bottom-40 bg-cover bg-center bg-no-repeat">
-              <img src="./public/images/blockchain.svg" alt="blockchain" className="w-full h-full" />
+              <img src="./Images/blockchain.svg" alt="blockchain" className="w-full h-full" />
           </div>
           <div 
             id="head" 
@@ -70,7 +70,7 @@ const Tracks = () => {
         <div class="card">
         <div id="img"
             className="absolute top-0 left-16 right-0 bottom-40 bg-cover bg-center bg-no-repeat">
-              <img src="./public/images/ARVR.svg" alt="arvr" className="w-4/6 h-full" />
+              <img src="./Images/ARVR.svg" alt="arvr" className="w-4/6 h-full" />
           </div>
           <div 
             id="head" 
@@ -85,7 +85,7 @@ const Tracks = () => {
         <div class="card">
         <div id="img"
             className="absolute top-0 left-16 right-0 bottom-40 bg-cover bg-center bg-no-repeat">
-              <img src="./public/images/CloudIOT.svg" alt="cloudiot" className="w-4/6 h-full" />
+              <img src="./Images/CloudIOT.svg" alt="cloudiot" className="w-4/6 h-full" />
           </div>
           <div 
             id="head" 
@@ -111,7 +111,7 @@ const Tracks = () => {
             </p>
         <div id="img"
             className="absolute top-0 left-0 right-0 bottom-40 bg-cover bg-center bg-no-repeat">
-              <img src="./public/images/CyberSecurity.svg" alt="cybersecurity" className="w-full h-full" />
+              <img src="./Images/CyberSecurity.svg" alt="cybersecurity" className="w-full h-full" />
           </div>
           <div 
             id="head" 
