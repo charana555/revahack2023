@@ -12,12 +12,9 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-
-    "react-scroll": "^1.8.9",
     "react-icons": "^4.10.1",
     "react-scroll": "^1.8.9",
-    "swiper": "^10.2.0"
-
+    "vanilla-tilt": "^1.8.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",
