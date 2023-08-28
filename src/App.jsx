@@ -10,6 +10,8 @@ import Sponsors from "./components/Sponsors/Sponsors";
 import Crew from "./components/Crew/Crew";
 import Footer from "./components/Footer/Footer";
 
+import "./App.css";
+
 const App = () => {
   return (
     <>
@@ -21,8 +23,10 @@ const App = () => {
       <Timeline />
       <Sponsors />
       <Crew />
-      <Faq />
-      <Contact />
+      <section className="back w-full">
+        <Faq />
+        <Contact />
+      </section>
       <Footer />
     </>
   );
