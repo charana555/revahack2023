@@ -37,13 +37,10 @@ const Tracks = () => {
             className="absolute top-0 left-16 right-0 bottom-40 bg-cover bg-center bg-no-repeat"
           >
             <img
-              src="./public/images/GenAI.svg"
+              src="./Images/GenAI.svg"
               alt="genai"
               className="w-4/6 h-full"
             />
-          </div>
-          <div id="head" className="absolute top-52 text-2xl">
-            Gen AI
           </div>
           <div
             id="content"
@@ -61,13 +58,10 @@ const Tracks = () => {
             className="absolute top-0 left-0 right-0 bottom-40 bg-cover bg-center bg-no-repeat"
           >
             <img
-              src="./public/images/blockchain.svg"
+              src="./Images/blockchain.svg"
               alt="blockchain"
               className="w-full h-full"
             />
-          </div>
-          <div id="head" className="absolute top-52 text-2xl">
-            Block Chain
           </div>
           <div
             id="content"
@@ -85,14 +79,7 @@ const Tracks = () => {
             id="img"
             className="absolute top-0 left-16 right-0 bottom-40 bg-cover bg-center bg-no-repeat"
           >
-            <img
-              src="./public/images/ARVR.svg"
-              alt="arvr"
-              className="w-4/6 h-full"
-            />
-          </div>
-          <div id="head" className="absolute top-52 text-2xl">
-            AR VR
+            <img src="./Images/ARVR.svg" alt="arvr" className="w-4/6 h-full" />
           </div>
           <div
             id="content"
@@ -111,13 +98,10 @@ const Tracks = () => {
             className="absolute top-0 left-16 right-0 bottom-40 bg-cover bg-center bg-no-repeat"
           >
             <img
-              src="./public/images/CloudIOT.svg"
+              src="./Images/CloudIOT.svg"
               alt="cloudiot"
               className="w-4/6 h-full"
             />
-          </div>
-          <div id="head" className="absolute top-52 text-2xl">
-            Cloud IOT
           </div>
           <div
             id="content"
@@ -136,13 +120,10 @@ const Tracks = () => {
             className="absolute top-0 left-0 right-0 bottom-40 bg-cover bg-center bg-no-repeat"
           >
             <img
-              src="./public/images/CyberSecurity.svg"
+              src="./Images/CyberSecurity.svg"
               alt="cybersecurity"
               className="w-full h-full"
             />
-          </div>
-          <div id="head" className="absolute top-52 text-2xl">
-            Cybersecurity
           </div>
           <div
             id="content"
