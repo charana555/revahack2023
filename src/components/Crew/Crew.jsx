@@ -374,6 +374,7 @@ const Crew = () => {
       <Swiper
         // speed={32000}
         lazy={true}
+        cssMode={true}
         spaceBetween={30}
         grabCursor={true}
         centeredSlides={true}

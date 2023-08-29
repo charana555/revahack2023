@@ -17,13 +17,11 @@ const saplinglogos = [
   { logo: reva, alt: "sad" },
 ];
 
-
 const Sponsors = () => {
   return (
     <section
       id="Sponsors"
-
-      className="flex-col text-white text-3xl w-full h-screen flex items-center justify-center my-5"
+      className="flex-col text-white text-3xl w-full flex items-center justify-center my-5"
     >
       <img className="absolute mt-[10%] " src={sponsorbg} />
       <div className="text-LushGreen  text-6xl md:text-7xl font-roboto font-bold ">
@@ -123,7 +121,6 @@ const Sponsors = () => {
           <SponsorBox image={saplinglogos[1].logo} alt={saplinglogos[2].alt} />
         </div>
       </div>
-
     </section>
   );
 };
