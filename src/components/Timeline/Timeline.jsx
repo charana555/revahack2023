@@ -33,14 +33,12 @@ function Timeline() {
               dateClassName="date"
               iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
               icon={isWorkIcon ? <img src="/Images/work.svg" alt="Work Icon" /> : <img src="/Images/school.svg" alt="School Icon" />} 
+              contentStyle={{ background: '#0d0f16', color: '#fff' }}
             >
-            <div className="backgroundColor-black h-full w-full bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100">
-              <h3 className="vertical-timeline-element-title">
+              <h1 className="vertical-timeline-element-title">
                 {element.title}
-              </h3>
-              <h5 className="vertical-timeline-element-subtitle">
-                {element.location}
-              </h5>
+              </h1>
+              <div className="h-full w-full bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10">
               <p id="description">{element.description}</p>
             </div>
             </VerticalTimelineElement>
