@@ -20,18 +20,20 @@ import "swiper/css/scrollbar";
 const Glimpse = (props) => {
   return (
     <>
-      <div className=" flex flex-col justify-center  ">
+      <section className=" flex flex-col justify-center pb-28 ">
         <div className="text-white font-bold text-5xl md:text-7xl text-center  mb-[50px] ">
           <span className="text-RoyalPurple">REVA Hack 2022</span> Glimpse
         </div>
 
         <Swiper
-          cssMode={true}
+          // cssMode={true}
+          autoplay={{
+            delay: 6000,
+            disableOnInteraction: false,
+          }}
           slidesPerView={"auto"}
           spaceBetween={30}
-          loop={true}
-          mousewheel={true}
-          keyboard={true}
+          // loop={true}
           modules={[Pagination, Autoplay, Mousewheel]}
           className="mySwiper2"
         >
@@ -42,7 +44,7 @@ const Glimpse = (props) => {
           <SwiperSlide className="slide2">Slide 5</SwiperSlide>
           <SwiperSlide className="slide2">Slide 6</SwiperSlide>
         </Swiper>
-      </div>
+      </section>
     </>
   );
 };
