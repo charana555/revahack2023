@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-
+import crewBg from "../../assets/crewbg.webp";
 import "./swiperStyles.css";
 
 // import required modules
@@ -371,16 +371,17 @@ const Crew = () => {
       id="Crew"
       className="flex-col text-white text-3xl w-full h-auto flex items-center justify-center crew-bg fadeeffect"
     >
+      {/* <img src={crewBg} className="h-screen absolute" alt="" /> */}
       <Swiper
         // speed={32000}
-        lazy={true}
+        lazy={false}
         cssMode={true}
         spaceBetween={30}
         grabCursor={true}
         centeredSlides={true}
         autoplay={{
           delay: 6000,
-          disableOnInteraction: true,
+          // disableOnInteraction: true,
         }}
         pagination={{
           clickable: true,

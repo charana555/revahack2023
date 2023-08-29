@@ -4,7 +4,7 @@ import pfp from "./person.png";
 const Card = (props) => {
   return (
     <>
-      <div className="card glassmorphic-card">
+      <div className="crewCard glassmorphic-card">
         <div className="card-photo">
           <img src={props.photo} />
         </div>

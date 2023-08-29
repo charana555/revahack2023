@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.card {
+.crewCard {
   --font-color: #fefefe;
   --font-color-sub: #7e7e7e;
   --bg-color: #111;
@@ -98,7 +98,7 @@
   fill: var(--main-color);
 }
 
-.card:hover > .card-socials {
+.crewCard:hover > .card-socials {
   opacity: 1;
   height: 35px;
 }
@@ -115,7 +115,7 @@
   transition: all 0.15s;
 }
 
-.card:hover .card-photo {
+.crewCard:hover .card-photo {
   transition: ease-in-out 0.3s;
   transform: scale(1.05);
 }
@@ -134,7 +134,7 @@
 }
 
 @media (max-width: 600px) {
-  .card {
+  .crewCard {
     max-width: 150px;
     height: 250px;
     border: 1px solid var(--main-color);
