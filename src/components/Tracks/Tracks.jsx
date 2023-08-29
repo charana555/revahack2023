@@ -1,11 +1,11 @@
 import { React, useEffect } from "react";
-import { VanillaTilt } from "vanilla-tilt";
+import VanillaTilt from "vanilla-tilt";
 import "./Tracks.css";
 
 const Tracks = () => {
   useEffect(() => {
     VanillaTilt.init(document.querySelectorAll(".card"), {
-      max: 25,
+      max: 3,
       speed: 400,
       glare: true,
       "max-glare": 1,

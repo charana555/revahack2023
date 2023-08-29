@@ -4,12 +4,13 @@
   margin: 5% 0;
   /* border: 1px white solid; */
   border-radius: 16px;
+  background: none;
 }
 
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: rgba(255, 255, 255, 0);
+  background: none;
   height: auto;
   /* Center slide text vertically */
   display: flex;
