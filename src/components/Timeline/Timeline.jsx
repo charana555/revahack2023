@@ -1,52 +1,52 @@
 import React from "react";
 import "./Timeline.css";
-import "./Timeline2.js";
 
-const Timeline = () => {
+import timelineElements from "./timelineElements";
+
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+
+import "react-vertical-timeline-component/style.min.css";
+
+function Timeline() {
+  let workIconStyles = { background: "#06D6A0" };
+  let schoolIconStyles = { background: "#f9c74f" };
+
   return (
     <section
       id="Timeline"
-      className="flex-col text-white text-3xl w-full h-screen flex items-center justify-center"
+      className="flex-col text-white text-3xl w-full h-screen flex items-center justify-center mt-[100%] mb-[70%]"
     >
-      <p>Timeline</p>
+      <p className="text-5xl mb-[5%]">Timeline</p>
+      <div>
 
-      <div class="custom-section mb-[20%]">
-        <div id="progressbar" class="timeline-main">
-          <div class="progress-wrap">
-            <div class="pogress"></div>
-          </div>
-          <ul>
-            
-            <li class="adding">
-              <div class="custom-box">
-                <h3>Contrary to popular</h3>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here'.</p>
-              </div>
-            </li>
-            
-            <li class="">
-              <div class="custom-box">
-                <h3>Contrary to popular</h3>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here'.</p>
-              </div>
-            </li>
-            
-            <li class="">
-              <div class="custom-box">
-                <h3>Contrary to popular</h3>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here'.</p>
-              </div>
-            </li>
-            
-            <li class="">
-              <div class="custom-box">
-                <h3>Contrary to popular</h3>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here'.</p>
-              </div>
-            </li>
-            
-          </ul>
-        </div>
+      <VerticalTimeline layout="1-column-left">
+        {timelineElements.map((element) => {
+          let isWorkIcon = element.icon === "work";
+
+          return (
+            <VerticalTimelineElement
+              key={element.key}
+              date={element.date}
+              dateClassName="date"
+              iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
+              icon={isWorkIcon ? <img src="/Images/work.svg" alt="Work Icon" /> : <img src="/Images/school.svg" alt="School Icon" />} 
+            >
+            <div className="backgroundColor-black h-full w-full bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100">
+              <h3 className="vertical-timeline-element-title">
+                {element.title}
+              </h3>
+              <h5 className="vertical-timeline-element-subtitle">
+                {element.location}
+              </h5>
+              <p id="description">{element.description}</p>
+            </div>
+            </VerticalTimelineElement>
+          );
+        })}
+      </VerticalTimeline>
       </div>
     </section>
   );
