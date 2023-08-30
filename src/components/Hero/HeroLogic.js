@@ -7,8 +7,8 @@ const useHeroTypingEffect = () => {
     const [isDeleting, setIsDeleting] = useState(false);
 
     const texts = useMemo(() => [
-        "Let the hack begin;",
-        "Technology beyond imagination;"
+        "Let the Hack Begin;",
+        "Technology Beyond Imagination;"
     ], []);
 
     useEffect(() => {
