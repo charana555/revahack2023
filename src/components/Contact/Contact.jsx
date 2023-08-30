@@ -9,7 +9,7 @@ const Contact = () => {
       id="Contact"
       className=" text-white text-3xl w-full   px-[5%] py-8 md:px-[10%] md:py-16 gap-5 grid md:grid-cols-2 grid-cols-1"
     >
-      <div className=" w-full h-[400px] px-2 md:px-[22%]">
+      <div className=" w-full h-[400px] px-2 xl:px-[20%]">
         <iframe
           className="w-full h-full"
           title="map"
@@ -20,7 +20,7 @@ const Contact = () => {
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-      <div className=" w-full  md:px-[10%]">
+      <div className=" w-full  md:px-[10%] ">
         <h6 className="text-lg px-2 tracking-wider">Follow Us</h6>
         <Socialicons />
 
@@ -46,13 +46,13 @@ const Contact = () => {
         </div>
 
         <div>
-          <h6 className="text-lg px-4 tracking-wider">Contact Us</h6>
+          <h6 className="text-lg tracking-wider px-2 pb-4">Contact Us</h6>
 
-          <div className=" flex text-lg items-center gap-2 tracking-wider">
+          <div className=" flex text-lg items-center gap-2  pb-2 px-2 tracking-wider">
             <AiOutlinePhone className="text-2xl font-extrabold" /> +91
             9999999999
           </div>
-          <div className=" flex text-lg items-center gap-2 tracking-wider">
+          <div className=" flex text-lg items-center gap-2  px-2 tracking-wider">
             <AiOutlineMail className="text-2xl font-extrabold" />{" "}
             revahack@gmail.com
           </div>
