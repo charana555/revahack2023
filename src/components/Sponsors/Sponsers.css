@@ -1,0 +1,244 @@
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-249.9px * 6));
+  }
+}
+
+.title-sponsor {
+  width: 300px;
+  height: auto;
+  padding: 0 10px;
+}
+
+.slider {
+  margin: 10px 0;
+  background: none;
+  height: auto;
+
+  overflow: hidden;
+  position: relative;
+  width: 85%;
+}
+
+/* gradient effect on sides */
+.slider::before,
+.slider::after {
+  background: linear-gradient(
+    to right,
+    rgba(13, 15, 22, 1) 0%,
+    rgba(13, 15, 22, 0) 100%
+  );
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 5%;
+  z-index: 2;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  animation: scroll 35s linear infinite;
+  display: flex;
+  width: calc(250px * 12);
+}
+
+.slider .slide {
+  height: auto;
+  width: 250px;
+  padding: 0 20px;
+}
+
+/* 
+////////////////////////////////###############################
+second slider 
+////////////////////////////////###############################
+*/
+
+@keyframes scroll2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 6));
+  }
+}
+.slider2 {
+  margin: 10px 0;
+  background: none;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  width: 90%;
+}
+.slider2::before,
+.slider2::after {
+  background: linear-gradient(
+    to right,
+    rgba(13, 15, 22, 1) 0%,
+    rgba(13, 15, 22, 0) 100%
+  );
+  content: "";
+  min-height: 100%;
+  position: absolute;
+  width: 5%;
+  z-index: 2;
+}
+.slider2::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider2::before {
+  left: 0;
+  top: 0;
+}
+.slider2 .slide-track2 {
+  animation: scroll 30s linear infinite;
+  display: flex;
+  width: calc(250px * 12);
+}
+
+.slider2 .slide {
+  height: auto;
+  width: 250px;
+  padding: 0 20px;
+}
+
+.glassmorphic {
+  background: rgba(89, 92, 95, 0.5);
+
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.spiralbg {
+  background-image: url("../../assets/sponsorBg.svg");
+  z-index: 999;
+}
+
+@media (max-width: 1250px) {
+  .title-sponsor {
+    width: 200px;
+  }
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-175px * 6));
+    }
+  }
+
+  .slider .slide-track {
+    width: calc(175px * 12);
+  }
+  .slider .slide {
+    height: 50px;
+    width: 175px;
+    padding: 5px 20px;
+  }
+
+  /* 
+////////////////////////////////###############################
+second slider 
+////////////////////////////////###############################
+*/
+  @keyframes scroll2 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-175px * 6));
+    }
+  }
+
+  .slider2 .slide-track2 {
+    width: calc(175px * 12);
+  }
+  .slider2 .slide {
+    height: 50px;
+    width: 175px;
+    padding: 5px 20px;
+  }
+  .glassmorphic {
+    background: rgba(89, 92, 95, 0.5);
+
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+}
+
+@media (max-width: 600px) {
+  .title-sponsor {
+    width: 40%;
+  }
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-100px * 6));
+    }
+  }
+
+  .slider .slide-track {
+    width: calc(100px * 12);
+  }
+  .slider .slide {
+    height: 40px;
+    width: 100px;
+    padding: 1px 10px;
+  }
+
+  /* 
+////////////////////////////////###############################
+second slider 
+////////////////////////////////###############################
+*/
+
+  @keyframes scroll2 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-100px * 6));
+    }
+  }
+
+  .slider2 .slide-track2 {
+    width: calc(100px * 12);
+  }
+  .slider2 .slide {
+    height: 40px;
+    width: 100px;
+    padding: 1px 2px;
+  }
+
+  .glassmorphic {
+    background: rgba(89, 92, 95, 0.5);
+
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  .spiralbg {
+    background-image: url("../../assets/sponsorBg.svg");
+    z-index: 999;
+  }
+}
