@@ -1,0 +1,29 @@
+.glass {
+  background: linear-gradient(
+    135deg,
+    rgba(185, 183, 183, 0.19),
+    rgba(185, 183, 183, 0.19)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  height: 50%;
+  width: 50%;
+  border: 1px solid rgba(185, 183, 183, 0.19);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+#nav {
+  display: flex;
+  justify-content: right;
+}
+#nav li {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+}
+#h {
+  width: 95%;
+  height: 7px;
+  margin-right: auto;
+  margin-left: auto;
+}
