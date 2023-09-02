@@ -1,0 +1,406 @@
+:root {
+  --bg-color: rgba(20, 20, 20, 0);
+  --card-color: rgb(24, 27, 35);
+  --animation-duration: 600ms;
+  --animation-timing-function: ease-in-out;
+}
+
+.tracks-section {
+  align-items: center;
+  background-color: var(--bg-color);
+  display: flex;
+
+  justify-content: center;
+  margin: 5% 0;
+  overflow: hidden;
+  padding: 5% 0;
+
+  /* border: 1px solid white; */
+}
+
+.upper-mid-track {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.5rem;
+}
+#tracks-cards {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  gap: 3rem;
+  /* max-width: 916px; */
+  /* width: calc(100% - 20px); */
+}
+
+.upper-tracks,
+.lower-tracks {
+  display: flex;
+  gap: 3rem;
+}
+
+.upper-left-track,
+.upper-right-track {
+  margin-top: auto;
+}
+.lower-tracks {
+  display: flex;
+  justify-content: center;
+}
+
+/* card styles */
+#tracks-cards:hover .tracks-card::after {
+  opacity: 1;
+}
+
+.tracks-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  height: 350px;
+  flex-direction: column;
+  position: relative;
+  width: 290px;
+}
+
+.tracks-card:hover::before {
+  opacity: 1;
+}
+
+.tracks-card::before,
+.tracks-card::after {
+  border-radius: inherit;
+  content: "";
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  transition: opacity 500ms;
+  width: 100%;
+}
+
+.tracks-card::before {
+  background: radial-gradient(
+    700px circle at var(--mouse-x) var(--mouse-y),
+    rgba(37, 212, 27, 0.1),
+    transparent 40%
+  );
+  z-index: 3;
+}
+
+.tracks-card::after {
+  background: radial-gradient(
+    600px circle at var(--mouse-x) var(--mouse-y),
+    rgba(29, 183, 21, 0.4),
+    transparent 40%
+  );
+  z-index: 1;
+}
+
+.tracks-card > .tracks-card-content {
+  background-color: var(--card-color);
+  border-radius: inherit;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  inset: 1px;
+  padding: 10px;
+  position: absolute;
+  z-index: 2;
+}
+
+/* -- ↓ ↓ ↓ extra card content styles ↓ ↓ ↓ -- */
+
+h1,
+h2,
+h3,
+h4,
+span {
+  color: rgb(240, 240, 240);
+
+  /* font-weight: 400; */
+  margin: 0px;
+}
+
+i {
+  color: rgb(240, 240, 240);
+}
+
+.tracks-card-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tracks-card-image {
+  margin: auto;
+  width: 60%;
+  flex-grow: 1;
+}
+
+.tracks-card-image svg {
+  object-fit: cover;
+  margin: auto;
+  width: 100%;
+  /* padding: 5%; */
+}
+
+.tracks-card-info-wrapper {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  padding: 0px 20px;
+}
+
+.tracks-card-info {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* gap: 1rem; */
+}
+
+.tracks-card-info-title > h3 {
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.tracks-card-info-title > h4 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85em;
+  margin-top: 30px;
+}
+
+/* -- ↓ ↓ ↓ some responsiveness ↓ ↓ ↓ -- */
+
+@media (max-width: 1000px) {
+  .tracks-section {
+    align-items: flex-start;
+    overflow: auto;
+  }
+
+  #tracks-cards {
+    max-width: 1000px;
+    padding: 10px 0px;
+  }
+
+  .tracks-card {
+    flex-shrink: 1;
+    /* width: calc(50% - 4px); */
+  }
+}
+
+@media (max-width: 500px) {
+  .tracks-card {
+    height: 180px;
+  }
+
+  .tracks-card-image {
+    height: 80px;
+  }
+
+  .tracks-card-image > i {
+    font-size: 3em;
+  }
+
+  .tracks-card-info-wrapper {
+    padding: 0px 10px;
+  }
+
+  .tracks-card-info > i {
+    font-size: 0.8em;
+  }
+
+  .tracks-card-info-title > h3 {
+    font-size: 0.9em;
+  }
+
+  .tracks-card-info-title > h4 {
+    font-size: 0.8em;
+    margin-top: 4px;
+  }
+}
+
+@media (max-width: 320px) {
+  .tracks-card {
+    width: 100%;
+  }
+}
+
+/* ik this css can be more optimised but i am running for 1.5hrs of sleep rn sp this works and let it be here */
+
+/* animation for Blockchain Card */
+
+@keyframes BlockchainCardAnimation {
+  0% {
+    transform: translateY(100%) scale(0);
+    opacity: 0;
+    filter: blur(10px);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+
+.upper-mid-track-default {
+  visibility: none;
+  transform: translateY(120%) scale(0);
+  /* transform: scale(0); */
+  opacity: 0;
+  /* transition: all 600ms ease-in; */
+}
+
+.upper-mid-track-visible {
+  opacity: 1;
+  /*transition: all 600ms ease-in-out;
+  /* transform: scale(1); 
+  transform: translateY(0) scale(1);*/
+  transform: translateY(120%) scale(0.5);
+  /* Apply animation */
+  animation: BlockchainCardAnimation var(--animation-duration)
+    var(--animation-timing-function) forwards;
+}
+
+/* animation for ARVR Card */
+
+@keyframes ARVRCardAnimation {
+  0% {
+    transform: translateY(100%) translateX(-100%) scale(0);
+    opacity: 0;
+    filter: blur(10px);
+  }
+  100% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+
+.upper-right-track-default {
+  visibility: none;
+  transform: translateY(100%) translateX(-100%) scale(0);
+  /* transform: scale(0); */
+  opacity: 0;
+  /* transition: all 600ms ease-in; */
+}
+
+.upper-right-track-visible {
+  opacity: 1;
+  /* transition: all 600ms ease-in-out;
+  transform: scale(1);
+  transform: translateY(0) translateX(0) scale(1); */
+
+  transform: translateY(100%) translateX(-100%) scale(0);
+  /* Apply animation */
+  animation: ARVRCardAnimation var(--animation-duration)
+    var(--animation-timing-function) forwards;
+}
+
+/* animation for GEN AI Card */
+
+@keyframes GenAICardAnimation {
+  0% {
+    transform: translateY(100%) translateX(100%) scale(0);
+    opacity: 0;
+    filter: blur(10px);
+  }
+  100% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+
+.upper-left-track-default {
+  visibility: none;
+  transform: translateY(100%) translateX(100%) scale(0);
+  /* transform: scale(0); */
+  opacity: 0;
+  /* transition: all 600ms ease-in; */
+}
+
+.upper-left-track-visible {
+  opacity: 1;
+  /* transition: all 600ms ease-in-out;
+  transform: scale(1);
+  transform: translateY(0) translateX(0) scale(1); */
+
+  transform: translateY(100%) translateX(-100%) scale(0);
+  /* Apply animation */
+  animation: GenAICardAnimation var(--animation-duration)
+    var(--animation-timing-function) forwards;
+}
+
+/* animation for Cloud and IOT Card */
+
+@keyframes CloudCardAnimation {
+  0% {
+    transform: translateY(-75%) translateX(90%) scale(0);
+    opacity: 0;
+    filter: blur(10px);
+  }
+  100% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+
+.lower-left-track-default {
+  visibility: none;
+  transform: translateY(-75%) translateX(90%) scale(0);
+  /* transform: scale(0); */
+  opacity: 0;
+  /* transition: all 600ms ease-in; */
+}
+
+.lower-left-track-visible {
+  opacity: 1;
+  /* transition: all 600ms ease-in-out;
+  transform: scale(1);
+  transform: translateY(0) translateX(0) scale(1); */
+  transform: translateY(100%) translateX(-100%) scale(0);
+  /* Apply animation */
+  animation: CloudCardAnimation var(--animation-duration)
+    var(--animation-timing-function) forwards;
+}
+
+/* animation for Cybersec Card */
+
+@keyframes CybersecCardAnimation {
+  0% {
+    transform: translateY(-90%) translateX(-75%) scale(0);
+    opacity: 0;
+    filter: blur(10px);
+  }
+  100% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+
+.lower-right-track-default {
+  visibility: none;
+  transform: translateY(-90%) translateX(-75%) scale(0);
+  /* transform: scale(0); */
+  opacity: 0;
+  transition: all var(--animation-duration) var(--animation-timing-function);
+}
+
+.lower-right-track-visible {
+  opacity: 1;
+  /* transition: all 600ms ease-in-out;
+  transform: scale(1);
+  transform: translateY(0) translateX(0) scale(1); */
+  transform: translateY(100%) translateX(-100%) scale(0);
+  /* Apply animation */
+  animation: CybersecCardAnimation var(--animation-duration)
+    var(--animation-timing-function) forwards;
+}

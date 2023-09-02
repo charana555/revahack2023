@@ -7,7 +7,6 @@ import { navs } from "./NavItems";
 import "./Navbar.css";
 
 const Navbar = () => {
-
   const [menubarOpen, setMenubarOpen] = useState(false);
 
   const toggleMenubar = () => {
@@ -23,7 +22,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`bg-primary fixed w-full z-50 backdrop-filter backdrop-blur-lg bg-opacity-30`}
+      className={`bg-primary fixed w-full z-50 backdrop-filter backdrop-blur-lg bg-opacity-70`}
     >
       <div className="container mx-auto flex flex-wrap items-center justify-between px-4 font-roboto">
         {/* Logo */}
