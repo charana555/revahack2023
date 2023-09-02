@@ -18,7 +18,7 @@
         id="Timeline"
         className="flex-col text-white text-3xl h-auto flex items-center justify-center ti-bg"
       >
-        <p className="text-7xl mb-[5%] mt-[40%] font-roboto">Timeline</p>
+        <p className="text-7xl mb-[5%] mt-[30%] font-roboto">Timeline</p>
         <div>
           <VerticalTimeline layout="1-column-left" lineColor="rgba(13, 15, 22, 0.1)">
             {timelineElements.map((element) => {
@@ -28,19 +28,19 @@
               return (
                 <VerticalTimelineElement
                   key={element.key}
-                  date={element.date}
-                  dateClassName="date"
+                  // date={element.date}
+                  // dateClassName="date"
                   iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
                   icon={isWorkIcon ? (
-                    <img src="#" alt="" />
+                    <img src="./Images/work.svg" alt="work icon" />
                   ) : (
-                    <img src="#" alt="" />
+                    <img src="./Images/school.svg" alt="school icon" />
                   )}
                   contentStyle={{ background: '#0d0f16', color: '#fff' }}
                 >
                   
                   <h1 className="vertical-timeline-element-title font-roboto" style={{ color: titleColor }}>{element.title}</h1>
-                  <div className="h-full w-full bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10"
+                  <div className="h-[10%] w-full bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10"
                     style={{ fontFamily: "Fira Code, monospace" }}
                   >
                     <p id="description">{element.description}</p>
