@@ -14,11 +14,14 @@ import PlaceholderSponsor from "./components/Sponsors/PaceholderSponsors";
 import Sponsors from "./components/Sponsors/Sponsors";
 import Timeline from "./components/Timeline/Timeline";
 import Tracks from "./components/Tracks/Tracks";
+import Timer from "./components/Timer/Timer.jsx";
+import React from "react";
 
 const App = () => {
   return (
     <>
       <Navbar />
+        <Timer />
       <Hero />
       <About />
       <Tracks />
