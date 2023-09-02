@@ -1,7 +1,7 @@
 .ti-bg{
 	background-image: url("/Images/timeline.svg");
 	background-repeat: no-repeat;
-	background-position: 205px 10px;
+	background-position: 305px 10px;
 }
   .title {
 	font-size: 15em;
@@ -27,7 +27,7 @@
   #description {
 	margin: 1.5em 0 4em 0;
   }
-  
+
   @media only screen and (max-width: 1700px) {
 	.vertical-timeline-element-date {
 	  display: block !important;
@@ -37,4 +37,31 @@
 	}
   }
 
- 
+  @media only screen and (max-width: 768px) {
+    .ti-bg {
+      background-position: 20px 10px; /* Adjust for small screens (up to 768px) */
+    }
+  }
+
+  @media only screen and (min-width: 769px) and (max-width: 1000px) {
+    .ti-bg {
+      background-position: 50px 10px;
+    }
+  }
+
+  @media only screen and (min-width: 1001px) and (max-width: 1500px) {
+	.ti-bg {
+	  background-position: 200px; /* Your adjusted background position */
+	  background-size: auto;
+	}
+  }
+
+  @media only screen and (min-width: 1501px) {
+    .ti-bg {
+      background-position: 215px 10px;
+	  background-size: auto;
+    }
+	.vertical-timeline-element .vertical-timeline-element-content{
+		margin-left: 10% !important;
+	  }
+  }
