@@ -1,3 +1,8 @@
+.ti-bg{
+	background-image: url("/Images/timeline.svg");
+	background-repeat: no-repeat;
+	background-position: 399px 10px;
+}
   .title {
 	font-size: 15em;
 	text-align: center;
