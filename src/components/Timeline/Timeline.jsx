@@ -7,7 +7,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
-
+import sponsorbg from "../../assets/sponsorBg.png";
 
 function Timeline() {
   const workIconStyles = { background: "#939AFF"};
@@ -18,6 +18,7 @@ function Timeline() {
       id="Timeline"
       className="flex-col text-white text-3xl h-auto flex items-center justify-center ti-bg"
     >
+      <img className="absolute z-10 mt-[-500%] sm:mt-[-450%] md:mt-[-250%] xl:mt-[-175%]" src={sponsorbg} />
       <p className="flex-col flex items-center justify-center text-7xl mb-[5%] mt-[140%] md:mt-[70%] xl:mt-[28%] font-roboto">Timeline</p>
       <div>
         <VerticalTimeline layout="1-column-left" lineColor="rgba(13, 15, 22, 0.1)">
