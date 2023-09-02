@@ -16,7 +16,7 @@
     return (
       <section
         id="Timeline"
-        className="flex-col text-white text-3xl w-full h-screen flex items-center justify-center mt-[120%] mb-[120%] xl:mt-[40%] xl:mb-[40%]"
+        className="flex-col text-white text-3xl w-full h-auto flex items-center justify-center mt-[120%] mb-[120%] xl:mt-[40%] xl:mb-[40%]"
       >
         <p className="text-7xl mb-[5%] font-roboto">Timeline</p>
         <div>
