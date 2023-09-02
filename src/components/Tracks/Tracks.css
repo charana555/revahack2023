@@ -5,7 +5,7 @@
     margin: 30px;
     box-shadow: 20px 20px 50px rgba(53, 54, 56, 0.5);
     border-radius: 15px;
-    background: rgba(77, 198, 239, 0.1);
+    background: rgba(16, 16, 16, 0.1);
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -14,5 +14,4 @@
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
 }
-
   
