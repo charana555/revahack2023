@@ -20,24 +20,26 @@ import React from "react";
 const App = () => {
   return (
     <>
-      <Navbar />
+        <Navbar />
         <Timer />
-      <Hero />
-      <About />
-      <Tracks />
-      <Prizes />
-      <Timeline />
-      {/* <Sponsors /> */}
-      <PlaceholderSponsor />
-      {/* <Crew /> */}
-      <PlaceholderCrew />
-      <Banner />
-      <Glimpse />
-      <section className="back w-full">
-        <Faq />
-        <Contact />
-      </section>
-      <Footer />
+        <section className="back w-full">
+            <Hero />
+            <About />
+        </section>
+        <Tracks />
+        <Prizes />
+        <Timeline />
+        {/* <Sponsors /> */}
+        <PlaceholderSponsor />
+        {/* <Crew /> */}
+        <PlaceholderCrew />
+        <Banner />
+        <Glimpse />
+        <section className="back w-full">
+            <Faq />
+            <Contact />
+        </section>
+        <Footer />
     </>
   );
 };
