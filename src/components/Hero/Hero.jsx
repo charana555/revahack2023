@@ -13,11 +13,7 @@ const Hero = () => {
                 <p className='hidden md:block text-[2px] md:text-4xl text-[#6D5BF6]'>SPONSORED BY</p>
                 <img src={'Images/ieeelogo.png'} alt='ieee logo' className='h-10 w-24 md:h-58 md:w-126' />
               </div>
-
-
-
-
-
+              
               <div className="text-center mb-4">
                 <h1 className="text-4xl font-bold md:text-6xl lg:text-[105px]">REVA HACK {'</>'} 2023</h1>
               </div>
