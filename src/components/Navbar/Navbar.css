@@ -1,11 +1,9 @@
-
 /* expanding underline on hover */
 .underline-hover {
   position: relative;
   display: inline-block;
   text-decoration: none;
   color: #c3dcd9;
-
 }
 
 .underline-hover::before {
@@ -94,4 +92,3 @@
 .mobile-nav {
   font-size: 20px;
 }
-
