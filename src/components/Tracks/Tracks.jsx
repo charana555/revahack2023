@@ -9,15 +9,15 @@ const Tracks = () => {
       max: 3,
       speed: 400,
       glare: true,
-      "max-glare": 1,
+      "max-glare": 0.15,
       // "transform-style": "preserve-3d",
       // transform: perspective('500px'),
       // transform: translateZ('20px'),
       gyroscope: true,
-      gyroscopeMinAngleX: -20,
-      gyroscopeMaxAngleX: 20,
-      gyroscopeMinAngleY: -5,
-      gyroscopeMaxAngleY: 5,
+      // gyroscopeMinAngleX: -20,
+      // gyroscopeMaxAngleX: 20,
+      // gyroscopeMinAngleY: -5,
+      // gyroscopeMaxAngleY: 5,
     });
   }, []);
 
@@ -32,7 +32,7 @@ const Tracks = () => {
       <div 
         id="container" 
         className="flex flex-row flex-wrap items-center justify-center relative max-w-7xl z-1">
-        <div class="card">
+        <div className="card">
           <div id="img"
             className="absolute top-0 left-16 right-0 bottom-40 bg-cover bg-center bg-no-repeat">
               <img src="./Images/GenAI.svg" alt="genai" className="w-4/6 h-full" />
@@ -47,7 +47,7 @@ const Tracks = () => {
           </div>
         </div>
         {/* card2 */}
-        <div class="card">
+        <div className="card">
         <div id="img"
             className="absolute top-0 left-0 right-0 bottom-40 bg-cover bg-center bg-no-repeat">
               <img src="./Images/blockchain.svg" alt="blockchain" className="w-full h-full" />
@@ -62,7 +62,7 @@ const Tracks = () => {
           </div>
         </div>
         {/* card3 */}
-        <div class="card">
+        <div className="card">
         <div id="img"
             className="absolute top-0 left-16 right-0 bottom-40 bg-cover bg-center bg-no-repeat">
               <img src="./Images/ARVR.svg" alt="arvr" className="w-4/6 h-full" />
@@ -77,7 +77,7 @@ const Tracks = () => {
           </div>
         </div>
         {/* card4 */}
-        <div class="card">
+        <div className="card">
         <div id="img"
             className="absolute top-0 left-16 right-0 bottom-40 bg-cover bg-center bg-no-repeat">
               <img src="./Images/CloudIOT.svg" alt="cloudiot" className="w-4/6 h-full" />
@@ -92,7 +92,7 @@ const Tracks = () => {
           </div>
         </div>
         {/* card5 */}
-        <div class="card">
+        <div className="card">
         <div id="img"
             className="absolute top-0 left-0 right-0 bottom-40 bg-cover bg-center bg-no-repeat">
               <img src="./Images/CyberSecurity.svg" alt="cybersecurity" className="w-full h-full" />

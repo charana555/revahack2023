@@ -1,0 +1,9 @@
+.pixel-bg{
+    background-image: url('./Images/pixel.webp');
+    /* width: 100%; */
+    height: 400px;
+    position: relative;
+    /* background-repeat: repeat-y; */
+    background-position: center;
+    background-size: cover;
+}
