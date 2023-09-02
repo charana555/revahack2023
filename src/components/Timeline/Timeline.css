@@ -1,7 +1,7 @@
 .ti-bg{
 	background-image: url("/Images/timeline.svg");
 	background-repeat: no-repeat;
-	background-position: 305px 10px;
+	background-position: 215px 10px;
 }
   .title {
 	font-size: 15em;
@@ -39,21 +39,23 @@
 
   @media only screen and (max-width: 768px) {
     .ti-bg {
+      background-image: url("/Images/timeline2.svg");
       background-position: 20px 10px; /* Adjust for small screens (up to 768px) */
     }
   }
 
   @media only screen and (min-width: 769px) and (max-width: 1200px) {
     .ti-bg {
-      background-position: 30px 0px;
+      background-image: url("/Images/timeline2.svg");
+      background-position: 30px 10px; /* Adjust for medium screens (769px to 1200px) */
     }
   }
 
-  @media only screen and (min-width: 1701px) {
+  @media only screen and (min-width: 1201px) {
     .ti-bg {
-      background-position: 405px 10px;
+      background-position: 215px 10px; /* Back to default for larger screens (1201px and above) */
     }
-	.vertical-timeline-element .vertical-timeline-element-content{
-		margin-left: 10% !important;
-	  }
+    .vertical-timeline-element .vertical-timeline-element-content{
+      margin-left: 10% !important;
+    }
   }

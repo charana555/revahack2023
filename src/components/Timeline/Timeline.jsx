@@ -18,7 +18,7 @@ function Timeline() {
       id="Timeline"
       className="flex-col text-white text-3xl h-auto flex items-center justify-center ti-bg"
     >
-      <p className="flex-col flex items-center justify-center text-7xl mb-[5%] mt-[145%] md:mt-[70%] xl:mt-[25%] font-roboto">Timeline</p>
+      <p className="flex-col flex items-center justify-center text-7xl mb-[5%] mt-[140%] md:mt-[70%] xl:mt-[28%] font-roboto">Timeline</p>
       <div>
         <VerticalTimeline layout="1-column-left" lineColor="rgba(13, 15, 22, 0.1)">
           {timelineElements.map((element) => {
