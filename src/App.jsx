@@ -13,33 +13,40 @@ import Prizes from "./components/Prizes/Prizes";
 import PlaceholderSponsor from "./components/Sponsors/PaceholderSponsors";
 import Sponsors from "./components/Sponsors/Sponsors";
 import Timeline from "./components/Timeline/Timeline";
-import Tracks from "./components/Tracks/Tracks";
-import Timer from "./components/Timer/Timer.jsx";
+
+// import Tracks from "./components/Tracks/Tracks";
+import Tracks2 from "./components/Tracks/Tracks2";
+import Tracks2Mobile from "./components/Tracks/Tracks2Mobile";
+
+//import Tracks from "./components/Tracks/Tracks";
 import React from "react";
+import Timer from "./components/Timer/Timer.jsx";
 
 const App = () => {
   return (
     <>
-        <Navbar />
-        <Timer />
-        <section className="back w-full">
-            <Hero />
-            <About />
-        </section>
-        <Tracks />
-        <Prizes />
-        <Timeline />
-        {/* <Sponsors /> */}
-        <PlaceholderSponsor />
-        {/* <Crew /> */}
-        <PlaceholderCrew />
-        <Banner />
-        <Glimpse />
-        <section className="back w-full">
-            <Faq />
-            <Contact />
-        </section>
-        <Footer />
+      <Navbar />
+      <Timer />
+      <section className="back w-full">
+        <Hero />
+        <About />
+      </section>
+      {/* <Tracks /> */}
+      <Tracks2 />
+      {/* <Tracks2Mobile /> */}
+      <Prizes />
+      <Timeline />
+      {/* <Sponsors /> */}
+      <PlaceholderSponsor />
+      <Crew />
+      {/* <PlaceholderCrew /> */}
+      <Banner />
+      <Glimpse />
+      <section className="back w-full">
+        <Faq />
+        <Contact />
+      </section>
+      <Footer />
     </>
   );
 };

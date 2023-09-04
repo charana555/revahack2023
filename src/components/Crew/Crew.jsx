@@ -1,15 +1,18 @@
 import React, { useRef, useState } from "react";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import crewBg from "../../assets/crewbg.webp";
-import "./swiperStyles.css";
+// import "swiper/css";
+// import "swiper/css/navigation";
+// import "swiper/css/pagination";
+// import crewBg from "../../assets/crewbg.webp";
+// import "./swiperStyles.css";
 
-// import required modules
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
+// // import required modules
+// import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import "@splidejs/react-splide/css";
 
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+// // Import Swiper React components
+// import { Swiper, SwiperSlide } from "swiper/react";
+
+import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 
 import "./Crew.css";
 // import Card from "./components/Card";
@@ -366,56 +369,58 @@ const Crew = () => {
     progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
   };
 
+  const options = {
+    type: "loop",
+
+    autoplay: true,
+  };
+
   return (
     <section
       id="Crew"
       className="flex-col text-white text-3xl w-full h-auto flex items-center justify-center crew-bg fadeeffect"
     >
       {/* <img src={crewBg} className="h-screen absolute" alt="" /> */}
-      <Swiper
-        // speed={32000}
-        lazy={false}
-        cssMode={true}
-        spaceBetween={30}
-        grabCursor={true}
-        centeredSlides={true}
-        autoplay={{
-          delay: 6000,
-          // disableOnInteraction: true,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        loop={true}
-        modules={[Autoplay, Pagination, Navigation]}
-        onAutoplayTimeLeft={onAutoplayTimeLeft}
-        className="mySwiper"
-      >
-        {teams.map((team, index) => (
-          <SwiperSlide key={index}>
-            <Slide team={team} />
-          </SwiperSlide>
-        ))}
+      <Splide
+        hasTrack={false}
+        options={{
+          width: "100%",
+          type: "loop",
+          autoplay: true,
+          classes: {
+            // Add classes for arrows.
+            arrows: "splide__arrows your-class-arrows",
+            arrow: "splide__arrow your-class-arrow",
+            prev: "splide__arrow--prev your-class-prev",
+            next: "splide__arrow--next your-class-next",
 
-        {/* <SwiperSlide>
-          <Slide />
-        </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide> */}
-        <div className="autoplay-progress" slot="container-end">
-          <svg viewBox="0 0 48 48" ref={progressCircle}>
-            <circle cx="24" cy="24" r="20"></circle>
-          </svg>
-          <span ref={progressContent}></span>
-        </div>
-      </Swiper>
+            // Add classes for pagination.
+            pagination: "splide__pagination my__splide__pagination", // container
+            page: "splide__pagination__page my__splide__pagination__page", // each button
+          },
+        }}
+        aria-label="Crew"
+      >
+        <SplideTrack>
+          {teams.map((team, index) => (
+            <SplideSlide key={index}>
+              <Slide team={team} />
+            </SplideSlide>
+          ))}
+
+          {/* {this.state.slides.map((team, index) => (
+            <SplideSlide key={index}>
+              <Slide team={team} />
+            </SplideSlide>
+          ))} */}
+        </SplideTrack>
+
+        {/* 
+        <div className="splide__arrows">
+          <button className="splide__arrow splide__arrow--prev">Prev</button>
+          <button className="splide__arrow splide__arrow--next">Next</button>
+        </div> */}
+      </Splide>
     </section>
   );
 };

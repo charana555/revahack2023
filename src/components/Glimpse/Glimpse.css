@@ -1,31 +1,18 @@
-.slide2 {
-  text-align: center;
-  font-size: 18px;
+.glimpse-slide {
   background: rgb(255, 255, 255);
-  height: 350px;
-  width: 400px;
-  /* Center slide text vertically */
+  height: 300px;
+  border-radius: 16px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  border-radius: 16px;
+  justify-content: center;
+  font-size: 3rem;
+  color: black;
 }
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 16px;
+.glimpses__pagination {
+  display: none;
 }
 
-.mySwiper2 {
-  background-color: #00000000;
-  /* box-shadow: none; */
-  /* padding-bottom: 5%; */
-  /* margin: 2% 10%; */
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
+.glimpses__pagination__page {
+  display: none;
 }
