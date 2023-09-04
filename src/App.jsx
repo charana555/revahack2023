@@ -36,8 +36,9 @@ const App = () => {
       {/* <Tracks2Mobile /> */}
       <Prizes />
       <Timeline />
-      {/* <Sponsors /> */}
-      <PlaceholderSponsor />
+
+      <Sponsors />
+      {/* <PlaceholderSponsor /> */}
       <Crew />
       {/* <PlaceholderCrew /> */}
       <Banner />
