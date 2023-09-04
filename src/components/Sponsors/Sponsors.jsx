@@ -60,7 +60,20 @@ const Sponsors = () => {
 
       {/* tree section */}
       <div className=" font-[600] my-[2%] text-xl md:text-2xl">Tree</div>
-      <div className="slider">
+
+      {/* temp */}
+
+      <div className="flex justify-center gap-10  ">
+        <div className=" title-sponsor glassmorphic flex items-center  ">
+          <img src={devfolio} alt="sponsor Devfolio logo" />
+        </div>
+        <div className="title-sponsor glassmorphic flex items-center ">
+          <img classname="" src={polygon} alt=" sponsor Polygon logo" />
+        </div>
+      </div>
+
+      {/* Scroller */}
+      {/* <div className="slider">
         <div className="slide-track">
           <SponsorBox image={treelogos[0].logo} alt={treelogos[0].alt} />
           <SponsorBox image={treelogos[1].logo} alt={treelogos[1].alt} />
@@ -75,7 +88,7 @@ const Sponsors = () => {
           <SponsorBox image={treelogos[0].logo} alt={treelogos[0].alt} />
           <SponsorBox image={treelogos[1].logo} alt={treelogos[1].alt} />
         </div>
-      </div>
+      </div> */}
       {/* <div className="slider2">
         <div className="slide-track2">
           <SponsorBox image={treelogos[0].logo} alt={treelogos[0].alt} />
@@ -96,7 +109,20 @@ const Sponsors = () => {
       {/* sapling section */}
 
       <div className=" font-[600] my-[2%] text-xl md:text-2xl">Sapling</div>
-      <div className="slider">
+      <div className="flex justify-center gap-10  ">
+        <div className=" title-sponsor glassmorphic flex items-center  ">
+          <img src={solana} alt=" sponsor solana logo" />
+        </div>
+        <div className="title-sponsor glassmorphic flex items-center ">
+          <img classname="" src={filecoin} alt=" sponsor filecoin logo" />
+        </div>
+
+        <div className="title-sponsor glassmorphic flex items-center ">
+          <img classname="" src={replit} alt="sponsor replit logo" />
+        </div>
+      </div>
+      {/* Scoller */}
+      {/* <div className="slider">
         <div className="slide-track">
           <SponsorBox image={saplinglogos[0].logo} alt={saplinglogos[0].alt} />
           <SponsorBox image={saplinglogos[1].logo} alt={saplinglogos[1].alt} />
@@ -111,7 +137,7 @@ const Sponsors = () => {
           <SponsorBox image={saplinglogos[1].logo} alt={saplinglogos[1].alt} />
           <SponsorBox image={saplinglogos[2].logo} alt={saplinglogos[2].alt} />
         </div>
-      </div>
+      </div> */}
       {/* <div className="slider2">
         <div className="slide-track2">
           <SponsorBox image={saplinglogos[0].logo} alt={saplinglogos[0].alt} />
