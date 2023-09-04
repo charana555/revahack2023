@@ -24,7 +24,7 @@ const Navbar = () => {
     <nav
       className={`bg-primary fixed w-full z-50 backdrop-filter backdrop-blur-lg bg-opacity-70`}
     >
-      <div className="container mx-auto flex flex-wrap items-center justify-between px-4 font-roboto">
+      <div className="container mx-auto flex flex-wrap items-center justify-between px-4 font-fira font-light">
         {/* Logo */}
         <div>
           <Link
@@ -43,7 +43,7 @@ const Navbar = () => {
         </div>
         {/* Navlinks for Desktop */}
         <div
-          className={`hidden md:flex md:gap-14 font-semibold  ${
+          className={`hidden md:flex md:gap-14   ${
             menubarOpen ? "hidden" : ""
           }`}
         >

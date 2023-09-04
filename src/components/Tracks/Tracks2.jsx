@@ -33,7 +33,7 @@ const Tracks2 = (props) => {
   };
 
   return (
-    <section className="tracks-section font-fira ">
+    <section id="Tracks" className="tracks-section font-fira ">
       <div id="tracks-cards">
         <div className="upper-tracks">
           <div className="upper-left-track">
@@ -171,8 +171,8 @@ const Tracks2 = (props) => {
               </Tilt>
             </div>
             <div
-              className="text-NeonGreen text-center flex text-6xl md:text-7xl font-roboto font-medium "
               ref={tracks}
+              className="text-NeonGreen text-center flex text-6xl md:text-7xl font-roboto font-medium "
             >
               Tracks
             </div>
@@ -218,7 +218,7 @@ const Tracks2 = (props) => {
             </div>
           </div>
         </div>
-        <div className="lower-tracks">
+        <div ref={tracks} className="lower-tracks">
           <div className="lower-left-track">
             <div
               className={`${"lower-left-track-default"} ${

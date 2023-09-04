@@ -13,6 +13,7 @@ import Prizes from "./components/Prizes/Prizes";
 import PlaceholderSponsor from "./components/Sponsors/PaceholderSponsors";
 import Sponsors from "./components/Sponsors/Sponsors";
 import Timeline from "./components/Timeline/Timeline";
+
 // import Tracks from "./components/Tracks/Tracks";
 import Tracks2 from "./components/Tracks/Tracks2";
 import Tracks2Mobile from "./components/Tracks/Tracks2Mobile";
@@ -28,10 +29,11 @@ const App = () => {
       {/* <Tracks2Mobile /> */}
       <Prizes />
       <Timeline />
+
       {/* <Sponsors /> */}
       <PlaceholderSponsor />
-      {/* <Crew /> */}
-      <PlaceholderCrew />
+      <Crew />
+      {/* <PlaceholderCrew /> */}
       <Banner />
       <Glimpse />
       <section className="back w-full">

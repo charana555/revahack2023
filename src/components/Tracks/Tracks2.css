@@ -85,7 +85,7 @@
 .tracks-card::before {
   background: radial-gradient(
     700px circle at var(--mouse-x) var(--mouse-y),
-    rgba(37, 212, 27, 0.1),
+    rgba(9, 175, 0, 0.2),
     transparent 40%
   );
   z-index: 3;
@@ -263,6 +263,7 @@ i {
   transform: translateY(0) scale(1);*/
   transform: translateY(120%) scale(0.5);
   /* Apply animation */
+  transition: all 600ms;
   animation: BlockchainCardAnimation var(--animation-duration)
     var(--animation-timing-function) forwards;
 }
@@ -357,6 +358,7 @@ i {
   transform: translateY(-75%) translateX(90%) scale(0);
   /* transform: scale(0); */
   opacity: 0;
+  transition: transform 600ms ease-in-out;
   /* transition: all 600ms ease-in; */
 }
 
@@ -366,6 +368,7 @@ i {
   transform: scale(1);
   transform: translateY(0) translateX(0) scale(1); */
   transform: translateY(100%) translateX(-100%) scale(0);
+
   /* Apply animation */
   animation: CloudCardAnimation var(--animation-duration)
     var(--animation-timing-function) forwards;
@@ -400,6 +403,7 @@ i {
   transform: scale(1);
   transform: translateY(0) translateX(0) scale(1); */
   transform: translateY(100%) translateX(-100%) scale(0);
+  transition: all 600ms;
   /* Apply animation */
   animation: CybersecCardAnimation var(--animation-duration)
     var(--animation-timing-function) forwards;
