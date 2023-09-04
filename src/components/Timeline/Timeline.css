@@ -1,3 +1,10 @@
+.ti-bg{
+	background-image: url("/Images/timeline.svg");
+	background-repeat: no-repeat;
+	background-position: 215px 10px;
+  width: 100%;
+  height: auto;
+}
   .title {
 	font-size: 15em;
 	text-align: center;
@@ -9,9 +16,9 @@
   }
   
   .vertical-timeline-element-content {
-	box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
-	  0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
-	  /* box-shadow: none !important; */
+	/* box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+	  0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important; */
+	  box-shadow: none !important;
 	  padding: 16px !important;
   }
   
@@ -21,8 +28,9 @@
   
   #description {
 	margin: 1.5em 0 4em 0;
+  padding: 5px;
   }
-  
+
   @media only screen and (max-width: 1700px) {
 	.vertical-timeline-element-date {
 	  display: block !important;
@@ -32,4 +40,34 @@
 	}
   }
 
- 
+  @media only screen and (max-width: 768px) {
+    .ti-bg {
+      background-image: url("/Images/timeline2.svg");
+      background-position: 20px 10px; /* Adjust for small screens (up to 768px) */
+    }
+  }
+
+  @media only screen and (min-width: 769px) and (max-width: 1200px) {
+    .ti-bg {
+      background-image: url("/Images/timeline2.svg");
+      background-position: 30px 10px; /* Adjust for medium screens (769px to 1200px) */
+    }
+  }
+
+  @media only screen and (min-width: 1201px) {
+    .ti-bg {
+      background-position: 215px 10px; /* Back to default for larger screens (1201px and above) */
+    }
+    .vertical-timeline-element .vertical-timeline-element-content{
+      margin-left: 10% !important;
+    }
+  }
+
+  @media only screen and (min-width: 1801px) {
+    .ti-bg {
+      background-position: 410px 50px;
+    }
+    .vertical-timeline-element .vertical-timeline-element-content{
+      margin-left: 10% !important;
+    }
+  }

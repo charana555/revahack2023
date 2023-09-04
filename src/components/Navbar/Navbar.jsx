@@ -17,10 +17,11 @@ const Navbar = () => {
     setMenubarOpen(false);
   };
 
-  const menuClass = menubarOpen ? "dropdown-menu show " : "dropdown-menu";
+  const menuClass = menubarOpen ? "dropdown-menu show" : "dropdown-menu";
   const menuItemsClass = menubarOpen ? "block" : "hidden";
 
   return (
+
     <nav
       className={`bg-primary fixed w-full z-50 backdrop-filter backdrop-blur-lg bg-opacity-70`}
     >
@@ -83,8 +84,8 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
+      
       </div>
-    </nav>
   );
 };
 

@@ -15,7 +15,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url("/Images/hero_bgf.svg") no-repeat, #0d0f16;
+  background: #0d0f16;
 }
 
 ::-webkit-scrollbar {
@@ -29,6 +29,10 @@ body {
   border-radius: 1rem;
   border: 2px solid transparent;
   background-clip: content-box;
+}
+
+.ReactCollapse--collapse {
+  transition: height 500ms;
 }
 
 @tailwind base;
