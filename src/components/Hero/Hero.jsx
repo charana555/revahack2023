@@ -39,14 +39,14 @@ const Hero = () => {
 
             {/* The typewriter text */}
             <div className="text-center">
-              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl relative mb-4 text-[#0CCA4A] font-fira font-[300]">
+              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl relative mb-4 text-[#0CCA4A] font-roboto font-[300]">
                 {currentText}
                 <span className="cursor" style={cursorStyle}></span>
               </p>
             </div>
           </div>
           {/* Responsive buttons */}
-          <div className="flex flex-col items-center space-y-4 sm:flex-row sm:space-x-32 sm:space-y-0 justify-center">
+          <div className="flex flex-col items-center space-y-4 sm:flex-row sm:space-x-32 sm:space-y-0 justify-center font-roboto">
             <div
               className="apply-button"
               data-hackathon-slug="REVA HACK 2023"
@@ -62,18 +62,13 @@ const Hero = () => {
                 />
               </button>
             </div>
-            <button className="bg-[#5c54f4] hover:shadow-lg px-12 rounded-[3px] text-white text-xl md:text-2xl flex items-center justify-center md:h-[44px] md:w-[312px]">
+            <button className="bg-[#5c54f4] hover:shadow-lg px-12 py-4 rounded-[16px] text-white text-xl md:text-3xl lg:text-4xl xl:text-5xl flex items-center justify-center md:h-[100px] md:w-[320px] lg:w-[420px]">
+              <span className="mr-4">Join Us</span>
               <img
                 src={"Images/discord.png"}
                 alt="discord logo"
-                className="w-8 h-6 md:w-8 md:h-6 mr-3"
+                className="w-8 h-6 md:w-11 md:h-8 ml-3"
               />
-              <span
-                className="mr-4 font-[530]"
-                style={{ fontFamily: "Nunito Sans, sans-serif" }}
-              >
-                Join us
-              </span>
             </button>
           </div>
         </div>
