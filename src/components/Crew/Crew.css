@@ -36,3 +36,12 @@
 .fadeeffect::before {
   bottom: 0;
 }
+
+.my__splide__pagination {
+  position: relative;
+  padding-top: 2%;
+}
+
+.my__splide__pagination__page {
+  background-color: white !important;
+}
