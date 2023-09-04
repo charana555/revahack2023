@@ -49,7 +49,7 @@ const Hero = () => {
           <div className="flex flex-col items-center space-y-4 sm:flex-row sm:space-x-32 sm:space-y-0 justify-center font-roboto">
             <div
               className="apply-button"
-              data-hackathon-slug="reva-hack-1"
+              data-hackathon-slug="REVA HACK 2023"
               data-button-theme="light"
               style={{ height: "44px", width: "312px" }}
             >
