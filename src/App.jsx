@@ -14,29 +14,28 @@ import PlaceholderSponsor from "./components/Sponsors/PaceholderSponsors";
 import Sponsors from "./components/Sponsors/Sponsors";
 import Timeline from "./components/Timeline/Timeline";
 
-
 // import Tracks from "./components/Tracks/Tracks";
 import Tracks2 from "./components/Tracks/Tracks2";
 import Tracks2Mobile from "./components/Tracks/Tracks2Mobile";
 
 //import Tracks from "./components/Tracks/Tracks";
-import Timer from "./components/Timer/Timer.jsx";
 import React from "react";
-
+import Timer from "./components/Timer/Timer.jsx";
 
 const App = () => {
   return (
     <>
-
       <Navbar />
-      <Hero />
-      <About />
+      <Timer />
+      <section className="back w-full">
+        <Hero />
+        <About />
+      </section>
       {/* <Tracks /> */}
       <Tracks2 />
       {/* <Tracks2Mobile /> */}
       <Prizes />
       <Timeline />
-
       {/* <Sponsors /> */}
       <PlaceholderSponsor />
       <Crew />
@@ -48,7 +47,6 @@ const App = () => {
         <Contact />
       </section>
       <Footer />
-
     </>
   );
 };
