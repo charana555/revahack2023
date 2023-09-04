@@ -42,7 +42,7 @@ const Sponsors = () => {
           className="text-RoyalPurple underline"
           href="mailto:something@email.com"
         >
-          revahack@reva.edu.in
+          revahack@gmail.com
         </a>
       </p>
 
