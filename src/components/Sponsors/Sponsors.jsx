@@ -1,29 +1,36 @@
 import React from "react";
 
+// logos import
+import filecoin from "../../assets/SponsorLogos/Sapling/filecoin.png";
+import replit from "../../assets/SponsorLogos/Sapling/replit.png";
+import solana from "../../assets/SponsorLogos/Sapling/solana.png";
+import devfolio from "../../assets/SponsorLogos/Tree/devfolio.png";
+import polygon from "../../assets/SponsorLogos/Tree/polygon.png";
 import ieee from "../../assets/SponsorLogos/titleSponsors/ieee.png";
 import reva from "../../assets/SponsorLogos/titleSponsors/reva.png";
+
 import sponsorbg from "../../assets/sponsorBg.png";
 import "./Sponsers.css";
 import SponsorBox from "./SponsorBox";
 const treelogos = [
-  { logo: reva, alt: "sad" },
-  { logo: ieee, alt: "sad" },
-  { logo: reva, alt: "sad" },
+  { logo: devfolio, alt: "devfolio white logo" },
+  { logo: polygon, alt: "polygon white logo" },
+  // { logo: reva, alt: "sad" },
 ];
 
 const saplinglogos = [
-  { logo: reva, alt: "sad" },
-  { logo: ieee, alt: "sad" },
-  { logo: reva, alt: "sad" },
+  { logo: filecoin, alt: "filecoin white logo" },
+  { logo: replit, alt: "replit white logo" },
+  { logo: solana, alt: "solana white logo" },
 ];
 
 const Sponsors = () => {
   return (
     <section
       id="Sponsors"
-      className="flex-col text-white text-3xl w-full flex items-center justify-center my-5"
+      className="flex-col text-white text-3xl w-full flex items-center justify-center my-[5%]"
     >
-      <img className="absolute mt-[10%] " src={sponsorbg} />
+      <img className="absolute mt-[10%] z-[-1] " src={sponsorbg} />
       <div className="text-LushGreen  text-6xl md:text-7xl font-roboto font-bold ">
         Sponsors
       </div>
@@ -57,19 +64,19 @@ const Sponsors = () => {
         <div className="slide-track">
           <SponsorBox image={treelogos[0].logo} alt={treelogos[0].alt} />
           <SponsorBox image={treelogos[1].logo} alt={treelogos[1].alt} />
-          <SponsorBox image={treelogos[0].logo} alt={treelogos[2].alt} />
-          <SponsorBox image={treelogos[1].logo} alt={treelogos[2].alt} />
-          <SponsorBox image={treelogos[0].logo} alt={treelogos[2].alt} />
-          <SponsorBox image={treelogos[1].logo} alt={treelogos[2].alt} />
-          <SponsorBox image={treelogos[0].logo} alt={treelogos[2].alt} />
-          <SponsorBox image={treelogos[1].logo} alt={treelogos[0].alt} />
-          <SponsorBox image={treelogos[0].logo} alt={treelogos[1].alt} />
-          <SponsorBox image={treelogos[1].logo} alt={treelogos[2].alt} />
-          <SponsorBox image={treelogos[0].logo} alt={treelogos[2].alt} />
-          <SponsorBox image={treelogos[1].logo} alt={treelogos[2].alt} />
+          <SponsorBox image={treelogos[0].logo} alt={treelogos[0].alt} />
+          <SponsorBox image={treelogos[1].logo} alt={treelogos[1].alt} />
+          <SponsorBox image={treelogos[0].logo} alt={treelogos[0].alt} />
+          <SponsorBox image={treelogos[1].logo} alt={treelogos[1].alt} />
+          <SponsorBox image={treelogos[0].logo} alt={treelogos[0].alt} />
+          <SponsorBox image={treelogos[1].logo} alt={treelogos[1].alt} />
+          <SponsorBox image={treelogos[0].logo} alt={treelogos[0].alt} />
+          <SponsorBox image={treelogos[1].logo} alt={treelogos[1].alt} />
+          <SponsorBox image={treelogos[0].logo} alt={treelogos[0].alt} />
+          <SponsorBox image={treelogos[1].logo} alt={treelogos[1].alt} />
         </div>
       </div>
-      <div className="slider2">
+      {/* <div className="slider2">
         <div className="slide-track2">
           <SponsorBox image={treelogos[0].logo} alt={treelogos[0].alt} />
           <SponsorBox image={treelogos[1].logo} alt={treelogos[1].alt} />
@@ -84,7 +91,7 @@ const Sponsors = () => {
           <SponsorBox image={treelogos[0].logo} alt={treelogos[2].alt} />
           <SponsorBox image={treelogos[1].logo} alt={treelogos[2].alt} />
         </div>
-      </div>
+      </div> */}
 
       {/* sapling section */}
 
@@ -93,19 +100,19 @@ const Sponsors = () => {
         <div className="slide-track">
           <SponsorBox image={saplinglogos[0].logo} alt={saplinglogos[0].alt} />
           <SponsorBox image={saplinglogos[1].logo} alt={saplinglogos[1].alt} />
-          <SponsorBox image={saplinglogos[0].logo} alt={saplinglogos[2].alt} />
-          <SponsorBox image={saplinglogos[1].logo} alt={saplinglogos[2].alt} />
-          <SponsorBox image={saplinglogos[0].logo} alt={saplinglogos[2].alt} />
-          <SponsorBox image={saplinglogos[1].logo} alt={saplinglogos[2].alt} />
-          <SponsorBox image={saplinglogos[0].logo} alt={saplinglogos[2].alt} />
-          <SponsorBox image={saplinglogos[1].logo} alt={saplinglogos[0].alt} />
-          <SponsorBox image={saplinglogos[0].logo} alt={saplinglogos[1].alt} />
-          <SponsorBox image={saplinglogos[1].logo} alt={saplinglogos[2].alt} />
-          <SponsorBox image={saplinglogos[0].logo} alt={saplinglogos[2].alt} />
-          <SponsorBox image={saplinglogos[1].logo} alt={saplinglogos[2].alt} />
+          <SponsorBox image={saplinglogos[2].logo} alt={saplinglogos[2].alt} />
+          <SponsorBox image={saplinglogos[0].logo} alt={saplinglogos[0].alt} />
+          <SponsorBox image={saplinglogos[1].logo} alt={saplinglogos[1].alt} />
+          <SponsorBox image={saplinglogos[2].logo} alt={saplinglogos[2].alt} />
+          <SponsorBox image={saplinglogos[0].logo} alt={saplinglogos[0].alt} />
+          <SponsorBox image={saplinglogos[1].logo} alt={saplinglogos[1].alt} />
+          <SponsorBox image={saplinglogos[2].logo} alt={saplinglogos[2].alt} />
+          <SponsorBox image={saplinglogos[0].logo} alt={saplinglogos[0].alt} />
+          <SponsorBox image={saplinglogos[1].logo} alt={saplinglogos[1].alt} />
+          <SponsorBox image={saplinglogos[2].logo} alt={saplinglogos[2].alt} />
         </div>
       </div>
-      <div className="slider2">
+      {/* <div className="slider2">
         <div className="slide-track2">
           <SponsorBox image={saplinglogos[0].logo} alt={saplinglogos[0].alt} />
           <SponsorBox image={saplinglogos[1].logo} alt={saplinglogos[1].alt} />
@@ -120,7 +127,7 @@ const Sponsors = () => {
           <SponsorBox image={saplinglogos[0].logo} alt={saplinglogos[2].alt} />
           <SponsorBox image={saplinglogos[1].logo} alt={saplinglogos[2].alt} />
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
