@@ -26,21 +26,18 @@ const Contact = () => {
 
         <div className=" flex flex-col gap-2 mb-10">
           <a
-            target="_blank"
             href="https://drive.google.com/file/d/1by9NGyLJzcqjX3p0KGob7mQ6R-gnzRnx/view?usp=sharing"
             className="text-lg px-2 tracking-wider block font-extralight"
           >
             Terms and Condition
           </a>
           <a
-            target="_blank"
             href="https://drive.google.com/file/d/1FpOJjzjnOU767oO5ZKAEk1jQF-szScXY/view?usp=sharing"
             className="text-lg px-2 tracking-wider block font-extralight"
           >
             Privacy Policy
           </a>
           <a
-            target="_blank"
             href="https://devfolio.co/code-of-conduct"
             className="text-lg px-2 tracking-wider block font-extralight"
           >
