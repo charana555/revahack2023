@@ -1,7 +1,11 @@
 import React from "react";
+import { useInView } from "react-intersection-observer";
 
 import "./Tracks2Mobile.css";
 const Tracks2Mobile = (props) => {
+  const { ref: topRowCards, inView: topRowIsVisible } = useInView();
+  const { ref: bottomRowCards, inView: bottomRowIsVisible } = useInView();
+
   window.onload = function () {
     const subtitle0 = document.getElementsByClassName(
       "mobile-tracks-card-subtitle"
@@ -75,11 +79,20 @@ const Tracks2Mobile = (props) => {
 
   return (
     <section className="flex flex-col gap-10 justify-center my-[10%]">
-      <div className="text-NeonGreen text-center  text-6xl md:text-7xl font-roboto font-medium ">
+      <div className="text-NeonGreen text-center  text-6xl md:text-7xl font-roboto font-medium  ">
         Tracks
       </div>
-      <div className="top-row flex gap-3 justify-center">
-        <div className="mobile-tracks-card">
+      <div
+        ref={topRowCards}
+        className={`top-row flex gap-3 justify-center 
+        
+        `}
+      >
+        <div
+          className={`mobile-tracks-card ${"top-row-default"} ${
+            topRowIsVisible ? "top-row-visible" : ""
+          }`}
+        >
           <div className="mobile-tracks-card-content">
             <div className="mobile-tracks-card-image">
               <svg
@@ -111,7 +124,11 @@ const Tracks2Mobile = (props) => {
             <h4 className="mobile-tracks-card-subtitle"></h4>
           </div>
         </div>
-        <div className="mobile-tracks-card">
+        <div
+          className={`mobile-tracks-card  ${"top-row-default"} ${
+            topRowIsVisible ? "top-row-visible" : ""
+          }`}
+        >
           <div className="mobile-tracks-card-content">
             <div className="mobile-tracks-card-image">
               {" "}
@@ -177,7 +194,11 @@ const Tracks2Mobile = (props) => {
             <h4 className="mobile-tracks-card-subtitle"></h4>
           </div>
         </div>
-        <div className="mobile-tracks-card">
+        <div
+          className={`mobile-tracks-card ${"top-row-default"} ${
+            topRowIsVisible ? "top-row-visible" : ""
+          }`}
+        >
           <div className="mobile-tracks-card-content">
             <div className="mobile-tracks-card-image">
               <svg
@@ -198,8 +219,16 @@ const Tracks2Mobile = (props) => {
           </div>
         </div>
       </div>
-      <div className="bottom-row flex gap-3 justify-center">
-        <div className="mobile-tracks-card">
+
+      <div
+        ref={bottomRowCards}
+        className="bottom-row flex gap-3 justify-center"
+      >
+        <div
+          className={`mobile-tracks-card  ${"bottom-row-default"} ${
+            bottomRowIsVisible ? "bottom-row-visible" : ""
+          }`}
+        >
           <div className="mobile-tracks-card-content">
             <div className="mobile-tracks-card-image">
               <svg
@@ -231,7 +260,11 @@ const Tracks2Mobile = (props) => {
             <h4 className="mobile-tracks-card-subtitle"></h4>
           </div>
         </div>
-        <div className="mobile-tracks-card">
+        <div
+          className={`mobile-tracks-card  ${"bottom-row-default"} ${
+            bottomRowIsVisible ? "bottom-row-visible" : ""
+          }`}
+        >
           <div className="mobile-tracks-card-content">
             <div className="mobile-tracks-card-image">
               <svg
