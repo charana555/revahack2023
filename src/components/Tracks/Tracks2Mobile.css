@@ -1,0 +1,132 @@
+:root {
+  --border: rgb(3, 169, 244);
+
+  --g1: rgb(0, 0, 0, 0);
+  --g2: rgba(9, 175, 0, 0.3);
+  --g3: rgba(29, 183, 21, 0.6);
+}
+
+.mobile-tracks-card-image {
+  display: flex;
+  justify-content: center;
+}
+.mobile-tracks-card-image svg {
+  width: 100%;
+  height: 100%;
+  max-height: 150px;
+  max-width: 150px;
+  /* padding: 20px; */
+}
+
+.mobile-tracks-card {
+  /*   aspect-ratio: 1 / 1.6; */
+  display: flex;
+
+  cursor: pointer;
+  position: relative;
+  /*   width: 56vmin; */
+  height: 45vw;
+  max-height: 300px;
+  width: 27vw;
+  max-width: 250px;
+  padding: 25px 10px;
+  border-radius: 16px;
+}
+
+.mobile-tracks-card:hover:before {
+  background-position: 100% 100%;
+  /*   transform: scale(1.08, 1.03); */
+}
+
+.mobile-tracks-card:hover
+  > .mobile-tracks-card-content
+  .mobile-tracks-card-subtitle
+  .mobile-tracks-card-subtitle-word {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: opacity 0ms, transform 200ms cubic-bezier(0.9, 0.06, 0.15, 0.9);
+}
+
+.mobile-tracks-card:before {
+  background: linear-gradient(
+    130deg,
+    transparent 0% 33%,
+    var(--g1) 70%,
+    var(--g2) 90%,
+    var(--g3) 100%
+  );
+  background-position: 0% 0%;
+  background-size: 300% 300%;
+  content: "";
+  height: 100%;
+  left: 0px;
+  pointer-events: none;
+  position: absolute;
+  top: 0px;
+  transition: background-position 350ms ease, transform 350ms ease;
+  width: 100%;
+  z-index: 1;
+  border-radius: 16px;
+}
+
+.mobile-tracks-card-content {
+  /*   background-image: radial-gradient(
+      rgba(255, 255, 255, 0.2) 8%, 
+      transparent 8%
+    ); */
+  /*   background-position: 0% 0%;
+    background-size: 5vmin 5vmin; */
+  height: 100%;
+  /*   padding: 5vmin; */
+  position: relative;
+  /*   transition: background-position 350ms ease; */
+  width: 100%;
+  z-index: 2;
+}
+
+.mobile-tracks-card-title,
+.mobile-tracks-card-subtitle {
+  color: white;
+  font-family: "fira code", monospace;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+}
+
+.mobile-tracks-card-title {
+  margin-top: 5px;
+}
+.mobile-tracks-card-title {
+  font-size: 2.5vmin;
+  font-weight: 600px;
+}
+
+.mobile-tracks-card-subtitle {
+  font-size: 1.3vmin;
+  margin-top: 10px;
+  padding: 0 2px;
+}
+
+.mobile-tracks-card-subtitle-word {
+  display: inline-block;
+  margin: 0vmin 0.3vmin;
+  opacity: 0;
+  position: relative;
+  transform: translateY(40%);
+  transition: none;
+}
+
+@media screen and (min-width: 700px) {
+  .mobile-tracks-card {
+    /*   width: 56vmin; */
+    /* height: 45vw; */
+    max-height: 320px;
+    /* width: 27vw; */
+    /* max-width: 250px; */
+  }
+}
+
+.mobile-tracks-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(145, 145, 145, 0.3);
+}
