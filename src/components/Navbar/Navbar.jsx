@@ -21,35 +21,49 @@ const Navbar = () => {
   const menuItemsClass = menubarOpen ? "block" : "hidden";
 
   return (
-      <div className="flex">
-        <nav className={`bg-primary fixed w-full z-50 backdrop-filter backdrop-blur-lg bg-opacity-90`}>
-          <div className="container mx-auto flex flex-wrap items-center justify-between px-4 font-roboto">
-            {/* Logo */}
-            <div>
-              <Link duration={100} smooth={true} className="cursor-pointer" to="hero">
-                <img src={"Images/reva-logo.png"} alt="logo" height={70} width={70} />
-              </Link>
+    <div className="flex">
+      <nav
+        className={`bg-primary fixed w-full z-50 backdrop-filter backdrop-blur-lg bg-opacity-90`}
+      >
+        <div className="container mx-auto flex flex-wrap items-center justify-between px-4 font-roboto">
+          {/* Logo */}
+          <div>
+            <Link
+              duration={100}
+              smooth={true}
+              className="cursor-pointer"
+              to="hero"
+            >
+              <img
+                src={"Images/reva-logo.png"}
+                alt="logo"
+                height={70}
+                width={70}
+              />
+            </Link>
+          </div>
+
+          {/* Navlinks for Desktop */}
+          <div className="flex md:space-x-2">
+            <div
+              className={`hidden mr-48 md:flex md:gap-14 font-semibold ${
+                menubarOpen ? "hidden" : ""
+              }`}
+            >
+              {navs.map((item, i) => (
+                <Link
+                  key={i}
+                  className="underline-hover cursor-pointer text-white text-lg font-[300] font-fira tracking-widest hover:text-secondary transition-all duration-200 ease-in-out"
+                  to={item.navid}
+                  duration={100}
+                  smooth={true}
+                >
+                  {item.navid}
+                </Link>
+              ))}
             </div>
-
-
-            {/* Navlinks for Desktop */}
-            <div className='flex md:space-x-2'>
-              <div className={`hidden mr-48 md:flex md:gap-14 font-semibold ${menubarOpen ? "hidden" : ""}`}>
-                {navs.map((item, i) => (
-                    <Link
-                        key={i}
-                        className="underline-hover cursor-pointer text-white text-lg font-[300] font-fira tracking-widest hover:text-secondary transition-all duration-200 ease-in-out"
-                        to={item.navid}
-                        duration={100}
-                        smooth={true}
-                    >
-                      {item.navid}
-                    </Link>
-                ))}
-              </div>
-              <div className="md:w-2"></div>
-
-            </div>
+            <div className="md:w-2"></div>
+          </div>
 
           {/* Hamburger Menu */}
           <div className="md:hidden">
