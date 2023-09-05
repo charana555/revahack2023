@@ -39,7 +39,7 @@ const Hero = () => {
 
             {/* The typewriter text */}
             <div className="text-center">
-              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl relative mb-4 text-[#0CCA4A] font-roboto font-[300]">
+              <p className="text-2xl sm:text-3xl md:text-3xl lg:text-5xl xl:text-5xl relative mb-4 text-[#0CCA4A] font-fira font-[300]">
                 {currentText}
                 <span className="cursor" style={cursorStyle}></span>
               </p>

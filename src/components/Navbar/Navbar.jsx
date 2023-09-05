@@ -53,7 +53,7 @@ const Navbar = () => {
               {navs.map((item, i) => (
                 <Link
                   key={i}
-                  className="underline-hover cursor-pointer text-white text-md tracking-widest hover:text-secondary transition-all duration-200 ease-in-out"
+                  className="underline-hover cursor-pointer text-white text-lg font-[300] font-fira tracking-widest hover:text-secondary transition-all duration-200 ease-in-out"
                   to={item.navid}
                   duration={100}
                   smooth={true}
