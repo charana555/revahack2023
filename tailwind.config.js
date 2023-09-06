@@ -9,6 +9,8 @@ export default {
         secondary: "#87CEEB",
         //color palette used
         LushGreen: "#2FA043",
+        NeonGreen: "#0CCA4A",
+        NeonPurple: "#6D5BF6",
         TerraCotta: "#EC6548",
         SkyLavender: "#939AFF",
         RoyalPurple: "#753FC7",

@@ -2,6 +2,8 @@
 	background-image: url("/Images/timeline.svg");
 	background-repeat: no-repeat;
 	background-position: 215px 10px;
+  width: 100%;
+  height: auto;
 }
   .title {
 	font-size: 15em;
@@ -55,6 +57,15 @@
   @media only screen and (min-width: 1201px) {
     .ti-bg {
       background-position: 215px 10px; /* Back to default for larger screens (1201px and above) */
+    }
+    .vertical-timeline-element .vertical-timeline-element-content{
+      margin-left: 10% !important;
+    }
+  }
+
+  @media only screen and (min-width: 1801px) {
+    .ti-bg {
+      background-position: 410px 50px;
     }
     .vertical-timeline-element .vertical-timeline-element-content{
       margin-left: 10% !important;

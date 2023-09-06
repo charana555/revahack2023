@@ -26,19 +26,22 @@ const Contact = () => {
 
         <div className=" flex flex-col gap-2 mb-10">
           <a
-            href="#"
+            target="_blank"
+            href="https://drive.google.com/file/d/1by9NGyLJzcqjX3p0KGob7mQ6R-gnzRnx/view?usp=sharing"
             className="text-lg px-2 tracking-wider block font-extralight"
           >
             Terms and Condition
           </a>
           <a
-            href="#"
+            target="_blank"
+            href="https://drive.google.com/file/d/1FpOJjzjnOU767oO5ZKAEk1jQF-szScXY/view?usp=sharing"
             className="text-lg px-2 tracking-wider block font-extralight"
           >
             Privacy Policy
           </a>
           <a
-            href="#"
+            target="_blank"
+            href="https://devfolio.co/code-of-conduct"
             className="text-lg px-2 tracking-wider block font-extralight"
           >
             Code of Conduct
@@ -50,7 +53,11 @@ const Contact = () => {
 
           <div className=" flex text-lg items-center gap-2  pb-2 px-2 tracking-wider">
             <AiOutlinePhone className="text-2xl font-extrabold" /> +91
-            9999999999
+            9019986049
+          </div>
+          <div className=" flex text-lg items-center gap-2  pb-2 px-2 tracking-wider">
+            <AiOutlinePhone className="text-2xl font-extrabold" /> +91
+            8861830388
           </div>
           <div className=" flex text-lg items-center gap-2  px-2 tracking-wider">
             <AiOutlineMail className="text-2xl font-extrabold" />{" "}

@@ -49,42 +49,60 @@ const Navbar = () => {
               <div className="md:w-2"></div>
             </div>
 
-            {/* Hamburger Menu */}
-            <div className="md:hidden">
-              <button className="text-white cursor-pointer menu-button" onClick={toggleMenubar}>
-                {menubarOpen ? (
-                    /* "X" Icon with transition effect */
-                    <svg width="24" height="24" fill="none" stroke="#FFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transition-transform transform rotate-90">
-                      <path d="M6 18L18 6M6 6l12 12"></path>
-                    </svg>
-                ) : (
-                    /* Hamburger icon with transition effect */
-                    <svg width="30" height="20" viewBox="0 0 30 20" xmlns="http://www.w3.org/2000/svg" className="transition-transform">
-                      <rect width="25" height="2" rx="1" fill="#FFF" />
-                      <rect x="9" y="8" width="15" height="2" rx="1" fill="#FFF" />
-                      <rect y="16" width="25" height="2" rx="1" fill="#FFF" />
-                    </svg>
-                )}
-              </button>
-            </div>
-            {/* Menubar */}
-            <div className={`md:hidden w-full my-2  ${menuClass} mobile-nav`}>
-              {navs.map((item, i) => (
-                  <Link
-                      key={i}
-                      className={`cursor-pointer py-4 transition-all duration-200 ease-in-out hover:text-[#81D9D2FF] ${menuItemsClass} menu-item`}
-                      to={item.navid}
-                      duration={100}
-                      smooth={true}
-                      onClick={closeMenubar}
-                  >
-                    {item.navid}
-                  </Link>
-              ))}
-            </div>
+          {/* Hamburger Menu */}
+          <div className="md:hidden">
+            <button
+              className="text-white cursor-pointer menu-button"
+              onClick={toggleMenubar}
+            >
+              {menubarOpen ? (
+                /* "X" Icon with transition effect */
+                <svg
+                  width="24"
+                  height="24"
+                  fill="none"
+                  stroke="#FFF"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="transition-transform transform rotate-90"
+                >
+                  <path d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+              ) : (
+                /* Hamburger icon with transition effect */
+                <svg
+                  width="30"
+                  height="20"
+                  viewBox="0 0 30 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="transition-transform"
+                >
+                  <rect width="25" height="2" rx="1" fill="#FFF" />
+                  <rect x="9" y="8" width="15" height="2" rx="1" fill="#FFF" />
+                  <rect y="16" width="25" height="2" rx="1" fill="#FFF" />
+                </svg>
+              )}
+            </button>
           </div>
-        </nav>
-      </div>
+          {/* Menubar */}
+          <div className={`md:hidden w-full my-2  ${menuClass} mobile-nav`}>
+            {navs.map((item, i) => (
+              <Link
+                key={i}
+                className={`cursor-pointer py-4 transition-all duration-200 ease-in-out hover:text-[#81D9D2FF] ${menuItemsClass} menu-item`}
+                to={item.navid}
+                duration={100}
+                smooth={true}
+                onClick={closeMenubar}
+              >
+                {item.navid}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </nav>
+    </div>
   );
 };
 
