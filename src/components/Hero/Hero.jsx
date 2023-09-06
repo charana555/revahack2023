@@ -64,13 +64,13 @@ const Hero = () => {
             </div>
             <button className="bg-[#5c54f4] hover:shadow-lg px-12 rounded-[3px] text-white text-xl md:text-2xl flex items-center justify-center md:h-[44px] md:w-[312px]">
               <img
-                  src={"Images/discord.png"}
-                  alt="discord logo"
-                  className="w-8 h-6 md:w-8 md:h-6 mr-3"
+                src={"Images/discord.png"}
+                alt="discord logo"
+                className="w-8 h-6 md:w-8 md:h-6 mr-3"
               />
               <span
-                  className="mr-4 font-[530]"
-                  style={{ fontFamily: 'Nunito Sans, sans-serif' }}
+                className="mr-4 font-[530]"
+                style={{ fontFamily: "Nunito Sans, sans-serif" }}
               >
                 Join us
               </span>
