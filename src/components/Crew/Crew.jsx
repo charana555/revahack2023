@@ -76,7 +76,7 @@ const teams = [
       name: "Charana",
       title: "Team Lead",
       insta: "",
-      github: "",
+      github: "33",
       linkedin: "",
     },
     lead2: {
@@ -84,7 +84,7 @@ const teams = [
       name: "Amogh",
       title: "Team Lead",
       insta: "",
-      github: "",
+      github: "33",
       linkedin: "",
     },
     member1: {
