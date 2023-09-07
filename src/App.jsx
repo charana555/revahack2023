@@ -20,13 +20,12 @@ import Tracks2Mobile from "./components/Tracks/Tracks2Mobile";
 
 //import Tracks from "./components/Tracks/Tracks";
 import React from "react";
-import Timer from "./components/Timer/Timer.jsx";
+import Timer from "./components/Hero/Timer.jsx";
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <Timer />
       <section className="back w-full">
         <Hero />
         <About />

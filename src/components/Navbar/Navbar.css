@@ -24,35 +24,6 @@
   width: 100%;
 }
 
-/* color change animation */
-.color-transition {
-  transition: color 0.1s ease-in-out;
-}
-.color-transition:hover {
-  animation: colorChange 2s infinite alternate;
-}
-
-@keyframes colorChange {
-  0% {
-    color: #924a4a;
-  }
-  20% {
-    color: orange;
-  }
-  40% {
-    color: yellow;
-  }
-  60% {
-    color: green;
-  }
-  80% {
-    color: #2ccdca;
-  }
-  100% {
-    color: #e11a1a;
-  }
-}
-
 /* Menu Button */
 .menu-button {
   cursor: pointer;
@@ -85,7 +56,6 @@
 
 .menu-item {
   color: white;
-
   font-weight: 600;
 }
 
