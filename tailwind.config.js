@@ -15,7 +15,6 @@ export default {
         SkyLavender: "#939AFF",
         RoyalPurple: "#753FC7",
         DeepCharcoal: "#2E2F35",
-        NeonGreen: "#0CCA4A",
         NeonViolet: "#6D5BF6",
       },
     },

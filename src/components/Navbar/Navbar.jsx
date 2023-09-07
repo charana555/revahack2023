@@ -90,7 +90,7 @@ const Navbar = () => {
             {navs.map((item, i) => (
               <Link
                 key={i}
-                className={`cursor-pointer py-4 transition-all duration-200 ease-in-out hover:text-[#81D9D2FF] ${menuItemsClass} menu-item`}
+                className={`cursor-pointer py-4 transition-all font-fira font-[300] duration-200 ease-in-out hover:text-[#81D9D2FF] ${menuItemsClass} menu-item`}
                 to={item.navid}
                 duration={100}
                 smooth={true}
