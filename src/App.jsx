@@ -13,42 +13,38 @@ import Prizes from "./components/Prizes/Prizes";
 import PlaceholderSponsor from "./components/Sponsors/PaceholderSponsors";
 import Sponsors from "./components/Sponsors/Sponsors";
 import Timeline from "./components/Timeline/Timeline";
-
-// import Tracks from "./components/Tracks/Tracks";
 import Tracks2 from "./components/Tracks/Tracks2";
 import Tracks2Mobile from "./components/Tracks/Tracks2Mobile";
-
-//import Tracks from "./components/Tracks/Tracks";
 import React from "react";
-import Timer from "./components/Hero/Timer.jsx";
 
 const App = () => {
-  return (
-    <>
-      <Navbar />
-      <section className="back w-full">
-        <Hero />
-        <About />
-      </section>
-      {/* <Tracks /> */}
-      <Tracks2 />
-      {/* <Tracks2Mobile /> */}
-      <Prizes />
-      <Timeline />
-
-      <Sponsors />
-      {/* <PlaceholderSponsor /> */}
-      <Crew />
-      {/* <PlaceholderCrew /> */}
-      <Banner />
-      <Glimpse />
-      <section className="back w-full">
-        <Faq />
-        <Contact />
-      </section>
-      <Footer />
-    </>
-  );
+    return (
+        <>
+            <Navbar />
+            <div
+                className="hidden fixed top-0 right-0 md:block mr-14"
+                style={{ zIndex: 9999 }}
+            >
+                <img src='Images/ieeebanner.svg' alt='ieee-logo' className='h-[10rem]'/>
+            </div>
+            <section className="back w-full">
+                <Hero />
+                <About />
+            </section>
+            <Tracks2 />
+            <Prizes />
+            <Timeline />
+            <Sponsors />
+            <Crew />
+            <Banner />
+            <Glimpse />
+            <section className="back w-full">
+                <Faq />
+                <Contact />
+            </section>
+            <Footer />
+        </>
+    );
 };
 
 export default App;
