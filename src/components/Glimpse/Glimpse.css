@@ -16,3 +16,8 @@
 .glimpses__pagination__page {
   display: none;
 }
+
+.splide-container {
+  padding: 0 20px;
+  border-radius: 16px;
+}

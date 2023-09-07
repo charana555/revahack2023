@@ -21,11 +21,7 @@ function App() {
     };
   }, []);
 
-  return (
-    <div className="App">
-      {isWideScreen ? <Tracks2Desktop /> : <Tracks2Mobile />}
-    </div>
-  );
+  return <div>{isWideScreen ? <Tracks2Desktop /> : <Tracks2Mobile />}</div>;
 }
 
 export default App;
