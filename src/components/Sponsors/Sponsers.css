@@ -1,13 +1,11 @@
-/* temporary pause */
-
-/* @keyframes scroll {
+@keyframes scroll {
   0% {
     transform: translateX(0);
   }
   100% {
     transform: translateX(calc(-249.9px * 6));
   }
-} */
+}
 
 .title-sponsor {
   width: 300px;
@@ -66,14 +64,14 @@ second slider
 ////////////////////////////////###############################
 */
 
-/* @keyframes scroll2 {
+@keyframes scroll2 {
   0% {
     transform: translateX(0);
   }
   100% {
     transform: translateX(calc(-250px * 6));
   }
-} */
+}
 .slider2 {
   margin: 10px 0;
   background: none;
@@ -134,14 +132,14 @@ second slider
   .title-sponsor {
     width: 200px;
   }
-  /* @keyframes scroll {
+  @keyframes scroll {
     0% {
       transform: translateX(0);
     }
     100% {
       transform: translateX(calc(-175px * 6));
     }
-  } */
+  }
 
   .slider .slide-track {
     width: calc(175px * 12);
@@ -157,14 +155,14 @@ second slider
 second slider 
 ////////////////////////////////###############################
 */
-  /* @keyframes scroll2 {
+  @keyframes scroll2 {
     0% {
       transform: translateX(0);
     }
     100% {
       transform: translateX(calc(-175px * 6));
     }
-  } */
+  }
 
   .slider2 .slide-track2 {
     width: calc(175px * 12);
@@ -188,14 +186,14 @@ second slider
   .title-sponsor {
     width: 40%;
   }
-  /* @keyframes scroll {
+  @keyframes scroll {
     0% {
       transform: translateX(0);
     }
     100% {
       transform: translateX(calc(-100px * 6));
     }
-  } */
+  }
 
   .slider .slide-track {
     width: calc(100px * 12);
@@ -211,7 +209,7 @@ second slider
 second slider 
 ////////////////////////////////###############################
 */
-  /* 
+
   @keyframes scroll2 {
     0% {
       transform: translateX(0);
@@ -219,7 +217,7 @@ second slider
     100% {
       transform: translateX(calc(-100px * 6));
     }
-  } */
+  }
 
   .slider2 .slide-track2 {
     width: calc(100px * 12);
