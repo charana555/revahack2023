@@ -1,81 +1,47 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { useInView } from "react-intersection-observer";
 
 import "./Tracks2Mobile.css";
 const Tracks2Mobile = (props) => {
   const { ref: topRowCards, inView: topRowIsVisible } = useInView();
   const { ref: bottomRowCards, inView: bottomRowIsVisible } = useInView();
+  const hasRenderedText = useRef(false);
 
-  window.onload = function () {
-    const subtitle0 = document.getElementsByClassName(
-      "mobile-tracks-card-subtitle"
-    )[0];
-    const subtitle1 = document.getElementsByClassName(
-      "mobile-tracks-card-subtitle"
-    )[1];
-    const subtitle2 = document.getElementsByClassName(
-      "mobile-tracks-card-subtitle"
-    )[2];
-    const subtitle3 = document.getElementsByClassName(
-      "mobile-tracks-card-subtitle"
-    )[3];
-    const subtitle4 = document.getElementsByClassName(
-      "mobile-tracks-card-subtitle"
-    )[4];
+  useEffect(() => {
+    if (!hasRenderedText.current) {
+      const subtitles = Array.from(
+        document.getElementsByClassName("mobile-tracks-card-subtitle")
+      );
 
-    const createWord = (text, index) => {
-      const word = document.createElement("span");
+      subtitles.forEach((subtitle, index) => {
+        const createWord = (text, wordIndex) => {
+          const word = document.createElement("span");
+          word.innerHTML = `${text} `;
+          word.classList.add("mobile-tracks-card-subtitle-word");
+          word.style.transitionDelay = `${wordIndex * 100}ms`;
+          return word;
+        };
 
-      word.innerHTML = `${text} `;
+        const addWords = (text) => {
+          text.split(" ").forEach((word, wordIndex) => {
+            subtitle.appendChild(createWord(word, wordIndex));
+          });
+        };
 
-      word.classList.add("mobile-tracks-card-subtitle-word");
+        const textToRender = [
+          "  Building the Future on Immutable Blocks: Hack the Potential of Blockchain",
+          "Ctrl+C Ctrl+V to the Future: Hacking Tomorrow' s Universe with AI",
+          "Unlocking New Realities: Step In, Dive Deep, Hack Beyond.",
+          " Cracking the Code of Trust: Securing the Future in the Digital Age.",
+          "Code in the Cloud, Control the World: Building Smart Solutions with IoT and Cloud",
+        ];
 
-      word.style.transitionDelay = `${index * 100}ms`;
+        addWords(textToRender[index]);
+      });
 
-      return word;
-    };
-
-    const addWord0 = (text, index) =>
-      subtitle0.appendChild(createWord(text, index));
-
-    const createSubtitle0 = (text) => text.split(" ").map(addWord0);
-
-    createSubtitle0(
-      "  Building the Future on Immutable Blocks: Hack the Potential of Blockchain"
-    );
-    const addWord1 = (text, index) =>
-      subtitle1.appendChild(createWord(text, index));
-
-    const createSubtitle1 = (text) => text.split(" ").map(addWord1);
-
-    createSubtitle1(
-      "Ctrl+C Ctrl+V to the Future: Hacking Tomorrow' s Universe with AI"
-    );
-    const addWord2 = (text, index) =>
-      subtitle2.appendChild(createWord(text, index));
-
-    const createSubtitle2 = (text) => text.split(" ").map(addWord2);
-
-    createSubtitle2(
-      "Unlocking New Realities: Step In, Dive Deep, Hack Beyond."
-    );
-    const addWord3 = (text, index) =>
-      subtitle3.appendChild(createWord(text, index));
-
-    const createSubtitle3 = (text) => text.split(" ").map(addWord3);
-
-    createSubtitle3(
-      " Cracking the Code of Trust: Securing the Future in the Digital Age."
-    );
-    const addWord4 = (text, index) =>
-      subtitle4.appendChild(createWord(text, index));
-
-    const createSubtitle4 = (text) => text.split(" ").map(addWord4);
-
-    createSubtitle4(
-      "Code in the Cloud, Control the World: Building Smart Solutions with IoT and Cloud"
-    );
-  };
+      hasRenderedText.current = true;
+    }
+  }, []);
 
   return (
     <section className="flex flex-col gap-10 justify-center my-[10%]">

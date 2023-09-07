@@ -1,11 +1,18 @@
 :root {
   --bg-color: rgba(20, 20, 20, 0);
-  --card-color: rgb(24, 27, 35);
+  --card-color: rgba(24, 27, 35, 1);
   --animation-duration: 600ms;
   --animation-timing-function: ease-in-out;
 }
 
+/* 
+background-color: rgba(255, 255, 255, 0.074);
+  border: 1px solid rgba(255, 255, 255, 0.222);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px); */
+
 .tracks-section {
+  /* background-image: url("https://wallpapers.com/images/featured/pattern-4u7ed6koskqhcez1.jpg"); */
   align-items: center;
   background-color: var(--bg-color);
   display: flex;
@@ -55,7 +62,10 @@
 }
 
 .tracks-card {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.074);
+  border: 1px solid rgba(255, 255, 255, 0.222);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
 
   border-radius: 16px;
   cursor: pointer;
@@ -103,6 +113,9 @@
 
 .tracks-card > .tracks-card-content {
   background-color: var(--card-color);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+
   border-radius: inherit;
   display: flex;
   flex-direction: column;
