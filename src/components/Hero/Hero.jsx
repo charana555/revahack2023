@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import GLOBE from "vanta/src/vanta.globe";
+import RINGS from "vanta/src/vanta.rings";
 import WAVES from "vanta/src/vanta.waves";
 import "./Hero.css";
 import useHeroTypingEffect from "./HeroLogic.js";
@@ -19,27 +20,40 @@ const Hero = () => {
   }, []);
 
   useEffect(() => {
-    GLOBE({
+    // GLOBE({
+    //   el: "#vanta",
+    //   mouseControls: true,
+    //   touchControls: true,
+    //   gyroControls: true,
+    //   minHeight: 200.0,
+    //   minWidth: 200.0,
+    //   scale: 0.8,
+    //   scaleMobile: 0.5,
+    //   // color: 0x2fa043,
+    //   // color: 0x008d2f,
+    //   // color: 0xEC6548,
+    //   color: 0x6d5bf6,
+    //   // color2: 0xd2d2d2,
+    //   color2: 0x0d0f16,
+    //   size: 1.5,
+    //   backgroundColor: 0x0d0f16,
+    // });
+
+    RINGS({
       el: "#vanta",
       mouseControls: true,
       touchControls: true,
-      gyroControls: true,
+      gyroControls: false,
       minHeight: 200.0,
       minWidth: 200.0,
-      scale: 0.8,
-      scaleMobile: 0.5,
-      // color: 0x2fa043,
-      // color: 0x008d2f,
-      // color: 0xEC6548,
-      color: 0x6d5bf6,
-      // color2: 0xd2d2d2,
-      color2: 0x0d0f16,
-      size: 1.5,
+      scale: 1.0,
+      scaleMobile: 1.0,
       backgroundColor: 0x0d0f16,
+      color: 0xff0000,
     });
     //
     // WAVES({
-    //   el: "#your-element-selector",
+    //   el: "#vanta",
     //   mouseControls: true,
     //   touchControls: true,
     //   gyroControls: false,
@@ -47,11 +61,10 @@ const Hero = () => {
     //   minWidth: 200.0,
     //   scale: 1.0,
     //   scaleMobile: 1.0,
-    //   color: 0x9090e,
-    //   shininess: 62.0,
-    //   waveHeight: 30.5,
-    //   waveSpeed: 0.75,
-    //   zoom: 1.04,
+    //   shininess: 17.0,
+    //   waveHeight: 19.0,
+    //   waveSpeed: 0.9,
+    //   zoom: 0.65,
     // });
   }, []);
 

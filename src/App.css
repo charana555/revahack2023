@@ -8,7 +8,7 @@
   background-size: cover;
 }
 #vanta {
-  /* filter: brightness(0.6); */
+  filter: brightness(0.8);
   position: absolute;
   bottom: 0;
   right: 0;
