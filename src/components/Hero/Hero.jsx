@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import GLOBE from "vanta/src/vanta.globe";
+import WAVES from "vanta/src/vanta.waves";
 import "./Hero.css";
 import useHeroTypingEffect from "./HeroLogic.js";
 import Timer from "./Timer.jsx";
@@ -19,7 +20,7 @@ const Hero = () => {
 
   useEffect(() => {
     GLOBE({
-      el: "#Hero",
+      el: "#vanta",
       mouseControls: true,
       touchControls: true,
       gyroControls: true,
@@ -27,15 +28,36 @@ const Hero = () => {
       minWidth: 200.0,
       scale: 0.8,
       scaleMobile: 0.5,
-      color: 0x0cca4a,
-      color2: 0x6d5bf6,
+      // color: 0x2fa043,
+      color: 0x008d2f,
+      // color: 0xEC6548,
+      // color: 0x6D5BF6,
+      // color2: 0xd2d2d2,
+      color2: 0x0d0f16,
       size: 1.5,
       backgroundColor: 0x0d0f16,
     });
+    //
+    // WAVES({
+    //   el: "#your-element-selector",
+    //   mouseControls: true,
+    //   touchControls: true,
+    //   gyroControls: false,
+    //   minHeight: 200.0,
+    //   minWidth: 200.0,
+    //   scale: 1.0,
+    //   scaleMobile: 1.0,
+    //   color: 0x9090e,
+    //   shininess: 62.0,
+    //   waveHeight: 30.5,
+    //   waveSpeed: 0.75,
+    //   zoom: 1.04,
+    // });
   }, []);
 
   return (
     <section id="Hero">
+      <div id="vanta"> </div>
       <div className="hero min-h-screen flex flex-col items-center justify-center text-white">
         <div className="text-center mt-20">
           <div className="my-24">

@@ -7,3 +7,12 @@
   background-position: center;
   background-size: cover;
 }
+#vanta {
+  /* filter: brightness(0.6); */
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%; /* Adjust the width as needed */
+  height: 100%; /* Cover the entire height of the viewport */
+  z-index: -1;
+}
