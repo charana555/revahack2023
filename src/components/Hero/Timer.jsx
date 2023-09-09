@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const Timer = () => {
     // Specify the target date and time in IST (year, month, day, hour, minute)
-    const targetDateIST = new Date("2023-09-07T00:50:00").getTime();
+    const targetDateIST = new Date("2023-11-02T00:00:00").getTime();
 
     // function to convert IST time to UTC
     const convertISTtoUTC = (istTime) => {
@@ -60,40 +60,36 @@ const Timer = () => {
     const { days, hours, minutes, seconds } = formatTime(timeLeft);
 
     return (
-        // <div
-        //     className="hidden fixed top-0 right-0 md:block mr-14"
-        //     style={{ zIndex: 9999 }}
-        // >
         <div className="text-center">
-            <div className="text-black p-4 rounded-b-[10px] flex justify-center">
+            <div className="p-4 rounded-b-[10px] flex justify-center">
                 <div className="flex space-x-3">
                     <div className="flex items-center justify-center flex-col">
-                        <span className="text-4xl md:text-7xl font-semibold">{days}</span>
-                        <span className="text-sm font-semibold mt-2">DAYS</span>
+                        <span className="text-4xl md:text-7xl font-semibold text-[#BCBCBC]">{days}</span>
+                        <span className="text-sm font-semibold mt-2 text-[#BCBCBC]">DAYS</span>
                     </div>
-                    <span className="text-4xl md:text-7xl font-semibold">:</span>
+                    <span className="text-4xl md:text-7xl font-semibold text-[#BCBCBC]">:</span>
                     <div className="flex items-center justify-center flex-col">
-                        <span className="text-4xl md:text-7xl font-semibold">{hours}</span>
-                        <span className="text-sm font-semibold mt-2">HOURS</span>
+                        <span className="text-4xl md:text-7xl font-semibold text-[#BCBCBC]">{hours}</span>
+                        <span className="text-sm font-semibold mt-2 text-[#BCBCBC]">HOURS</span>
                     </div>
-                    <span className="text-4xl md:text-7xl font-semibold">:</span>
+                    <span className="text-4xl md:text-7xl font-semibold text-[#BCBCBC]">:</span>
                     <div className="flex items-center justify-center flex-col">
-                        <span className="text-4xl md:text-7xl font-semibold">{minutes}</span>
-                        <span className="text-sm font-semibold mt-2">MINUTES</span>
+                        <span className="text-4xl md:text-7xl font-semibold text-[#BCBCBC]">{minutes}</span>
+                        <span className="text-sm font-semibold mt-2 text-[#BCBCBC]">MINUTES</span>
                     </div>
-                    <span className="text-4xl md:text-7xl font-semibold">:</span>
+                    <span className="text-4xl md:text-7xl font-semibold text-[#BCBCBC]">:</span>
                     <div className="flex items-center justify-center flex-col">
-                        <span className="text-4xl md:text-7xl font-semibold">{seconds}</span>
-                        <span className="text-sm font-semibold mt-2">SECONDS</span>
+                        <span className="text-4xl md:text-7xl font-semibold text-[#BCBCBC]">{seconds}</span>
+                        <span className="text-sm font-semibold mt-2 text-[#BCBCBC]">SECONDS</span>
                     </div>
                 </div>
             </div>
         </div>
-
-
-
-        // </div>
     );
 };
 
 export default Timer;
+
+
+
+

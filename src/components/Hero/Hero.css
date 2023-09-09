@@ -16,12 +16,44 @@
   }
 }
 
-/* Cursor style */
-.cursor {
-  width: 3px;
-  height: 30px;
-  background-color: #737373;
-  display: inline-block;
-  margin-left: 3px;
-  animation: blink 1s infinite;
+
+/*!* Cursor style *!*/
+/*.cursor {*/
+/*    width: 3px;*/
+/*    height: 30px;*/
+/*    background-color: #737373;*/
+/*    display: inline-block;*/
+/*    margin-left: 3px;*/
+/*    animation: blink 1s infinite;*/
+/*}*/
+
+/* Add this CSS class to style the grey cursor */
+.cursor-grey {
+    color: grey; /* Change the color to grey or any other color you prefer */
 }
+
+
+/* Hero.css */
+.text-glow {
+    text-shadow: 0 0 10px rgba(12, 202, 74, 0.8); /* Adjust the color and intensity as needed */
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px rgba(12, 202, 74, 0.8); /* Adjust the color and intensity as needed */
+    }
+    100% {
+        text-shadow: 0 0 20px rgba(12, 202, 74, 0.8); /* Adjust the color and intensity as needed */
+    }
+}
+
+
+
+
+
+
+
+
+
+

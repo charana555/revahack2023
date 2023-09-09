@@ -21,6 +21,7 @@
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
     "swiper": "^10.2.0",
+    "typed.js": "^2.0.16",
     "vanilla-tilt": "^1.8.1",
     "vanta": "^0.5.24"
   },
