@@ -27,8 +27,7 @@
   }
   
   #description {
-	margin: 1.5em 0 4em 0;
-  padding: 5px;
+  padding: 10px;
   }
 
   @media only screen and (max-width: 1700px) {
