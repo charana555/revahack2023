@@ -35,7 +35,7 @@
 
 /* Hero.css */
 .text-glow {
-    text-shadow: 0 0 10px rgba(12, 202, 74, 0.8); /* Adjust the color and intensity as needed */
+    text-shadow: 0 0 30px rgba(12, 202, 74, 0.8); /* Adjust the color and intensity as needed */
     animation: glow 1s ease-in-out infinite alternate;
 }
 

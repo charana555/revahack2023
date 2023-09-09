@@ -2,7 +2,7 @@
     color: rgb(157, 0, 255); /* Neon green color (you can change this to your preferred neon color) */
     letter-spacing: 2px; /* Adjust letter spacing as needed */
     text-align: center; /* Center the text */
-    text-shadow: 0 0 10px rgb(115, 0, 255); /* Neon glow effect */
+    text-shadow: 0 0 30px rgb(118, 101, 141); /* Neon glow effect */
 
     /* Add flicker animation */
     animation: flicker 3s linear infinite, flicker-fast 1s linear infinite;

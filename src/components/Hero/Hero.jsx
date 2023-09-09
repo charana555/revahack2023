@@ -59,8 +59,8 @@ const Hero = () => {
         <div className="hero min-h-screen flex flex-col items-center justify-center text-white">
           <div className="text-center mt-20">
             <div className="my-24">
-              <div className="text-center mb-2 text-sm sm:text-2xl md:text-3xl lg:text-4xl neon">
-                36 Hours Offline Hackathon
+              <div className="text-center mb-2 text-sm sm:text-md md:text-2xl lg:text-3xl neon">
+                36 Hours National Level Offline Hackathon
               </div>
 
               <div className="text-center mb-6">
