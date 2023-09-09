@@ -1,0 +1,42 @@
+.neon {
+    color: rgb(157, 0, 255); /* Neon green color (you can change this to your preferred neon color) */
+    letter-spacing: 2px; /* Adjust letter spacing as needed */
+    text-align: center; /* Center the text */
+    text-shadow: 0 0 10px rgb(115, 0, 255); /* Neon glow effect */
+
+    /* Add flicker animation */
+    animation: flicker 3s linear infinite, flicker-fast 1s linear infinite;
+}
+
+.neon:hover {
+    /* Add a different glow color when hovering */
+    text-shadow: 0 0 20px rgb(115, 0, 255);
+}
+.neon-white {
+    color: rgb(223, 215, 227); /* Neon green color (you can change this to your preferred neon color) */
+    letter-spacing: 2px; /* Adjust letter spacing as needed */
+    text-align: center; /* Center the text */
+    text-shadow: 0 0 10px rgb(155, 151, 161), 0 0 20px rgba(255, 255, 255, 0); /* Neon glow with drop shadow */
+}
+
+.neon-white:hover {
+    /* Add a different glow color when hovering */
+    text-shadow: 0 0 20px rgb(112, 111, 117);
+}
+/* Define flicker animations */
+.flicker-slow {
+    animation: flicker 3s linear infinite;
+}
+
+.flicker-fast {
+    animation: flicker 1s linear infinite;
+}
+
+@keyframes flicker {
+    0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+        opacity: 0.99;
+    }
+    20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+        opacity: 0.4;
+    }
+}
