@@ -27,7 +27,7 @@ const Navbar = () => {
             {/* Logo */}
             <div>
               <Link duration={100} smooth={true} className="cursor-pointer" to="hero">
-                <img src={"Images/reva-logo.png"} alt="logo" height={70} width={70} />
+                <img src={"Images/revahack-logo.svg"} alt="logo" height={100} width={100} className="p-5" />
               </Link>
             </div>
 

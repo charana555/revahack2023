@@ -75,7 +75,7 @@ const Hero = () => {
         <div className="text-center mt-20">
           <div className="my-24">
             <div className="text-center mb-6">
-              <h1 className="text-4xl md:text-5xl lg:text-[70px] font-semibold">
+              <h1 className="text-4xl md:text-5xl lg:text-8xl xl:text-8xl font-semibold">
                 REVA HACK {"</>"} 2023
               </h1>
             </div>
@@ -88,7 +88,7 @@ const Hero = () => {
               </p>
             </div>
             <Timer />
-            <div className="flex flex-col items-center space-y-4 md:flex-row md:space-x-32 md:space-y-0 justify-center mt-6">
+            <div className="flex flex-col items-center space-y-4 md:flex-row md:space-x-20 md:space-y-0 justify-center mt-6">
               <div
                 className="apply-button"
                 data-hackathon-slug="reva-hack-1"
