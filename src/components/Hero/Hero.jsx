@@ -33,21 +33,17 @@ const Hero = () => {
       color: 0xff0000,
     });
 
-// Initialize Typed.js inside this useEffect
+    // Initialize Typed.js inside this useEffect
     typedRef.current = new Typed('.typed-text', {
-      strings: ["Let the hack begin;", "Innovation for tomorrow"],
-      typeSpeed: 50,
+      strings: ["Let the Hack Begin;", "Technology Beyond Imagination;"],
+      typeSpeed: 60,
       backSpeed: 25,
-      startDelay: 1000,
+      startDelay: 500,
       backDelay: 1000,
       loop: true,
       showCursor: true,
       cursorChar: '<span class="cursor-grey">|</span>', // Customize the cursor with a CSS class
-      onComplete: (self) => {
-        self.cursor.remove();
-      },
     });
-
 
     return () => {
       if (typedRef.current) {
@@ -63,15 +59,13 @@ const Hero = () => {
         <div className="hero min-h-screen flex flex-col items-center justify-center text-white">
           <div className="text-center mt-20">
             <div className="my-24">
-
               <div className="text-center mb-2 text-sm sm:text-2xl md:text-3xl lg:text-4xl neon">
                 36 Hours Offline Hackathon
               </div>
 
               <div className="text-center mb-6">
                 <h1 className="text-4xl md:text-5xl lg:text-8xl xl:text-8xl font-semibold" data-text='U'>
-                  {/*flicker-slow neon-white*/}
-                  <span className="">REVA HACK </span><span className="">{"</>"}</span> <span className="neon-white">2023</span>
+                  <span className="neon-white">REVA HACK </span><span className="neon-white">{"</>"}</span> <span className="neon-white">2023</span>
                 </h1>
               </div>
 
