@@ -31,11 +31,11 @@ const Sponsors = () => {
       className="flex-col text-white text-3xl w-full flex items-center justify-center my-[5%]"
     >
       <img className="absolute mt-[10%] z-[-1] " src={sponsorbg} />
-      <div className="text-LushGreen  text-6xl md:text-7xl font-roboto font-bold ">
+      <div className="text-LushGreen  text-[50px] md:text-[72px] font-roboto font-medium ">
         Sponsors
       </div>
 
-      <p className="  text-xs md:text-sm sm:text-xs text-secondary drop-shadow-lg shadow-secondary text-center font-light tracking-wider my-[10px]">
+      <p className="  text-xs md:text-lg sm:text-xs text-secondary drop-shadow-lg shadow-secondary text-center font-light tracking-wider mt-10 mb-8">
         Interested in Sponsoring? <br />
         Contact us at{" "}
         <a

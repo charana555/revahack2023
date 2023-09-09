@@ -4,12 +4,12 @@ const About = () => {
   return (
     <section
       id="About"
-      className="flex-col text-white 	 w-[100%]  flex items-center justify-center px-[10%]"
+      className="flex-col text-white 	 w-[100%]  flex items-center justify-center px-[5%] md:px-[10%]"
     >
-      <div className="text-NeonPurple my-[4rem] text-[32px] md:text-[96px] font-roboto font-medium ">
+      <div className="text-NeonPurple  my-[1.5rem] md:my-[4rem] text-[50px] md:text-[72px] font-roboto font-medium ">
         About Us
       </div>
-      <div className="flex flex-col text-justify gap-12 font-fira font-light text-lg md:text-[22px] mx-5">
+      <div className="flex flex-col text-center sm:text-justify  gap-8 md:gap-12 font-fira font-light text-sm  md:text-xl xl:text-2xl mx-5">
         <div>
           <span className="  font-semibold"> REVA HACK</span> is an annual tech
           and innovation fest organized by The Hackathon Club at REVA

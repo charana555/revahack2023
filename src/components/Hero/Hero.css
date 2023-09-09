@@ -1,19 +1,21 @@
 @keyframes blink {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
 
 /* Media query for responsive text size and padding */
 @media (max-width: 768px) {
-    .hero p {
-        font-size: 2rem;
-        padding: 0 20px;
-    }
+  .hero p {
+    /* font-size: 2rem; */
+    padding: 10px 10px;
+  }
 }
+
 
 /*!* Cursor style *!*/
 /*.cursor {*/
@@ -45,6 +47,7 @@
         text-shadow: 0 0 20px rgba(12, 202, 74, 0.8); /* Adjust the color and intensity as needed */
     }
 }
+
 
 
 

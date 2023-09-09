@@ -72,6 +72,7 @@ const Hero = () => {
               {/* The typewriter text */}
               <div className="text-center text-2xl text-glow md:text-4xl lg:text-4xl xl:text-4xl relative mb-4 font-fira font-[300]">
                 <span className="typed-text text-[#0CCA4A]"></span> {/* Typed.js will type the text here */}
+
               </div>
               <div className='text-[#BCBCBC]'>
                 <Timer />

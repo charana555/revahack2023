@@ -1,5 +1,5 @@
-import { data } from "../../data/faqData";
 import { useState } from "react";
+import { data } from "../../data/faqData";
 
 import FaqAccordian from "./FaqAccordian";
 const Faq = () => {
@@ -18,7 +18,7 @@ const Faq = () => {
       id="FAQs"
       className="flex-col text-white text-3xl w-full h-screen px-[5%] md:px-[10%] overflow-auto"
     >
-      <h3 className="text-[#FFD866] text-center mb-[5%] text-6xl font-roboto font-medium tracking-wider">
+      <h3 className="text-[#FFD866] text-center mb-[5%] text-[50px] md:text-[72px] font-roboto font-medium tracking-wider">
         FAQ's
       </h3>
       <div className="grid gap-5 grid-cols-1 md:grid-cols-2">
