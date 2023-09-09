@@ -65,7 +65,7 @@ const Hero = () => {
             <div className="my-24">
 
               <div className="text-center mb-2 text-sm sm:text-2xl md:text-3xl lg:text-4xl neon">
-                36 hours offline hackathon
+                36 Hours Offline Hackathon
               </div>
 
               <div className="text-center mb-6">
