@@ -7,7 +7,11 @@ import solana from "../../assets/SponsorLogos/Sapling/solana.png";
 import devfolio from "../../assets/SponsorLogos/Tree/devfolio.png";
 import polygon from "../../assets/SponsorLogos/Tree/polygon.png";
 import ieee from "../../assets/SponsorLogos/titleSponsors/ieee.png";
+import ieee2 from "../../assets/SponsorLogos/titleSponsors/ieee2.png";
 import reva from "../../assets/SponsorLogos/titleSponsors/reva.png";
+import reva2 from "../../assets/SponsorLogos/titleSponsors/reva2.png";
+import revalogo from "../../assets/SponsorLogos/titleSponsors/revalogo.jpg";
+import ieeebng from "../../assets/SponsorLogos/titleSponsors/ieeebng.png";
 
 import sponsorbg from "../../assets/sponsorBg.png";
 import "./Sponsers.css";
@@ -37,24 +41,34 @@ const Sponsors = () => {
 
       <p className="  text-xs md:text-lg sm:text-xs text-secondary drop-shadow-lg shadow-secondary text-center font-light tracking-wider mt-10 mb-8">
         Interested in Sponsoring? <br />
-        Contact us at{" "}
-        <a
-          className="text-RoyalPurple underline"
-          href="mailto:something@email.com"
-        >
+        Contact us at
+        <a className="text-white " href="mailto:something@email.com">
+          {" "}
           revahack@gmail.com
         </a>
       </p>
+
+      {/* title Sponsers  */}
 
       <div className=" font-[600] md:mt-[10px]  mb-[2%] text-xl md:text-2xl">
         Title Sponsors
       </div>
       <div className="flex justify-center gap-10  ">
-        <div className=" title-sponsor glassmorphic flex items-center  ">
-          <img src={reva} alt="title sponsor reva logo" />
+        <div className=" title-sponsor glassmorphic flex items-center justify-center  ">
+          <img src={reva2} alt="title sponsor reva logo" />
         </div>
-        <div className="title-sponsor glassmorphic flex items-center ">
+        {/* <div className="title-sponsor glassmorphic flex items-center ">
           <img classname="" src={ieee} alt="title sponsor ieee logo" />
+        </div> */}
+        <div className="title-sponsor glassmorphic flex items-center ">
+          <img classname="" src={ieeebng} alt="title sponsor ieee logo" />
+        </div>
+        <div className="title-sponsor glassmorphic flex items-center justify-center ">
+          <img
+            classname="w-full h-full object-cover"
+            src={ieee}
+            alt="title sponsor ieee logo"
+          />
         </div>
       </div>
 

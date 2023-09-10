@@ -21,3 +21,10 @@
   padding: 0 20px;
   border-radius: 16px;
 }
+
+.glimpse-slide img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 16px;
+}

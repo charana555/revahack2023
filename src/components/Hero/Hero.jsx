@@ -64,9 +64,22 @@ const Hero = () => {
               </div>
 
               <div className="text-center mb-6">
-                <h1 className="text-4xl md:text-5xl lg:text-8xl xl:text-8xl font-semibold" data-text='U'>
+                <h1 className="text-3xl md:text-5xl lg:text-8xl xl:text-8xl font-semibold" data-text='U'>
                   <span className="neon-white">REVA HACK </span><span className="neon-white">{"</>"}</span> <span className="neon-white">2023</span>
                 </h1>
+                <div className="powered-by-container mt-3">
+                  <div className="flex items-start">
+                    <div className="font-thin text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl">Powered by</div>
+                    <div>
+                      <img
+                          src="Images/bluelearn-logo-sm.png"
+                          alt="bluelearn"
+                          className="ml-2 h-8 sm:h-10 md:h-12 lg:h-12 xl:h-12"
+                      />
+                    </div>
+                  </div>
+                </div>
+
               </div>
 
               {/* The typewriter text */}
