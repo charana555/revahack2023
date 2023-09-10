@@ -55,7 +55,7 @@ const TimelineA = (props) => {
         <div id="tSecondElement" className="flex">
           <div className="w-1/12 flex flex-col items-center relative">
             {" "}
-            <div className="h-[300px] w-[3px] bg-NeonGreen mx-auto "></div>
+            <div className="h-[100%] w-[3px] bg-NeonGreen mx-auto "></div>
             <img
               className="hidden md:block absolute bottom-1 secondcurve"
               src={secondCurve}
@@ -93,7 +93,7 @@ const TimelineA = (props) => {
               ></div>
               <img src={Day1} alt="" className="mx-auto mt-5" />
             </div>
-            <div className="h-[300px] w-[3px]  bg-TerraCotta mx-auto mt-5"></div>
+            <div className="h-[100%] w-[3px]  bg-TerraCotta mx-auto mt-5"></div>
           </div>
           <div className="w-11/12 pt-[100px] ">
             <div className="flex flex-col justify-start text-white">
@@ -147,7 +147,7 @@ const TimelineA = (props) => {
               ></div>
               <img src={Day2} alt="" className="mx-auto my-5" />
             </div>
-            <div className="h-[300px] w-[3px] bg-NeonViolet mx-auto mt-5"></div>
+            <div className="h-[100%] w-[3px] bg-NeonViolet mx-auto mt-5"></div>
           </div>
           <div className="w-11/12 pt-[100px] ">
             <div className="flex flex-col justify-start text-white">
@@ -201,7 +201,7 @@ const TimelineA = (props) => {
               ></div>
               <img src={Day3} alt="" className="mx-auto my-5" />
             </div>
-            <div className="h-[250px] w-[3px] bg-gradient-to-t from-NeonGreen via-NeonGreen to-[#b1b0b5] mx-auto mt-5"></div>
+            <div className="h-[350px] md:h-[250px] w-[3px] bg-gradient-to-t from-NeonGreen via-NeonGreen to-[#b1b0b5] mx-auto mt-5"></div>
           </div>
           <div className="w-11/12 pt-[100px] ">
             <div className="flex flex-col justify-start text-white">
