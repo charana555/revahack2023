@@ -1,10 +1,10 @@
 .glass {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(89, 92, 95, 0.4);
+
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-radius: 10px;
-  border: 1px solid rgba(185, 183, 183, 0.19);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  -webkit-backdrop-filter: blur(10.5px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   margin-top: 5%;
   text-align: center;
 }
@@ -14,7 +14,7 @@
   height: auto;
 }
 
-.hr{
+.hr {
   margin-top: 8%;
   margin-bottom: 5%;
   border: none;

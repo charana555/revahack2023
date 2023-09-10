@@ -21,30 +21,55 @@ function Prizes() {
         </p>
 
         <div className="w-[70%] xl:w-[60%] h-auto p-[10px] prize-tag">
-          <div className="container glass">
+          <div className="container glass ">
             <hr className="hr mx-auto" />
-            <p className="text-lg sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl mb-5" style={headerStyle1}>
+            <p
+              className="text-lg sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl mb-5"
+              style={headerStyle1}
+            >
               TOTAL PRIZE POOL OF
             </p>
-            <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl mb-[5%]">₹ 5,00,000</p>
+            <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl mb-[5%]">
+              ₹ 5,00,000
+            </p>
           </div>
         </div>
 
         <div className="flex justify-center xl:space-x-10">
           <div className="w-[30%] xl:w-[27%] p-[10px] sm:h-[150px] md:h-[200px] lg:h-[250px] xl:h-[300px] prize-tag">
-            <div className="container glass" style={{ backgroundColor: '#515151' }}>
-              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl mb-3 mt-3 xl:mt-10 xl:mb-10" style={{ textAlign: 'center' }}>
+            <div
+              className="container glass"
+              // style={{ backgroundColor: "#515151" }}
+            >
+              <p
+                className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl mb-3 mt-3 xl:mt-10 xl:mb-10"
+                style={{ textAlign: "center" }}
+              >
                 Winner
               </p>
-              <img src="./Images/prize_golden.svg" alt="Winner" className="custom-image"></img>
+              <img
+                src="./Images/prize_golden.svg"
+                alt="Winner"
+                className="custom-image"
+              ></img>
             </div>
           </div>
           <div className="w-[30%] xl:w-[27%] p-[10px] sm:h-[150px] md:h-[200px] lg:h-[250px] xl:h-[300px] prize-tag">
-            <div className="container glass" style={{ backgroundColor: '#515151' }}>
-              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl mb-3 mt-3 xl:mt-10 xl:mb-10" style={{ textAlign: 'center' }}>
+            <div
+              className="container glass"
+              // style={{ backgroundColor: "#515151" }}
+            >
+              <p
+                className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl mb-3 mt-3 xl:mt-10 xl:mb-10"
+                style={{ textAlign: "center" }}
+              >
                 Runner
               </p>
-              <img src="./Images/prize_sliv.svg" alt="Runner" className="custom-image"></img>
+              <img
+                src="./Images/prize_sliv.svg"
+                alt="Runner"
+                className="custom-image"
+              ></img>
             </div>
           </div>
         </div>
