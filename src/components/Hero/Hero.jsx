@@ -6,7 +6,6 @@ import WAVES from "vanta/src/vanta.waves";
 import "./Hero.css";
 import useHeroTypingEffect from "./HeroLogic.js";
 import Timer from "./Timer.jsx";
-import './neon.css'
 
 const Hero = () => {
   const { cursorStyle } = useHeroTypingEffect();
@@ -35,7 +34,7 @@ const Hero = () => {
 
     // Initialize Typed.js inside this useEffect
     typedRef.current = new Typed('.typed-text', {
-      strings: ["Let the Hack Begin;", "Technology Beyond Imagination;"],
+      strings: ["Let the Hack Begin;", "Technology beyond Imagination;"],
       typeSpeed: 60,
       backSpeed: 25,
       startDelay: 500,
@@ -71,11 +70,13 @@ const Hero = () => {
                   <div className="flex items-start">
                     <div className="font-thin text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl">Powered by</div>
                     <div>
+                      <a href="https://www.bluelearn.in/" target="_blank">
                       <img
                           src="Images/bluelearn-logo-sm.png"
                           alt="bluelearn"
                           className="ml-2 h-8 sm:h-10 md:h-12 lg:h-12 xl:h-12"
                       />
+                      </a>
                     </div>
                   </div>
                 </div>
