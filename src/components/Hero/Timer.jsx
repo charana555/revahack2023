@@ -64,23 +64,23 @@ const Timer = () => {
             <div className="p-4 rounded-b-[10px] flex justify-center">
                 <div className="flex space-x-3">
                     <div className="flex items-center justify-center flex-col">
-                        <span className="text-4xl md:text-7xl font-semibold text-[#BCBCBC]">{days}</span>
-                        <span className="text-sm font-semibold mt-2 text-[#BCBCBC]">DAYS</span>
+                        <span className="text-4xl md:text-7xl font-semibold">{days}</span>
+                        <span className="text-sm font-semibold mt-2">DAYS</span>
                     </div>
-                    <span className="text-4xl md:text-7xl font-semibold text-[#BCBCBC]">:</span>
+                    <span className="text-4xl md:text-7xl font-semibold">:</span>
                     <div className="flex items-center justify-center flex-col">
-                        <span className="text-4xl md:text-7xl font-semibold text-[#BCBCBC]">{hours}</span>
-                        <span className="text-sm font-semibold mt-2 text-[#BCBCBC]">HOURS</span>
+                        <span className="text-4xl md:text-7xl font-semibold">{hours}</span>
+                        <span className="text-sm font-semibold mt-2">HOURS</span>
                     </div>
-                    <span className="text-4xl md:text-7xl font-semibold text-[#BCBCBC]">:</span>
+                    <span className="text-4xl md:text-7xl font-semibold">:</span>
                     <div className="flex items-center justify-center flex-col">
-                        <span className="text-4xl md:text-7xl font-semibold text-[#BCBCBC]">{minutes}</span>
-                        <span className="text-sm font-semibold mt-2 text-[#BCBCBC]">MINUTES</span>
+                        <span className="text-4xl md:text-7xl font-semibold">{minutes}</span>
+                        <span className="text-sm font-semibold mt-2">MINUTES</span>
                     </div>
-                    <span className="text-4xl md:text-7xl font-semibold text-[#BCBCBC]">:</span>
+                    <span className="text-4xl md:text-7xl font-semibold">:</span>
                     <div className="flex items-center justify-center flex-col">
-                        <span className="text-4xl md:text-7xl font-semibold text-[#BCBCBC]">{seconds}</span>
-                        <span className="text-sm font-semibold mt-2 text-[#BCBCBC]">SECONDS</span>
+                        <span className="text-4xl md:text-7xl font-semibold">{seconds}</span>
+                        <span className="text-sm font-semibold mt-2">SECONDS</span>
                     </div>
                 </div>
             </div>
