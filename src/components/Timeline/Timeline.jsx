@@ -25,7 +25,7 @@ function Timeline() {
       id="Timeline"
       className="flex-col text-white text-3xl h-auto flex items-center justify-center ti-bg"
     >
-      <img className="absolute z-10 mt-[-500%] sm:mt-[-450%] md:mt-[-250%] xl:mt-[-175%]" src={sponsorbg} />
+      {/* <img className="absolute z-10 mt-[-500%] sm:mt-[-450%] md:mt-[-250%] xl:mt-[-175%]" src={sponsorbg} /> */}
       <p className="flex-col flex items-center justify-center text-7xl mb-[5%] mt-[140%] md:mt-[70%] xl:mt-[28%] font-roboto">Timeline</p>
       
       <div class="timeline-table">

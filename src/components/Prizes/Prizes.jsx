@@ -1,7 +1,7 @@
 import React from "react";
 import "./Prizes.css";
 
-function Prizes () {
+function Prizes() {
   const headerStyle = {
     color: "#6D5BF6",
   };
@@ -16,25 +16,34 @@ function Prizes () {
         id="Prizes"
         className="flex flex-col text-white text-3xl h-auto items-center justify-center mb-10%"
       >
-        <p className="text-7xl" style={headerStyle}>Prizes</p>
+        <p className="text-7xl xl:text-8xl font-robot" style={headerStyle}>
+          Prizes
+        </p>
 
-        <div className="w-[50%] h-auto p-[10px] prize-tag">
+        <div className="w-[70%] xl:w-[60%] h-auto p-[10px] prize-tag">
           <div className="container glass">
-            <hr className="hr" />
-            <p className="text-5xl" style={headerStyle1}>TOTAL PRIZE POOL OF</p>
-            <p className="text-8xl mb-[4%]">₹ 5,00,000</p>
+            <hr className="hr mx-auto" />
+            <p className="text-lg sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl mb-5" style={headerStyle1}>
+              TOTAL PRIZE POOL OF
+            </p>
+            <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl mb-[5%]">₹ 5,00,000</p>
           </div>
         </div>
-        <div className="flex ml-[30%]">
-          <div className="w-[30%] p-[10px] prize-tag">
+
+        <div className="flex justify-center xl:space-x-10">
+          <div className="w-[30%] xl:w-[27%] p-[10px] sm:h-[150px] md:h-[200px] lg:h-[250px] xl:h-[300px] prize-tag">
             <div className="container glass" style={{ backgroundColor: '#515151' }}>
-              <p className="text-7xl mt-10 mb-10" style={{ textAlign: 'center'}}>Winner</p>
+              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl mb-3 mt-3 xl:mt-10 xl:mb-10" style={{ textAlign: 'center' }}>
+                Winner
+              </p>
               <img src="./Images/prize_golden.svg" alt="Winner" className="custom-image"></img>
             </div>
           </div>
-          <div className="w-[30%] p-[10px] prize-tag">
+          <div className="w-[30%] xl:w-[27%] p-[10px] sm:h-[150px] md:h-[200px] lg:h-[250px] xl:h-[300px] prize-tag">
             <div className="container glass" style={{ backgroundColor: '#515151' }}>
-              <p className="text-7xl mt-10 mb-10" style={{ textAlign: 'center'}}>Runner</p>
+              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl mb-3 mt-3 xl:mt-10 xl:mb-10" style={{ textAlign: 'center' }}>
+                Runner
+              </p>
               <img src="./Images/prize_sliv.svg" alt="Runner" className="custom-image"></img>
             </div>
           </div>
@@ -42,6 +51,6 @@ function Prizes () {
       </section>
     </div>
   );
-};
+}
 
 export default Prizes;

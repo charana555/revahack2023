@@ -2,7 +2,7 @@
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border-radius: 16px;
+  border-radius: 10px;
   border: 1px solid rgba(185, 183, 183, 0.19);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   margin-top: 5%;
@@ -10,13 +10,14 @@
 }
 
 .custom-image {
-  width: 100%; /* Set the desired width here */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%;
+  height: auto;
 }
 
 .hr{
-  margin-top: 4%;
-  margin-bottom: 8%;
+  margin-top: 8%;
+  margin-bottom: 5%;
   border: none;
   border-top: 1px solid #fff;
+  width: 90%;
 }
