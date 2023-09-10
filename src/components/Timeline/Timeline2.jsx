@@ -55,7 +55,7 @@ const TimelineA = (props) => {
         <div id="tSecondElement" className="flex">
           <div className="w-1/12 flex flex-col items-center relative">
             {" "}
-            <div className="h-[100%] w-[3px] bg-NeonGreen mx-auto "></div>
+            <div className="h-[300px] w-[3px] bg-NeonGreen mx-auto "></div>
             <img
               className="hidden md:block absolute bottom-1 secondcurve"
               src={secondCurve}
@@ -106,7 +106,7 @@ const TimelineA = (props) => {
                   Day 1: Let The Hack Begin
                 </div>
               </div>
-              <div className="font-fira  md:w-[70%] mr-10 mt-4 rounded-[16px]">
+              <div className="font-fira  md:w-[70%] xl:ml-[11%] mr-10 mt-4 rounded-[16px]">
                 <table className="table-glassmorphic">
                   <thead>
                     <tr>
@@ -160,7 +160,7 @@ const TimelineA = (props) => {
                   Day 2: The Hack Continues
                 </div>
               </div>
-              <div className="font-fira  md:w-[70%] mr-10 mt-4 rounded-[16px]">
+              <div className="font-fira xl:ml-[11%] md:w-[70%] mr-10 mt-4 rounded-[16px]">
                 <table className="table-glassmorphic">
                   <thead>
                     <tr>
@@ -214,7 +214,7 @@ const TimelineA = (props) => {
                   Day 3: The Hack Ends
                 </div>
               </div>
-              <div className="font-fira  md:max-w-[70%] mr-10 mt-4 rounded-[16px]">
+              <div className="font-fira xl:ml-[11%] md:max-w-[70%] mr-10 mt-4 rounded-[16px]">
                 <table className="table-glassmorphic">
                   <thead>
                     <tr>

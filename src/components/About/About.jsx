@@ -11,7 +11,7 @@ const About = () => {
       </div>
       <div className="flex flex-col text-center sm:text-justify  gap-8 md:gap-12 font-fira font-light text-sm  md:text-xl xl:text-2xl mx-5">
         <div>
-          <span className="font-semibold"> REVA HACK</span>, a renowned tech
+          <span className="font-regular"> REVA HACK</span>, a renowned tech
           event organized annually by the Hackathon Club of REVA University, has
           been a hub of innovation since its inception in 2016. What initially
           started as an event within the university premises has now gained
@@ -19,14 +19,14 @@ const About = () => {
           world.
         </div>
         <div>
-          <span className="font-semibold"> REVA HACK</span>, the flagship event
+          <span className="font-regular"> REVA HACK</span>, the flagship event
           of REVA University in the tech field, now attracts thousands of
           participants, making it a gathering for aspiring innovators and tech
           enthusiasts. The 2022 edition was truly remarkable, with more than
           1,500 passionate participants and prizes worth INR 5 crore.
         </div>
         <div>
-          But <span className="font-semibold"> REVA HACK</span> is not just a
+          But <span className="font-regular"> REVA HACK</span> is not just a
           competition; it offers an experience. The event includes a variety of
           workshops, immersive learning sessions, and a range of engaging
           activities that go beyond just Kahoot games to include refreshing
