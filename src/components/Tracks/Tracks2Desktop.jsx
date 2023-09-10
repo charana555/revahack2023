@@ -204,7 +204,7 @@ const Tracks2Desktop = (props) => {
                       <div className="tracks-card-info">
                         <i className="fa-duotone fa-apartment"></i>
                         <div className="tracks-card-info-title">
-                          <h3>AR VR</h3>
+                          <h3>AR/VR</h3>
                           <h4>
                             "Unlocking New Realities: Step In, Dive Deep, Hack
                             Beyond."
@@ -253,7 +253,7 @@ const Tracks2Desktop = (props) => {
                     <div className="tracks-card-info-wrapper">
                       <div className="tracks-card-info">
                         <div className="tracks-card-info-title">
-                          <h3>CLOUD & IOT</h3>
+                          <h3>IOT CLOUD</h3>
                           <h4>
                             Code in the Cloud, Control the World: Building Smart
                             Solutions with IoT and Cloud
