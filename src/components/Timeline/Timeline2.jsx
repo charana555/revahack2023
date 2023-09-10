@@ -38,7 +38,7 @@ const TimelineA = (props) => {
               <div>
                 <div className="font-light text-md text-white">
                   {" "}
-                  11th September
+                  11<sup>th</sup> September
                 </div>
                 <div className="font-medium text-5xl font-roboto text-RoyalPurple">
                   Registrations beign
@@ -67,7 +67,7 @@ const TimelineA = (props) => {
               <div className="">
                 <div className="font-light md:mt-[-15px] text-md text-white">
                   {" "}
-                  12th October
+                  12<sup>th</sup> October
                 </div>
                 <div className="font-medium text-4xl font-roboto text-RoyalPurple">
                   Announcement of the Selected 50 Teams
@@ -100,7 +100,7 @@ const TimelineA = (props) => {
               <div>
                 <div className="font-light text-md text-white">
                   {" "}
-                  2nd November 2023
+                  2<sup>nd</sup> November 2023
                 </div>
                 <div className="font-medium text-5xl font-roboto text-TerraCotta">
                   Day 1: Let The Hack Begin
@@ -154,7 +154,7 @@ const TimelineA = (props) => {
               <div>
                 <div className="font-light text-md text-white">
                   {" "}
-                  2nd October 2023
+                  3<sup>rd</sup> November 2023
                 </div>
                 <div className="font-medium text-5xl font-roboto text-NeonViolet">
                   Day 2: The Hack Continues
@@ -179,7 +179,7 @@ const TimelineA = (props) => {
                     </tr>
                     <tr>
                       <td> 6:00pm-8:00pm</td>
-                      <td>third round of Evaluation </td>
+                      <td>Third round of Evaluation </td>
                     </tr>
                     <tr>
                       <td> 10:00pm </td>
@@ -208,7 +208,7 @@ const TimelineA = (props) => {
               <div>
                 <div className="font-light text-md text-white">
                   {" "}
-                  2nd October 2023
+                  4<sup>th</sup> November 2023
                 </div>
                 <div className="font-medium text-5xl font-roboto text-NeonGreen">
                   Day 3: The Hack Ends
