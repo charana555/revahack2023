@@ -17,7 +17,7 @@ import "./Glimpse.css";
 // import "swiper/css/pagination";
 // import "swiper/css/scrollbar";
 
-import glimpse1 from "./GlimpsesPhotos/glimpse1.jpg";
+// import glimpse1 from "./GlimpsesPhotos/glimpse1.jpg";
 // import glimpse10 from "./GlimpsesPhotos/glimpse10.jpg";
 // import glimpse2 from "./GlimpsesPhotos/glimpse2.jpg";
 // import glimpse3 from "./GlimpsesPhotos/glimpse3.jpg";
@@ -33,7 +33,7 @@ const Glimpse = (props) => {
     <>
       <section className=" flex flex-col justify-center pb-28 ">
         <div className="text-white font-bold text-[50px] md:text-[72px] text-center  mb-[50px] ">
-          <span className="text-RoyalPurple">REVA Hack 2022</span> Glimpse
+          <span className="text-RoyalPurple">REVA HACK 2022</span> Glimpse
         </div>
 
         <div className="splide-container">
@@ -70,7 +70,7 @@ const Glimpse = (props) => {
           >
             <SplideTrack>
               <SplideSlide className="glimpse-slide">
-                <img src={glimpse1}></img>
+                <img src={""}></img>
               </SplideSlide>
               <SplideSlide className="glimpse-slide">
                 <img src="./GlimpsesPhotos/glimpse2.JPG"></img>
