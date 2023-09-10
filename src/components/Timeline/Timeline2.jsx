@@ -64,8 +64,8 @@ const TimelineA = (props) => {
           </div>
           <div className="w-11/12">
             <div className="flex flex-col md:ml-10 xl:ml-5 justify-start text-white">
-              <div>
-                <div className="font-light text-md text-white">
+              <div className="">
+                <div className="font-light md:mt-[-15px] text-md text-white">
                   {" "}
                   12th October
                 </div>
@@ -106,7 +106,7 @@ const TimelineA = (props) => {
                   Day 1: Let The Hack Begin
                 </div>
               </div>
-              <div className="font-fira  md:max-w-[60%] mr-10 mt-4 rounded-[16px]">
+              <div className="font-fira  md:w-[70%] mr-10 mt-4 rounded-[16px]">
                 <table className="table-glassmorphic">
                   <thead>
                     <tr>
@@ -116,20 +116,20 @@ const TimelineA = (props) => {
                   </thead>
                   <tbody>
                     <tr>
-                      <td>&nbsp;9:30 am - 12:30 pm</td>
-                      <td>Pre-hackathon Speaker session&nbsp;</td>
+                      <td> 9:30am - 12:30pm</td>
+                      <td>Pre-hackathon Speaker session </td>
                     </tr>
                     <tr>
-                      <td>4:00 pm&nbsp;</td>
-                      <td>Ribbon Cutting and Address&nbsp;</td>
+                      <td>4:00pm</td>
+                      <td>Ribbon Cutting and Address </td>
                     </tr>
                     <tr>
-                      <td>&nbsp;6:00 pm</td>
-                      <td>Hackathon Begins&nbsp;</td>
+                      <td> 6:00pm</td>
+                      <td>Hackathon Begins </td>
                     </tr>
                     <tr>
-                      <td>&nbsp;11:00 pm - 12:30 pm</td>
-                      <td>First Round of evaluation&nbsp;</td>
+                      <td> 11:00pm - 12:30pm</td>
+                      <td>First Round of evaluation </td>
                     </tr>
                   </tbody>
                 </table>
@@ -160,7 +160,7 @@ const TimelineA = (props) => {
                   Day 2: The Hack Continues
                 </div>
               </div>
-              <div className="font-fira  md:max-w-[60%] mr-10 mt-4 rounded-[16px]">
+              <div className="font-fira  md:w-[70%] mr-10 mt-4 rounded-[16px]">
                 <table className="table-glassmorphic">
                   <thead>
                     <tr>
@@ -170,20 +170,20 @@ const TimelineA = (props) => {
                   </thead>
                   <tbody>
                     <tr>
-                      <td>&nbsp;9:30 am - 10:30 am</td>
-                      <td>Second Round Of Evaluation&nbsp;</td>
+                      <td> 9:30am - 10:30am</td>
+                      <td>Second Round Of Evaluation </td>
                     </tr>
                     <tr>
-                      <td>4:00 pm&nbsp;</td>
-                      <td>Ice Breaking & Networking sessions&nbsp;</td>
+                      <td>4:00pm </td>
+                      <td>Ice Breaking & Networking sessions </td>
                     </tr>
                     <tr>
-                      <td>&nbsp;6:00 pm-8:00 pm</td>
-                      <td>third round of Evaluation&nbsp;</td>
+                      <td> 6:00pm-8:00pm</td>
+                      <td>third round of Evaluation </td>
                     </tr>
                     <tr>
-                      <td>&nbsp;10:00 pm </td>
-                      <td>Kahoot and Jam sessions&nbsp;</td>
+                      <td> 10:00pm </td>
+                      <td>Kahoot and Jam sessions </td>
                     </tr>
                   </tbody>
                 </table>
@@ -214,7 +214,7 @@ const TimelineA = (props) => {
                   Day 3: The Hack Ends
                 </div>
               </div>
-              <div className="font-fira  md:max-w-[60%] mr-10 mt-4 rounded-[16px]">
+              <div className="font-fira  md:max-w-[70%] mr-10 mt-4 rounded-[16px]">
                 <table className="table-glassmorphic">
                   <thead>
                     <tr>
@@ -224,12 +224,12 @@ const TimelineA = (props) => {
                   </thead>
                   <tbody>
                     <tr>
-                      <td>&nbsp;6:00 am</td>
-                      <td>Hackathon Stops&nbsp;</td>
+                      <td> 6:00am</td>
+                      <td>Hackathon Stops </td>
                     </tr>
                     <tr>
-                      <td>9:00 am-11:30 pm&nbsp;</td>
-                      <td>Final Round of Evaluation&nbsp;</td>
+                      <td>9:00am-11:30pm </td>
+                      <td>Final Round of Evaluation </td>
                     </tr>
                   </tbody>
                 </table>
