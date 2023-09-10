@@ -35,7 +35,7 @@ const Navbar = () => {
               to="hero"
             >
               <img
-                src={"Images/reva-hack-neon.svg"}
+                src={"Images/reva-hack-logo.svg"}
                 alt="logo"
                 height={100}
                 width={100}

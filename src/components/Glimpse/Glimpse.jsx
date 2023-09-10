@@ -17,12 +17,23 @@ import "./Glimpse.css";
 // import "swiper/css/pagination";
 // import "swiper/css/scrollbar";
 
+import glimpse1 from "./GlimpsesPhotos/glimpse1.jpg";
+import glimpse10 from "./GlimpsesPhotos/glimpse10.jpg";
+import glimpse2 from "./GlimpsesPhotos/glimpse2.jpg";
+import glimpse3 from "./GlimpsesPhotos/glimpse3.jpg";
+import glimpse4 from "./GlimpsesPhotos/glimpse4.jpg";
+import glimpse5 from "./GlimpsesPhotos/glimpse5.jpg";
+import glimpse6 from "./GlimpsesPhotos/glimpse6.jpg";
+import glimpse7 from "./GlimpsesPhotos/glimpse7.jpg";
+import glimpse8 from "./GlimpsesPhotos/glimpse8.jpg";
+import glimpse9 from "./GlimpsesPhotos/glimpse9.jpg";
+
 const Glimpse = (props) => {
   return (
     <>
       <section className=" flex flex-col justify-center pb-28 ">
         <div className="text-white font-bold text-[50px] md:text-[72px] text-center  mb-[50px] ">
-          <span className="text-RoyalPurple">REVA Hack 2022</span> Glimpse
+          <span className="text-RoyalPurple">REVA HACK 2022</span> Glimpse
         </div>
 
         <div className="splide-container">
@@ -58,16 +69,36 @@ const Glimpse = (props) => {
             }}
           >
             <SplideTrack>
-              <SplideSlide className="glimpse-slide"><img src="./Images/glimpse1.jpg"></img></SplideSlide>
-              <SplideSlide className="glimpse-slide"><img src="./Images/glimpse2.JPG"></img></SplideSlide>
-              <SplideSlide className="glimpse-slide"><img src="./Images/glimpse3.JPG"></img></SplideSlide>
-              <SplideSlide className="glimpse-slide"><img src="./Images/glimpse4.JPG"></img></SplideSlide>
-              <SplideSlide className="glimpse-slide"><img src="./Images/glimpse5.JPG"></img></SplideSlide>
-              <SplideSlide className="glimpse-slide"><img src="./Images/glimpse6.JPG"></img></SplideSlide>
-              <SplideSlide className="glimpse-slide"><img src="./Images/glimpse7.JPG"></img></SplideSlide>
-              <SplideSlide className="glimpse-slide"><img src="./Images/glimpse8.JPG"></img></SplideSlide>
-              <SplideSlide className="glimpse-slide"><img src="./Images/glimpse9.JPG"></img></SplideSlide>
-              <SplideSlide className="glimpse-slide"><img src="./Images/glimpse10.JPG"></img></SplideSlide>
+              <SplideSlide className="glimpse-slide">
+                <img src={glimpse1}></img>
+              </SplideSlide>
+              <SplideSlide className="glimpse-slide">
+                <img src={glimpse2}></img>
+              </SplideSlide>
+              <SplideSlide className="glimpse-slide">
+                <img src={glimpse3}></img>
+              </SplideSlide>
+              <SplideSlide className="glimpse-slide">
+                <img src={glimpse4}></img>
+              </SplideSlide>
+              <SplideSlide className="glimpse-slide">
+                <img src={glimpse5}></img>
+              </SplideSlide>
+              <SplideSlide className="glimpse-slide">
+                <img src={glimpse6}></img>
+              </SplideSlide>
+              <SplideSlide className="glimpse-slide">
+                <img src={glimpse7}></img>
+              </SplideSlide>
+              <SplideSlide className="glimpse-slide">
+                <img src={glimpse8}></img>
+              </SplideSlide>
+              <SplideSlide className="glimpse-slide">
+                <img src={glimpse9}></img>
+              </SplideSlide>
+              <SplideSlide className="glimpse-slide">
+                <img src={glimpse10}></img>
+              </SplideSlide>
             </SplideTrack>
           </Splide>
         </div>

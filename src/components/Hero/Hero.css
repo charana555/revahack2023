@@ -32,6 +32,20 @@
     color: grey; /* Change the color to grey or any other color you prefer */
 }
 
+/* Hero.css */
+
+/* Container for "Powered by" text and logo with glassmorphic background */
+.powered-by-container {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px); /* Adjust the blur value as needed */
+    border-radius: 10px; /* Adjust the border radius as needed */
+    padding: 10px; /* Adjust the padding as needed */
+    display: inline-flex; /* Keep the container inline with its content */
+    align-items: center; /* Center the content vertically */
+}
+
+
+
 
 /* Hero.css */
 .text-glow {
