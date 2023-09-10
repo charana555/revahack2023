@@ -180,7 +180,7 @@ const Tracks2Mobile = (props) => {
                 />
               </svg>
             </div>
-            <h3 className="mobile-tracks-card-title">AR VR</h3>
+            <h3 className="mobile-tracks-card-title">AR/VR</h3>
             <h4 className="mobile-tracks-card-subtitle"></h4>
           </div>
         </div>
@@ -253,7 +253,7 @@ const Tracks2Mobile = (props) => {
                 </defs>
               </svg>
             </div>
-            <h3 className="mobile-tracks-card-title">CLOUD & IOT</h3>
+            <h3 className="mobile-tracks-card-title">IOT CLOUD</h3>
             <h4 className="mobile-tracks-card-subtitle"></h4>
           </div>
         </div>
