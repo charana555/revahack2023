@@ -38,7 +38,7 @@ const TimelineA = (props) => {
               <div>
                 <div className="font-light text-md text-white">
                   {" "}
-                  11<sup>th</sup> September
+                  11<sup>th</sup> September 2023
                 </div>
                 <div className="font-medium text-5xl font-roboto text-RoyalPurple">
                   Registrations beign
@@ -67,7 +67,7 @@ const TimelineA = (props) => {
               <div className="">
                 <div className="font-light md:mt-[-15px] text-md text-white">
                   {" "}
-                  12<sup>th</sup> October
+                  12<sup>th</sup> October 2023
                 </div>
                 <div className="font-medium text-4xl font-roboto text-RoyalPurple">
                   Announcement of the Selected 50 Teams
