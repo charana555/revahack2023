@@ -33,7 +33,7 @@ const Hero = () => {
     });
 
     // Initialize Typed.js inside this useEffect
-    typedRef.current = new Typed('.typed-text', {
+    typedRef.current = new Typed(".typed-text", {
       strings: ["Let the Hack Begin;", "Technology beyond Imagination;"],
       typeSpeed: 60,
       backSpeed: 25,
@@ -53,80 +53,92 @@ const Hero = () => {
   }, []);
 
   return (
-      <section id="Hero">
-        <div id="vanta"> </div>
-        <div className="hero min-h-screen flex flex-col items-center justify-center text-white">
-          <div className="text-center mt-20">
-            <div className="my-24">
-              <div className="text-center mb-2 text-sm sm:text-md md:text-2xl lg:text-3xl neon">
-                36 Hours National Level Offline Hackathon
-              </div>
+    <section id="Hero">
+      <div id="vanta"> </div>
+      <div className="hero min-h-screen flex flex-col items-center justify-center text-white">
+        <div className="text-center mt-20">
+          <div className="my-24">
+            <div className="text-center mb-2 text-sm sm:text-md md:text-2xl lg:text-3xl neon">
+              36 Hours National Level Offline Hackathon
+            </div>
 
-              <div className="text-center mb-6">
-                <h1 className="text-3xl md:text-5xl lg:text-8xl xl:text-8xl font-semibold" data-text='U'>
-                  <span className="neon-white">REVA HACK </span><span className="neon-white">{"</>"}</span> <span className="neon-white">2023</span>
-                </h1>
-                <div className="powered-by-container mt-3">
-                  <div className="font-thin text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl">Powered by</div>
-                  <div className="bluelearn-logo">
-                    <a href="https://www.bluelearn.in/" target="_blank">
-                      <img
-                          src="Images/bluelearn-logo-sm.png"
-                          alt="bluelearn"
-                          className="ml-2 h-8 sm:h-10 md:h-12 lg:h-12 xl:h-12"
-                      />
-                    </a>
-                  </div>
+            <div className="text-center mb-6">
+              <h1
+                className="text-3xl md:text-5xl lg:text-8xl xl:text-8xl font-semibold"
+                data-text="U"
+              >
+                <span className="neon-white">REVA HACK </span>
+                <span className="neon-white">{"</>"}</span>{" "}
+                <span className="neon-white">2023</span>
+              </h1>
+              <div className="powered-by-container mt-3">
+                <div className="font-thin text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl">
+                  Powered by
                 </div>
-
-              </div>
-
-              {/* The typewriter text */}
-              <div className="text-center text-2xl text-glow md:text-4xl lg:text-4xl xl:text-4xl relative mb-4 font-fira font-[300]">
-                <span className="typed-text text-[#0CCA4A]"></span> {/* Typed.js will type the text here */}
-
-              </div>
-              <div className='text-[#BCBCBC]'>
-                <Timer />
-              </div>
-
-              <div className="flex flex-col items-center space-y-4 md:flex-row md:space-x-20 md:space-y-0 justify-center mt-6">
-                <div
-                    className="apply-button"
-                    data-hackathon-slug="reva-hack-1"
-                    data-button-theme="light"
-                    style={{ height: "44px", width: "312px" }}
-                >
-                  <button>
-                    <span className="mr-4">Register</span>
+                <div className="bluelearn-logo">
+                  <a href="https://www.bluelearn.in/" target="_blank">
                     <img
-                        src={"Images/devfolio.png"}
-                        alt="devfolio logo"
-                        className="w-6 h-6 md:w-9 md:h-9 ml-3"
+                      src="Images/bluelearn-logo-sm.png"
+                      alt="bluelearn"
+                      className="ml-2 h-8 sm:h-10 md:h-12 lg:h-12 xl:h-12"
                     />
-                  </button>
+                  </a>
                 </div>
-                <button
-                    className="hover:shadow-lg px-12 rounded-[3px] text-white text-2xl flex items-center justify-center h-[44px] w-[312px]"
-                    style={{ backgroundColor: "#5865F2", border: "none" }}
-                >
+              </div>
+            </div>
+
+            {/* The typewriter text */}
+            <div className="text-center text-2xl text-glow md:text-4xl lg:text-4xl xl:text-4xl relative mb-4 font-fira font-[300]">
+              <span className="typed-text text-[#0CCA4A]"></span>{" "}
+              {/* Typed.js will type the text here */}
+            </div>
+            <div className="text-[#BCBCBC]">
+              <Timer />
+            </div>
+
+            <div className="flex flex-col items-center space-y-4 md:flex-row md:space-x-20 md:space-y-0 justify-center mt-6">
+              <div
+                className="apply-button"
+                data-hackathon-slug="reva-hack-1"
+                data-button-theme="light"
+                style={{ height: "44px", width: "312px" }}
+              >
+                <button>
+                  <span className="mr-4">Register</span>
                   <img
-                      src={"Images/discord.png"}
-                      alt="discord logo"
-                      className="w-8 h-6 mr-3"
+                    src={"Images/devfolio.png"}
+                    alt="devfolio logo"
+                    className="w-6 h-6 md:w-9 md:h-9 ml-3"
                   />
-                  <span
-                      className="mr-4 font-[530]"
-                      style={{ fontFamily: "Nunito Sans, sans-serif" }}
-                  >
-                  Join us
-                </span>
                 </button>
               </div>
+              <a
+                href="https://discord.gg/6Sv9ZdQ4er"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button
+                  className="hover:shadow-lg px-12 rounded-[3px] text-white text-2xl flex items-center justify-center h-[44px] w-[312px]"
+                  style={{ backgroundColor: "#5865F2", border: "none" }}
+                >
+                  <img
+                    src={"Images/discord.png"}
+                    alt="discord logo"
+                    className="w-8 h-6 mr-3"
+                  />
+                  <span
+                    className="mr-4 font-[530]"
+                    style={{ fontFamily: "Nunito Sans, sans-serif" }}
+                  >
+                    Join us
+                  </span>
+                </button>
+              </a>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
   );
 };
 
