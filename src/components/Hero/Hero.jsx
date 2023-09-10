@@ -67,17 +67,15 @@ const Hero = () => {
                   <span className="neon-white">REVA HACK </span><span className="neon-white">{"</>"}</span> <span className="neon-white">2023</span>
                 </h1>
                 <div className="powered-by-container mt-3">
-                  <div className="flex items-start">
-                    <div className="font-thin text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl">Powered by</div>
-                    <div>
-                      <a href="https://www.bluelearn.in/" target="_blank">
+                  <div className="font-thin text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl">Powered by</div>
+                  <div className="bluelearn-logo">
+                    <a href="https://www.bluelearn.in/" target="_blank">
                       <img
                           src="Images/bluelearn-logo-sm.png"
                           alt="bluelearn"
                           className="ml-2 h-8 sm:h-10 md:h-12 lg:h-12 xl:h-12"
                       />
-                      </a>
-                    </div>
+                    </a>
                   </div>
                 </div>
 
