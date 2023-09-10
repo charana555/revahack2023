@@ -21,17 +21,13 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <div
-        className="hidden fixed top-0 right-0 md:block mr-14"
-        style={{ zIndex: 9999 }}
-      >
-        <img
-          src="Images/ieeebanner.svg"
-          alt="ieee-logo"
-          className="h-[10rem]"
-        />
-      </div>
-      {/* <section className="back w-full"> */}
+        <div className="hidden md:block fixed top-0 right-0 mr-14" style={{ zIndex: 9999 }}>
+            <img src="Images/ieee_banner.svg" alt="ieee-logo" className="h-[10rem]" />
+        </div>
+        <div className="block md:hidden fixed top-20 left-0" style={{ zIndex: 9999 }}>
+            <img src="Images/ieee_banner_mob.svg" alt="ieee-logo" className="h-[4rem]" />
+        </div>
+        {/* <section className="back w-full"> */}
       <Hero />
       <About />
       {/* </section> */}

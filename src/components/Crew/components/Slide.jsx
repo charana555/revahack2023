@@ -8,7 +8,7 @@ const Slide = (props) => {
       <div className="flex flex-col justify-center gap-10">
         <div
           id="teamName"
-          className=" p-3 border-solid border border-white mx-auto w-[80%] md:w-[60%]   rounded-2xl text-4xl md:text-5xl font-roboto font-bold text-center"
+          className=" p-6 border-solid border border-white mx-auto w-[80%] md:w-[60%]   rounded-2xl text-5xl md:text-6xl font-roboto font-bold text-center"
         >
           {props.team.teamName}
         </div>

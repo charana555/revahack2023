@@ -21,33 +21,50 @@ const Navbar = () => {
   const menuItemsClass = menubarOpen ? "block" : "hidden";
 
   return (
-      <div className="flex">
-        <nav className={`bg-primary fixed w-full z-50 backdrop-filter backdrop-blur-lg bg-opacity-90`}>
-          <div className="container mx-auto flex flex-wrap items-center justify-between px-4 font-roboto">
-            {/* Logo */}
-            <div>
-              <Link duration={100} smooth={true} className="cursor-pointer" to="hero">
-                <img src={"Images/reva-logo.png"} alt="logo" height={70} width={70} />
-              </Link>
-            </div>
+    <div className="flex">
+      <nav
+        className={`bg-primary fixed w-full z-50 backdrop-filter backdrop-blur-lg bg-opacity-90`}
+      >
+        <div className="container mx-auto flex flex-wrap items-center justify-between px-4 font-roboto">
+          {/* Logo */}
+          <div>
+            <Link
+              duration={100}
+              smooth={true}
+              className="cursor-pointer"
+              to="hero"
+            >
+              <img
+                src={"Images/reva-hack-neon.svg"}
+                alt="logo"
+                height={100}
+                width={100}
+                className="p-5"
+              />
+            </Link>
+          </div>
 
-            {/* Navlinks for Desktop */}
-            <div className='flex md:space-x-2'>
-              <div className={`hidden mr-48 md:flex md:gap-14 font-semibold ${menubarOpen ? "hidden" : ""}`}>
-                {navs.map((item, i) => (
-                    <Link
-                        key={i}
-                        className="underline-hover cursor-pointer text-white text-lg font-[300] font-fira tracking-widest hover:text-secondary transition-all duration-200 ease-in-out"
-                        to={item.navid}
-                        duration={100}
-                        smooth={true}
-                    >
-                      {item.navid}
-                    </Link>
-                ))}
-              </div>
-              <div className="md:w-2"></div>
+          {/* Navlinks for Desktop */}
+          <div className="flex md:space-x-2">
+            <div
+              className={`hidden mr-48 md:flex md:gap-14 font-semibold ${
+                menubarOpen ? "hidden" : ""
+              }`}
+            >
+              {navs.map((item, i) => (
+                <Link
+                  key={i}
+                  className="underline-hover cursor-pointer text-white text-lg font-[300] font-fira tracking-widest hover:text-secondary transition-all duration-200 ease-in-out"
+                  to={item.navid}
+                  duration={100}
+                  smooth={true}
+                >
+                  {item.navid}
+                </Link>
+              ))}
             </div>
+            <div className="md:w-2"></div>
+          </div>
 
           {/* Hamburger Menu */}
           <div className="md:hidden">
@@ -86,7 +103,10 @@ const Navbar = () => {
             </button>
           </div>
           {/* Menubar */}
-          <div className={`md:hidden w-full my-2  ${menuClass} mobile-nav`}>
+          <div
+            id="test"
+            className={`md:hidden w-full   ${menuClass} mobile-nav`}
+          >
             {navs.map((item, i) => (
               <Link
                 key={i}

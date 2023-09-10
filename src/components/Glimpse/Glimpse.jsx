@@ -21,7 +21,7 @@ const Glimpse = (props) => {
   return (
     <>
       <section className=" flex flex-col justify-center pb-28 ">
-        <div className="text-white font-bold text-5xl md:text-7xl text-center  mb-[50px] ">
+        <div className="text-white font-bold text-[50px] md:text-[72px] text-center  mb-[50px] ">
           <span className="text-RoyalPurple">REVA Hack 2022</span> Glimpse
         </div>
 

@@ -4,39 +4,42 @@ const About = () => {
   return (
     <section
       id="About"
-      className="flex-col text-white 	 w-[100%]  flex items-center justify-center px-[10%]"
+      className="flex-col text-white 	 w-[100%]  flex items-center justify-center px-[5%] md:px-[10%]"
     >
-      <div className="text-NeonPurple my-[4rem] text-[32px] md:text-[96px] font-roboto font-medium ">
+      <div className="text-NeonPurple  my-[1.5rem] md:my-[4rem] text-[50px] md:text-[72px] font-roboto font-medium ">
         About Us
       </div>
-      <div className="flex flex-col text-justify gap-12 font-fira font-light text-lg md:text-[22px] mx-5">
+      <div className="flex flex-col text-center sm:text-justify  gap-8 md:gap-12 font-fira font-light text-sm  md:text-xl xl:text-2xl mx-5">
         <div>
-          <span className="  font-semibold"> REVA HACK</span> is an annual tech
-          and innovation fest organized by The Hackathon Club at REVA
-          University, the yearly event has only seen growth year over year since
-          its inception in 2016. Once started as a university-wide event,{" "}
-          <span className=" font-semibold"> REVA HACK</span> now sees
-          participants from all over the world showcasing their creativity and
-          displaying their drive to innovate.
+          <span className="font-semibold"> REVA HACK</span>, a renowned tech
+          event organized annually by the Hackathon Club of REVA University, has
+          been a hub of innovation since its inception in 2016. What initially
+          started as an event within the university premises has now gained
+          recognition, drawing exceptional talents from various parts of the
+          world.
         </div>
         <div>
-          Today <span className=" font-semibold"> REVA HACK</span> has become
-          our University's flagship technological event that welcomes over a
-          thousand participants every year. Despite the pandemic over the last
-          few years, <span className=" font-semibold"> REVA HACK</span> has
-          managed to adapt to the new norm by embracing the virtual hackathon
-          model. This move in turn helped us expand our reach and welcome more
-          participants in the past few years.
+          <span className="font-semibold"> REVA HACK</span>, the flagship event
+          of REVA University in the tech field, now attracts thousands of
+          participants, making it a gathering for aspiring innovators and tech
+          enthusiasts. The 2022 edition was truly remarkable, with more than
+          1,500 passionate participants and prizes worth INR 5 crore.
         </div>
         <div>
-          <span className=" font-semibold"> REVA HACK</span> 2021 was a landmark
-          event for the club with over 2500+ registered entrants and prices over
-          INR 2.5 Cr. <span className=" font-semibold"> REVA HACK</span>'s
-          schedule also accommodates pre-event workshops, learnathons, and
-          semi-formal engagement events like Kahoots, stressbusters, etc. that
-          come with goodies. Our mission at The Hackathon Club is to fuel your
-          innovation and <span className=" font-semibold"> REVA HACK</span> is
-          our way of doing just that.
+          But <span className="font-semibold"> REVA HACK</span> is not just a
+          competition; it offers an experience. The event includes a variety of
+          workshops, immersive learning sessions, and a range of engaging
+          activities that go beyond just Kahoot games to include refreshing
+          stress relievers. As an added bonus, participants can also look
+          forward to receiving goodies and swag. At The Hackathon Club, our
+          mission is to promote innovation, and through REVA HACK, we bring this
+          vision to life in a way.
+        </div>
+        <div>
+          This year, we're rolling out a 36-hour on-site hackathon. Featuring an
+          array of tech talks from industry experts, exhilarating events,
+          exclusive giveaways, and so much more. Join us for a tech extravaganza
+          like no other!
         </div>
       </div>
       {/* <p>About</p>
