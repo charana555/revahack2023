@@ -52,12 +52,12 @@ const Contact = () => {
           <h6 className="text-lg tracking-wider px-2 pb-4">Contact Us</h6>
 
           <div className=" flex text-lg items-center gap-2  pb-2 px-2 tracking-wider">
-            <AiOutlinePhone className="text-2xl font-extrabold" /> +91
-            9019986049
+            <AiOutlinePhone className="text-2xl font-extrabold" /> +91 90355
+            05082
           </div>
           <div className=" flex text-lg items-center gap-2  pb-2 px-2 tracking-wider">
-            <AiOutlinePhone className="text-2xl font-extrabold" /> +91
-            8861830388
+            <AiOutlinePhone className="text-2xl font-extrabold" /> +91 88618
+            30388
           </div>
           <div className=" flex text-lg items-center gap-2  px-2 tracking-wider">
             <AiOutlineMail className="text-2xl font-extrabold" />{" "}
