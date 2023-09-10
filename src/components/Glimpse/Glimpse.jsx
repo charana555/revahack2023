@@ -58,13 +58,16 @@ const Glimpse = (props) => {
             }}
           >
             <SplideTrack>
-              <SplideSlide className="glimpse-slide"> </SplideSlide>
-              <SplideSlide className="glimpse-slide">...</SplideSlide>
-              <SplideSlide className="glimpse-slide">...</SplideSlide>
-              <SplideSlide className="glimpse-slide">...</SplideSlide>
-              <SplideSlide className="glimpse-slide">...</SplideSlide>
-              <SplideSlide className="glimpse-slide">...</SplideSlide>
-              <SplideSlide className="glimpse-slide">...</SplideSlide>
+              <SplideSlide className="glimpse-slide"><img src="./Images/glimpse1.jpg"></img></SplideSlide>
+              <SplideSlide className="glimpse-slide"><img src="./Images/glimpse2.JPG"></img></SplideSlide>
+              <SplideSlide className="glimpse-slide"><img src="./Images/glimpse3.JPG"></img></SplideSlide>
+              <SplideSlide className="glimpse-slide"><img src="./Images/glimpse4.JPG"></img></SplideSlide>
+              <SplideSlide className="glimpse-slide"><img src="./Images/glimpse5.JPG"></img></SplideSlide>
+              <SplideSlide className="glimpse-slide"><img src="./Images/glimpse6.JPG"></img></SplideSlide>
+              <SplideSlide className="glimpse-slide"><img src="./Images/glimpse7.JPG"></img></SplideSlide>
+              <SplideSlide className="glimpse-slide"><img src="./Images/glimpse8.JPG"></img></SplideSlide>
+              <SplideSlide className="glimpse-slide"><img src="./Images/glimpse9.JPG"></img></SplideSlide>
+              <SplideSlide className="glimpse-slide"><img src="./Images/glimpse10.JPG"></img></SplideSlide>
             </SplideTrack>
           </Splide>
         </div>
