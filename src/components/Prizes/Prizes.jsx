@@ -25,7 +25,7 @@ function Prizes () {
             <p className="text-8xl mb-[4%]">₹ 5,00,000</p>
           </div>
         </div>
-        <div className="flex justify-between -mx-4">
+        <div className="flex ml-[30%]">
           <div className="w-[30%] p-[10px] prize-tag">
             <div className="container glass" style={{ backgroundColor: '#515151' }}>
               <p className="text-7xl mt-10 mb-10" style={{ textAlign: 'center'}}>Winner</p>
