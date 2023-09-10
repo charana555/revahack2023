@@ -91,6 +91,14 @@
     }
 }
 
+.bluelearn-logo img {
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.bluelearn-logo img:hover {
+    transform: scale(1.05); /* Scale the logo slightly when hovered */
+}
+
 
 
 
