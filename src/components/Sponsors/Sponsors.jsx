@@ -13,6 +13,9 @@ import reva2 from "../../assets/SponsorLogos/titleSponsors/reva2.png";
 import revalogo from "../../assets/SponsorLogos/titleSponsors/revalogo.jpg";
 import ieeebng from "../../assets/SponsorLogos/titleSponsors/ieeebng.png";
 
+import tgp from "../../assets/SponsorLogos/titleSponsors/tgp.png";
+import bluelearn from "../../assets/SponsorLogos/titleSponsors/bluelearn.png";
+
 import sponsorbg from "../../assets/sponsorBg.png";
 import "./Sponsers.css";
 import SponsorBox from "./SponsorBox";
@@ -53,7 +56,7 @@ const Sponsors = () => {
       <div className=" font-[600] md:mt-[10px]  mb-[2%] text-xl md:text-2xl">
         Title Sponsors
       </div>
-      <div className="flex justify-center gap-10  ">
+      <div className="flex justify-center gap-2 md:gap-10 px-4 ">
         <div className=" title-sponsor glassmorphic flex items-center justify-center  ">
           <img src={reva2} alt="title sponsor reva logo" />
         </div>
@@ -70,6 +73,34 @@ const Sponsors = () => {
             alt="title sponsor ieee logo"
           />
         </div>
+      </div>
+
+      {/* Hiring and Community Partners  */}
+
+      <div className=" font-[600] md:mt-[10px]  mb-[2%] text-xl md:text-2xl py-8 md:py-4">
+        Hiring and Community Partners
+      </div>
+      <div className="flex justify-center gap-10  ">
+        <div className=" title-sponsor glassmorphic flex items-center justify-center  ">
+          <img
+            className="p-2 w-10 md:w-24"
+            src={tgp}
+            alt="title sponsor reva logo"
+          />
+        </div>
+        {/* <div className="title-sponsor glassmorphic flex items-center ">
+          <img classname="" src={ieee} alt="title sponsor ieee logo" />
+        </div> */}
+        <div className="title-sponsor glassmorphic flex items-center ">
+          <img classname="" src={bluelearn} alt="title sponsor ieee logo" />
+        </div>
+        {/* <div className="title-sponsor glassmorphic flex items-center justify-center ">
+          <img
+            classname="w-full h-full object-cover"
+            src={ieee}
+            alt="title sponsor ieee logo" 
+          />
+        </div> */}
       </div>
 
       {/* tree section */}
