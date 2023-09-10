@@ -13,7 +13,7 @@ const Card = (props) => {
           <span>{props.title}</span>
         </div>
         <div className="card-socials">
-          <a href={props.insta} class="card-socials-btn ">
+          <a href={props.insta} class="card-socials-btn" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               version="1.1"
@@ -40,7 +40,7 @@ const Card = (props) => {
             </svg>
           </a>
           {props.github != "" && (
-            <a href={props.github} class="card-socials-btn ">
+            <a href={props.github} class="card-socials-btn" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="33"
@@ -51,7 +51,7 @@ const Card = (props) => {
               </svg>
             </a>
           )}
-          <a href={props.linkedin} class="card-socials-btn ">
+          <a href={props.linkedin} class="card-socials-btn" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="512"
