@@ -9,7 +9,7 @@ export const data = [
   },
   {
     faq: "What is the maximum and minimum number of participants allowed in a group?",
-    ans: "A group must have at least one participant and cannot exceed five people. It is required to have at least one female participant in each group.",
+    ans: "A group must have five people. It is required to have at least one female participant in each group.",
   },
   {
     faq: "Who can apply for REVA HACK 2023?",
@@ -60,7 +60,7 @@ export const data = [
     ans: "We prefer participants to carry their own devices and tools for the event. If required, arrangements for computer facilities can be made on the campus. As for software tool availability, that'll be posted shortly.",
   },
   {
-    faq: "Who will own the IP (Intellectual Property) of the projects made during REVA HACK 2022?",
+    faq: "Who will own the IP (Intellectual Property) of the projects made during REVA HACK 2023?",
     ans: "In short YOU, for REVA HACK 2023, all project submissions must be from publicly accessible Open Source repositories. The event organizers will not have any stake or involvement in the projects created during the event.",
   },
   {
@@ -69,7 +69,7 @@ export const data = [
   },
   {
     faq: "Will any goodies be provided to participants?",
-    ans: "Participants will be given free goodies such as t-shirts, stickers, swags, bags and more.",
+    ans: "Participants will be given free goodies such as stickers, swags and much more.",
   },
   {
     faq: "Are you sure I won't get bored or lose motivation?",

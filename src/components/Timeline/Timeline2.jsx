@@ -41,7 +41,7 @@ const TimelineA = (props) => {
                   11<sup>th</sup> September 2023
                 </div>
                 <div className="font-medium text-5xl font-roboto text-RoyalPurple">
-                  Registrations beign
+                  Registrations begin
                 </div>
               </div>
               <div className="font-fira glassmorphic p-5 md:max-w-[60%] mr-10 mt-4">
