@@ -33,8 +33,9 @@ const Hero = () => {
     });
 
     // Initialize Typed.js inside this useEffect
-    typedRef.current = new Typed(".typed-text", {
-      strings: ["Let the Hack Begin;", "Technology beyond Imagination;"],
+    typedRef.current = new Typed('.typed-text', {
+      strings: ["Let the Hack Begin;", "Technology beyond Imagination;", "Hack On: Nov 2nd - 4th"],
+
       typeSpeed: 60,
       backSpeed: 25,
       startDelay: 500,
