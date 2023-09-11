@@ -98,7 +98,7 @@ export const teams = [
       name: "Dhyuti",
       insta: "",
       github: "https://github.com/Dhyuti",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/dhyuti-tewani-06b772210/",
     },
     member4: {
       photo: "./Images/man.png",
@@ -207,9 +207,10 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/aashish-r-goudar-8503a7245/",
     },
     member3: {
-      photo: "Images/man.png",
-      name: "",
-      insta: "",
+      photo: "Images/rakshita.jpg",
+      name: "Rakshita Singh",
+      insta:
+        "https://instagram.com/rakshittasingh?igshid=OGQ5ZDc2ODk2ZA==      ",
       github: "",
       linkedin: "",
     },
