@@ -66,7 +66,7 @@ function Prizes() {
                 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl mb-3 mt-3 xl:mt-10 xl:mb-10"
                 style={{ textAlign: "center" }}
               >
-                Runner
+                Runner-Up
               </p>
               <img
                 src="./Images/prize_sliv.svg"
