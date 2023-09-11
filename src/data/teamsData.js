@@ -251,7 +251,7 @@ export const teams = [
     },
     member1: {
       photo: "./Images/Sharon.jpg",
-      name: "Sharon Chattopadhyay",
+      name: "Sharon ",
       insta: "https://www.instagram.com/prof.essor3239/",
       github: "https://github.com/Anonymous15052003",
       linkedin: "https://www.linkedin.com/in/sharon-chattopadhyay/",
