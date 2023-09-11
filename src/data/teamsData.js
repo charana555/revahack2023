@@ -359,7 +359,7 @@ export const teams = [
     },
     member4: {
       photo: "Images/man.png",
-      name: "",
+      name: "Rohith R      ",
       insta: "",
       github: "",
       linkedin: "",

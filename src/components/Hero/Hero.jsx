@@ -33,8 +33,12 @@ const Hero = () => {
     });
 
     // Initialize Typed.js inside this useEffect
-    typedRef.current = new Typed('.typed-text', {
-      strings: ["Let the Hack Begin;", "Technology beyond Imagination;", "Hack On: Nov 2nd - 4th"],
+    typedRef.current = new Typed(".typed-text", {
+      strings: [
+        "Let the Hack Begin;",
+        "Technology beyond Imagination;",
+        "Hack On: Nov 2nd - 4th",
+      ],
 
       typeSpeed: 60,
       backSpeed: 25,
@@ -59,7 +63,7 @@ const Hero = () => {
       <div className="hero min-h-screen flex flex-col items-center justify-center text-white">
         <div className="text-center mt-20">
           <div className="my-24">
-            <div className="text-center mb-2 text-sm sm:text-md md:text-2xl lg:text-3xl neon">
+            <div className="text-center mb-2 text-sm sm:text-md md:text-2xl lg:text-3xl neon font-semibold">
               36 Hours National Level Offline Hackathon
             </div>
 

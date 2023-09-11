@@ -1,7 +1,7 @@
 export const data = [
   {
     faq: "When will REVA HACK 2023 take place?",
-    ans: "REVA HACK 2023 is scheduled for 2nd-4th of November over 48 hours accompanied by various pre-events like learnathons, workshops, etc.",
+    ans: "REVA HACK 2023 is scheduled for 2nd-4th of November over 36 hours accompanied by various pre-events like learnathons, workshops, etc.",
   },
   {
     faq: "Is it a remote or an on-site Hackathon?",
