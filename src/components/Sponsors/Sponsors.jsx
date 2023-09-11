@@ -11,11 +11,11 @@ import ieee from "../../assets/SponsorLogos/titleSponsors/ieee.png";
 import ieee2 from "../../assets/SponsorLogos/titleSponsors/ieee.jpg";
 import ieeebng from "../../assets/SponsorLogos/titleSponsors/ieeebng.png";
 
+import gdsclogo from "../../assets/SponsorLogos/Tree/gdsclogo.png";
+import bluelearn from "../../assets/SponsorLogos/titleSponsors/bluelearn.png";
 import reva from "../../assets/SponsorLogos/titleSponsors/reva.png";
 import reva2 from "../../assets/SponsorLogos/titleSponsors/reva2.png";
 import revalogo from "../../assets/SponsorLogos/titleSponsors/revalogo.jpg";
-
-import bluelearn from "../../assets/SponsorLogos/titleSponsors/bluelearn.png";
 import tgp from "../../assets/SponsorLogos/titleSponsors/tgp.png";
 
 import sponsorbg from "../../assets/sponsorBg.png";
@@ -24,6 +24,7 @@ import SponsorBox from "./SponsorBox";
 const treelogos = [
   { logo: devfolio, alt: "devfolio white logo" },
   { logo: polygon, alt: "polygon white logo" },
+  { logo: gdsclogo, alt: "gdsc reva logo" },
   // { logo: reva, alt: "sad" },
 ];
 
@@ -111,16 +112,16 @@ const Sponsors = () => {
         <div className="slide-track">
           <SponsorBox image={treelogos[0].logo} alt={treelogos[0].alt} />
           <SponsorBox image={treelogos[1].logo} alt={treelogos[1].alt} />
+          <SponsorBox image={treelogos[2].logo} alt={treelogos[2].alt} />
           <SponsorBox image={treelogos[0].logo} alt={treelogos[0].alt} />
           <SponsorBox image={treelogos[1].logo} alt={treelogos[1].alt} />
+          <SponsorBox image={treelogos[2].logo} alt={treelogos[2].alt} />
           <SponsorBox image={treelogos[0].logo} alt={treelogos[0].alt} />
           <SponsorBox image={treelogos[1].logo} alt={treelogos[1].alt} />
+          <SponsorBox image={treelogos[2].logo} alt={treelogos[2].alt} />
           <SponsorBox image={treelogos[0].logo} alt={treelogos[0].alt} />
           <SponsorBox image={treelogos[1].logo} alt={treelogos[1].alt} />
-          <SponsorBox image={treelogos[0].logo} alt={treelogos[0].alt} />
-          <SponsorBox image={treelogos[1].logo} alt={treelogos[1].alt} />
-          <SponsorBox image={treelogos[0].logo} alt={treelogos[0].alt} />
-          <SponsorBox image={treelogos[1].logo} alt={treelogos[1].alt} />
+          <SponsorBox image={treelogos[2].logo} alt={treelogos[2].alt} />
         </div>
       </div>
       {/* <div className="slider2">
