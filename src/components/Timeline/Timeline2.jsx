@@ -14,7 +14,7 @@ const TimelineA = (props) => {
       <div className="text-white mt-[1.5rem] md:mt-[4rem] text-[50px] md:text-[72px] font-roboto text-center font-medium ">
         Timeline
       </div>
-      <div className="xl:pl-[30%] max-w-[100vw]">
+      <div className="pl-[5%] xl:pl-[30%] max-w-[100vw]">
         <div id="tFirstElement" className="flex  ">
           <div className="w-1/12 flex flex-col justify-center">
             <img
