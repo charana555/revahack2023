@@ -7,14 +7,16 @@ import solana from "../../assets/SponsorLogos/Sapling/solana.png";
 import devfolio from "../../assets/SponsorLogos/Tree/devfolio.png";
 import polygon from "../../assets/SponsorLogos/Tree/polygon.png";
 import ieee from "../../assets/SponsorLogos/titleSponsors/ieee.png";
-import ieee2 from "../../assets/SponsorLogos/titleSponsors/ieee.jpg";
+
+import ieee2 from "../../assets/SponsorLogos/titleSponsors/ieee2.png";
+import ieeebng from "../../assets/SponsorLogos/titleSponsors/ieeebng.png";
+
 import reva from "../../assets/SponsorLogos/titleSponsors/reva.png";
 import reva2 from "../../assets/SponsorLogos/titleSponsors/reva2.png";
 import revalogo from "../../assets/SponsorLogos/titleSponsors/revalogo.jpg";
-import ieeebng from "../../assets/SponsorLogos/titleSponsors/ieeebng.png";
 
-import tgp from "../../assets/SponsorLogos/titleSponsors/tgp.png";
 import bluelearn from "../../assets/SponsorLogos/titleSponsors/bluelearn.png";
+import tgp from "../../assets/SponsorLogos/titleSponsors/tgp.png";
 
 import sponsorbg from "../../assets/sponsorBg.png";
 import "./Sponsers.css";
@@ -45,7 +47,7 @@ const Sponsors = () => {
       <p className="  text-xs md:text-lg sm:text-xs text-secondary drop-shadow-lg shadow-secondary text-center font-light tracking-wider mt-10 mb-8">
         Interested in Sponsoring? <br />
         Contact us at
-        <a className="text-white " href="mailto:something@email.com">
+        <a className="text-white " href="mailto:revahack@gmail.com">
           {" "}
           revahack@gmail.com
         </a>

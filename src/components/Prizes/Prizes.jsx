@@ -14,9 +14,12 @@ function Prizes() {
     <div>
       <section
         id="Prizes"
-        className="flex flex-col text-white text-3xl h-auto items-center justify-center mb-10%"
+        className="flex flex-col text-white text-3xl h-auto items-center justify-center lg:mb-44"
       >
-        <p className="text-7xl xl:text-8xl font-robot" style={headerStyle}>
+        <p
+          className=" font-robot font-medium text-[50px] md:text-[72px]"
+          style={headerStyle}
+        >
           Prizes
         </p>
 
