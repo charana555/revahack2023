@@ -167,7 +167,9 @@ const FirstSlide = (props) => {
               <img src={mohit} alt="memeber photos" loading="lazy" />
             </div>
             <div className="card-title">Mohit</div>
-
+            <div className="card-subtitle">
+              <span>President</span>
+            </div>
             <div className="card-socials">
               <a href="" class="card-socials-btn" target="_blank">
                 <svg
@@ -224,7 +226,9 @@ const FirstSlide = (props) => {
               <img src={Aish} alt="memeber photos" loading="lazy" />
             </div>
             <div className="card-title">Aishwarya </div>
-
+            <div className="card-subtitle">
+              <span>Vice-President</span>
+            </div>
             <div className="card-socials">
               <a href="" class="card-socials-btn" target="_blank">
                 <svg
