@@ -345,7 +345,7 @@ export const teams = [
   {
     teamName: "Curation Team",
     lead1: {
-      photo: "./Images/Harshith.png",
+      photo: "./Images/Harshith.jpg",
       name: "Harshith G",
       title: "4th Year Lead",
       insta: "",
