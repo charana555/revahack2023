@@ -94,7 +94,7 @@ const Hero = () => {
                     In Collaboration with
                   </div>
                   <div className="bluelearn-logo">
-                    <a href="https://www.bluelearn.in/" target="_blank">
+                    <a href="http://gdsc.community.dev/" target="_blank">
                       <img
                           src="Images/gdsc-trans.png"
                           alt="gdsc"
