@@ -71,7 +71,7 @@ const TimelineA = (props) => {
                   {" "}
                   12<sup>th</sup> October 2023
                 </div>
-                <div className="font-medium text-3xl md:text-4xl lg:text-5xl font-roboto text-RoyalPurple">
+                <div className="font-medium md:max-w-[60%] text-3xl md:text-4xl lg:text-5xl font-roboto text-RoyalPurple">
                   Announcement of the Selected 50 Teams
                 </div>
               </div>
