@@ -59,7 +59,7 @@ const MembersCard = (props) => {
           </a>
         </div> */}
         <div className="card-photo">
-          <img src={props.photo} />
+          <img src={props.photo} alt="memeber photos" loading="lazy" />
         </div>
         <div className="card-title">{props.name}</div>
 

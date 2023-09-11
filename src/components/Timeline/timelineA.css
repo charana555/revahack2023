@@ -1,7 +1,14 @@
+/* .spiral {
+  background-image: url("../../assets/sponsorBg.png");
+  z-index: -1;
+  background-repeat: no-repeat;
+  object-fit: cover;
+} */
+
 .topcurve {
-  left: calc(50% - 8px);
-  width: 437px;
-  height: 643px;
+  left: calc(53% - 10px);
+  width: "337";
+  height: "537";
 }
 
 .secondcurve {
@@ -60,4 +67,12 @@ table tr th:last-child {
   -webkit-backdrop-filter: blur(10.5px);
   border-radius: 10px;
   /* border: 1px solid rgba(255, 255, 255, 0.18); */
+}
+
+@media screen and (max-width: 400px) {
+  .topcurve {
+    left: calc(50% - 8px);
+    width: "207";
+    height: "307";
+  }
 }

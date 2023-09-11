@@ -172,7 +172,7 @@ const Tracks2Desktop = (props) => {
             </div>
             <div
               ref={tracks}
-              className="text-NeonGreen text-center flex text-6xl md:text-7xl font-roboto font-medium "
+              className="text-NeonGreen text-center flex text-[50px] md:text-[72px] font-roboto font-medium "
             >
               Tracks
             </div>

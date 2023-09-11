@@ -6,7 +6,7 @@ const Card = (props) => {
     <>
       <div className="crewCard glassmorphic-card">
         <div className="card-photo">
-          <img src={props.photo} />
+          <img src={props.photo} alt="lead photo" loading="lazy" />
         </div>
         <div className="card-title">{props.name}</div>
         <div className="card-subtitle">
