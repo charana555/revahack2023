@@ -7,8 +7,10 @@ import solana from "../../assets/SponsorLogos/Sapling/solana.png";
 import devfolio from "../../assets/SponsorLogos/Tree/devfolio.png";
 import polygon from "../../assets/SponsorLogos/Tree/polygon.png";
 import ieee from "../../assets/SponsorLogos/titleSponsors/ieee.png";
+
 import ieee2 from "../../assets/SponsorLogos/titleSponsors/ieee2.png";
 import ieeebng from "../../assets/SponsorLogos/titleSponsors/ieeebng.png";
+
 import reva from "../../assets/SponsorLogos/titleSponsors/reva.png";
 import reva2 from "../../assets/SponsorLogos/titleSponsors/reva2.png";
 import revalogo from "../../assets/SponsorLogos/titleSponsors/revalogo.jpg";
@@ -66,19 +68,15 @@ const Sponsors = () => {
         <div className="title-sponsor glassmorphic flex items-center ">
           <img classname="" src={ieeebng} alt="title sponsor ieee logo" />
         </div>
-        <div className="title-sponsor glassmorphic flex items-center justify-center ">
-          <img
-            classname="w-full h-full object-cover"
-            src={ieee}
-            alt="title sponsor ieee logo"
-          />
+        <div className="title-sponsor  flex items-center justify-center ">
+          <img classname="" src={ieee2} alt="title sponsor ieee logo" />
         </div>
       </div>
 
       {/* Hiring and Community Partners  */}
 
       <div className=" font-[600] md:mt-[10px]  mb-[2%] text-xl md:text-2xl py-8 md:py-4">
-        Hiring and Community Partners
+        Community and Hiring Partners
       </div>
       <div className="flex justify-center gap-10  ">
         <div className=" title-sponsor glassmorphic flex items-center justify-center  ">
