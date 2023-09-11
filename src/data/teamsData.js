@@ -242,7 +242,7 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/jithin-j-775a06209",
     },
     lead2: {
-      photo: "Images/person2.png",
+      photo: "Images/ankita.jpeg",
       name: "Ankita Ghosh ",
       title: "4th Year Lead",
       insta: "",
