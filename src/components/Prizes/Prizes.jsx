@@ -51,7 +51,8 @@ function Prizes() {
                 Winner
               </p>
               <img
-                src="./Images/prize_golden.svg"
+                // src="./Images/prize_golden.svg"
+                src="./Images/winner.svg"
                 alt="Winner"
                 className="custom-image"
               ></img>
@@ -69,7 +70,7 @@ function Prizes() {
                 Runner-Up
               </p>
               <img
-                src="./Images/prize_sliv.svg"
+                src="./Images/runnerup.png"
                 alt="Runner"
                 className="custom-image"
               ></img>

@@ -201,7 +201,7 @@ export const teams = [
     },
     member2: {
       photo: "./Images/Niishith.jpg",
-      name: "Aashish R",
+      name: "",
       insta: "https://www.instagram.com/https.niishith/",
       github: "https://github.com/Niishith",
       linkedin: "https://www.linkedin.com/in/aashish-r-goudar-8503a7245/",
