@@ -13,7 +13,7 @@ const Card = (props) => {
           <span>{props.title}</span>
         </div>
         <div className="card-socials">
-          {props.insta != "" && (
+          {props.insta !== "" && (
             <a href={props.insta} class="card-socials-btn" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +41,7 @@ const Card = (props) => {
               </svg>
             </a>
           )}
-          {props.github != "" && (
+          {props.github !== "" && (
             <a href={props.github} class="card-socials-btn" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,7 @@ const Card = (props) => {
               </svg>
             </a>
           )}
-          {props.linkedin != "" && (
+          {props.linkedin !== "" && (
             <a href={props.linkedin} class="card-socials-btn" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
