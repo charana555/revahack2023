@@ -53,9 +53,9 @@
 }
 
 .slider .slide {
-  height: 60px;
+  height: 75px;
   width: 250px;
-  padding: 10px 20px;
+  padding: 20px 20px;
 }
 
 /* 
@@ -183,6 +183,9 @@ second slider
 }
 
 @media (max-width: 600px) {
+  .slider {
+    width: 90%;
+  }
   .title-sponsor {
     width: 40%;
   }

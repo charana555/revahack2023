@@ -9,7 +9,7 @@ import cakeIcon from "./svgs/cakeIcon.svg";
 import "./timelineA.css";
 const TimelineA = (props) => {
   return (
-    <section className="py-32 spiral">
+    <section id="Timeline" className="py-32 spiral">
       <img className="absolute mt-[-10%] z-[-1] " src={sponsorbg} />
       <div className="text-white mt-[1.5rem] md:mt-[4rem] text-[50px] md:text-[72px] font-roboto text-center font-medium ">
         Timeline
@@ -46,7 +46,7 @@ const TimelineA = (props) => {
                   Registrations begin
                 </div>
               </div>
-              <div className="font-fira text-xs  md:text-[15px] glassmorphic p-5 md:max-w-[60%] mr-10 mt-4">
+              <div className="font-fira text-xs  md:text-[15px] glassmorphic p-5 md:max-w-[60%] mr-10 mt-4 xl:ml-[10%]">
                 Explore the exciting world of technology and innovation. Unleash
                 your creative potential and build something extraordinary. Join
                 us on September 11th for a hackaethon like no other!"
@@ -65,7 +65,7 @@ const TimelineA = (props) => {
             />
           </div>
           <div className="w-11/12">
-            <div className="flex flex-col md:mt-[20rem] md:pt md:ml-10 xl:ml-5 justify-start text-white pl-4 md:pl-0">
+            <div className="flex flex-col md:mt-[20rem] md:pt md:ml-10 xl:ml-5 justify-start text-white pl-5 md:pl-2">
               <div className="">
                 <div className="font-light md:mt-[-15px] text-xs md:text-sm text-white ">
                   {" "}
@@ -76,7 +76,7 @@ const TimelineA = (props) => {
                 </div>
               </div>
 
-              <div className="font-fira text-xs  md:text-[15px]  glassmorphic p-5 md:max-w-[60%] mr-10 mt-4">
+              <div className="font-fira text-xs  md:text-[15px]  glassmorphic p-5 md:max-w-[60%] mr-10 mt-4 xl:ml-[10%]">
                 Stay tuned for October 12th! In one month, we'll reveal the top
                 50 teams joining our offline 36-hour hackathon. Get ready for
                 their creative innovations!
@@ -130,7 +130,7 @@ const TimelineA = (props) => {
                       <td>Hackathon Begins </td>
                     </tr>
                     <tr>
-                      <td> 11:00pm - 12:30pm</td>
+                      <td> 11:00pm - 12:30am</td>
                       <td>First Round of evaluation </td>
                     </tr>
                   </tbody>
@@ -230,7 +230,7 @@ const TimelineA = (props) => {
                       <td>Hackathon Stops </td>
                     </tr>
                     <tr>
-                      <td>9:00am-11:30pm </td>
+                      <td>9:00am-11:30am </td>
                       <td>Final Round of Evaluation </td>
                     </tr>
                   </tbody>

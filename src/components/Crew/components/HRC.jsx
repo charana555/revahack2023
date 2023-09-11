@@ -1,6 +1,6 @@
 import React from "react";
 import aryan from "../Photos/Aryan.png";
-import gaurav from "../Photos/Gaurav.jpg";
+import gaurav from "../Photos/Gaurav.webp";
 import nagesh from "../Photos/NageshPatil.jpg";
 import aashish from "../Photos/Niishith.jpg";
 import samuel from "../Photos/Samuel.jpg";
