@@ -11,7 +11,7 @@ import ieee from "../../assets/SponsorLogos/titleSponsors/ieee.png";
 import ieee2 from "../../assets/SponsorLogos/titleSponsors/ieee.jpg";
 import ieeebng from "../../assets/SponsorLogos/titleSponsors/ieeebng.png";
 
-import gdsclogo from "../../assets/SponsorLogos/Tree/gdsclogo.png";
+import gdsclogo from "../../assets/SponsorLogos/Tree/gdsclogowhite.png";
 import bluelearn from "../../assets/SponsorLogos/titleSponsors/bluelearn.png";
 import reva from "../../assets/SponsorLogos/titleSponsors/reva.png";
 import reva2 from "../../assets/SponsorLogos/titleSponsors/reva2.png";
