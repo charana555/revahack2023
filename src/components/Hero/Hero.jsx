@@ -72,6 +72,8 @@ const Hero = () => {
                 <span className="neon-white">{"</>"}</span>{" "}
                 <span className="neon-white">2023</span>
               </h1>
+              <div>
+                <div className="flex justify-center space-x-6">
               <div className="powered-by-container mt-3">
                 <div className="font-thin text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl">
                   Powered by
@@ -85,6 +87,23 @@ const Hero = () => {
                     />
                   </a>
                 </div>
+              </div>
+
+                <div className="powered-by-container mt-3">
+                  <div className="font-thin text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl">
+                    In Collaboration with
+                  </div>
+                  <div className="bluelearn-logo">
+                    <a href="https://www.bluelearn.in/" target="_blank">
+                      <img
+                          src="Images/gdsc-trans.png"
+                          alt="gdsc"
+                          className="ml-2 h-8 sm:h-10 md:h-[79px] lg:h-[79px] xl:h-[79px]"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
               </div>
             </div>
 
