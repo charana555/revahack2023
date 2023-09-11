@@ -8,7 +8,7 @@ import devfolio from "../../assets/SponsorLogos/Tree/devfolio.png";
 import polygon from "../../assets/SponsorLogos/Tree/polygon.png";
 import ieee from "../../assets/SponsorLogos/titleSponsors/ieee.png";
 
-import ieee2 from "../../assets/SponsorLogos/titleSponsors/ieee2.png";
+import ieee2 from "../../assets/SponsorLogos/titleSponsors/ieee.jpg";
 import ieeebng from "../../assets/SponsorLogos/titleSponsors/ieeebng.png";
 
 import reva from "../../assets/SponsorLogos/titleSponsors/reva.png";
@@ -68,7 +68,7 @@ const Sponsors = () => {
         <div className="title-sponsor glassmorphic flex items-center ">
           <img classname="" src={ieeebng} alt="title sponsor ieee logo" />
         </div>
-        <div className="title-sponsor  flex items-center justify-center ">
+        <div className="title-sponsor py-1 glassmorphic flex items-center justify-center ">
           <img classname="" src={ieee2} alt="title sponsor ieee logo" />
         </div>
       </div>
