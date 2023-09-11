@@ -215,11 +215,11 @@ export const teams = [
       linkedin: "",
     },
     member4: {
-      photo: "Images/man.png",
-      name: "",
-      insta: "",
+      photo: "Images/Rida.jpg",
+      name: "Rida Fathima      ",
+      insta: "https://instagram.com/rida.f._?igshid=MzMyNGUyNmU2YQ==      ",
       github: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/rida-fathima-a12589244      ",
     },
     member5: {
       photo: "Images/man.png",
