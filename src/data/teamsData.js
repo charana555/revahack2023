@@ -114,6 +114,13 @@ export const teams = [
       github: "",
       linkedin: "",
     },
+    member6: {
+      photo: "Images/man.png",
+      name: "",
+      insta: "",
+      github: "",
+      linkedin: "",
+    },
   },
   // Design Team:
   {
@@ -165,11 +172,19 @@ export const teams = [
       linkedin: "",
     },
     member5: {
-      photo: "",
-      name: "",
+      photo: "Images/RidhaSalam.jpg",
+      name: "Ridha Salam",
       insta: "",
+      github: "https://www.linkedin.com/in/ridha-salam-705446237      ",
+      linkedin: "https://github.com/risa2211      ",
+    },
+    member6: {
+      photo: "Images/Ankush.jpeg",
+      name: "Ankush Raj",
+      insta:
+        "https://instagram.com/ankush_raj_urs?igshid=YTQwZjQ0NmI0OA==      ",
       github: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/ankush-raj-urs-a7939823b      ",
     },
   },
   //  Query Team
@@ -228,6 +243,13 @@ export const teams = [
       github: "",
       linkedin: "",
     },
+    member6: {
+      photo: "Images/man.png",
+      name: "",
+      insta: "",
+      github: "",
+      linkedin: "",
+    },
   },
 
   // Event Management Team
@@ -273,13 +295,20 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/rohan-sridhar-3332b2249",
     },
     member4: {
+      photo: "Images/anarg.jpeg",
+      name: "Anarg K Ashokan      ",
+      insta: "",
+      github: "",
+      linkedin: "",
+    },
+    member5: {
       photo: "Images/man.png",
       name: "",
       insta: "",
       github: "",
       linkedin: "",
     },
-    member5: {
+    member6: {
       photo: "Images/man.png",
       name: "",
       insta: "",
@@ -342,6 +371,13 @@ export const teams = [
       github: "",
       linkedin: "",
     },
+    member6: {
+      photo: "Images/man.png",
+      name: "",
+      insta: "",
+      github: "",
+      linkedin: "",
+    },
   },
   // Curation
   {
@@ -391,6 +427,13 @@ export const teams = [
       linkedin: "",
     },
     member5: {
+      photo: "Images/man.png",
+      name: "",
+      insta: "",
+      github: "",
+      linkedin: "",
+    },
+    member6: {
       photo: "Images/man.png",
       name: "",
       insta: "",
@@ -453,6 +496,13 @@ export const teams = [
       github: "https://github.com/Abhay-Sinha",
       linkedin: "https://www.linkedin.com/in/khan-afra/",
     },
+    member6: {
+      photo: "Images/man.png",
+      name: "",
+      insta: "",
+      github: "",
+      linkedin: "",
+    },
   },
   // GDSC
   {
@@ -504,6 +554,13 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/hitaish-k-g-536a09156/",
     },
     member5: {
+      photo: "Images/man.png",
+      name: "",
+      insta: "",
+      github: "",
+      linkedin: "",
+    },
+    member6: {
       photo: "Images/man.png",
       name: "",
       insta: "",

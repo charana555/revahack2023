@@ -90,6 +90,15 @@ const Slide = (props) => {
               linkedin={props.team.member5.linkedin}
             />
           )}
+          {props.team.member6.name !== "" && (
+            <MembersCard
+              photo={props.team.member6.photo}
+              name={props.team.member6.name}
+              insta={props.team.member6.insta}
+              github={props.team.member6.github}
+              linkedin={props.team.member6.linkedin}
+            />
+          )}
         </div>
       </div>
     </>
