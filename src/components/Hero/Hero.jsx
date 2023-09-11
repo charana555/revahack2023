@@ -83,7 +83,7 @@ const Hero = () => {
                         <img
                             src="Images/bluelearn-logo-sm.png"
                             alt="bluelearn"
-                            className="ml-2 h-12 sm:h-14 md:h-16 lg:h-16 xl:h-16" // Set the height here
+                            className="ml-2 h-8 sm:h-10 md:h-10 lg:h-10 xl:h-10" // Set the height here
                         />
                       </a>
                     </div>
@@ -96,9 +96,9 @@ const Hero = () => {
                     <div className="gdsc-logo">
                       <a href="http://gdsc.community.dev/" target="_blank">
                         <img
-                            src="Images/gdsc_reva_white.png"
+                            src="Images/gdsc-simple.png"
                             alt="gdsc"
-                            className="ml-2 h-12 sm:h-14 md:h-16 lg:h-16 xl:h-16" // Set the height here
+                            className="ml-2 h-8 sm:h-10 md:h-10 lg:h-10 xl:h-10" // Set the height here
                         />
                       </a>
                     </div>
