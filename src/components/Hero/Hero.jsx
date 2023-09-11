@@ -93,8 +93,8 @@ const Hero = () => {
                     <div className="font-thin text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl">
                       In Collaboration with
                     </div>
-                    <div className="gdsc-logo">
-                      <a href="http://gdsc.community.dev/" target="_blank">
+                    <div className="bluelearn-logo">
+                      <a href="https://gdsc.community.dev/reva-university-bengaluru/" target="_blank">
                         <img
                             src="Images/gdsc-simple.png"
                             alt="gdsc"
