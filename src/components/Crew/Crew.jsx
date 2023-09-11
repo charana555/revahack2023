@@ -17,6 +17,8 @@ import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 
 import "./Crew.css";
 // import Card from "./components/Card";
+import HRC from "./components/HRC";
+import FirstSlide from "./components/OrganisersSlide";
 import Slide from "./components/Slide";
 
 const Crew = () => {
@@ -62,6 +64,12 @@ const Crew = () => {
         aria-label="Crew"
       >
         <SplideTrack>
+          <SplideSlide>
+            <FirstSlide />
+          </SplideSlide>
+          <SplideSlide>
+            <HRC />
+          </SplideSlide>
           {teams.map((team, index) => (
             <SplideSlide key={index}>
               <Slide team={team} />
