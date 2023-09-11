@@ -20,9 +20,9 @@ const FirstSlide = (props) => {
         <div id="teamLead" className="flex flex-wrap gap-8 justify-center">
           <div className="crewCard glassmorphic-card">
             <div className="card-photo">
-              <img src={kiran} alt="lead photo" loading="lazy" />
+              <img src={satish} alt="lead photo" loading="lazy" />
             </div>
-            <div className="card-title">Kiran M</div>
+            <div className="card-title">Satish </div>
             <div className="card-subtitle">
               <span>Faculty Head</span>
             </div>
@@ -87,9 +87,9 @@ const FirstSlide = (props) => {
           </div>
           <div className="crewCard glassmorphic-card">
             <div className="card-photo">
-              <img src={satish} alt="lead photo" loading="lazy" />
+              <img src={kiran} alt="lead photo" loading="lazy" />
             </div>
-            <div className="card-title">Satish </div>
+            <div className="card-title">Kiran M</div>
             <div className="card-subtitle">
               <span>Faculty Head</span>
             </div>
