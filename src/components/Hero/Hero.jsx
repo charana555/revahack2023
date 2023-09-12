@@ -142,14 +142,18 @@ const Hero = () => {
                 data-button-theme="light"
                 style={{ height: "44px", width: "312px" }}
               >
-                <button className="flex items-center gap-2">
-                  <img
-                    src={"Images/devfolio.png"}
-                    alt="devfolio logo"
-                    className="w-6 h-6 md:w-9 md:h-9 ml-3"
-                  />
-                  <span className="mr-4">Register button loading...</span>
-                </button>
+
+                <a href="https://reva-hack-1.devfolio.co/">
+                  <button className="  bg-[#456FF6]  px-12 rounded-[3px] text-white text-2xl flex items-center py-1 justify-center h-[46px] w-[312px] ">
+                    <img
+                      src={"Images/devfolio.png"}
+                      alt="devfolio logo"
+                      className="w-8 h-6 mr-3"
+                    />
+                    <span className="mr-4">Register</span>
+                  </button>
+                </a>
+
               </div>
               <a
                 href="https://discord.gg/6Sv9ZdQ4er"
