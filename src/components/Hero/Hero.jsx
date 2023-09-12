@@ -18,7 +18,12 @@ const Hero = () => {
     script.async = true;
     script.defer = true;
     document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
 
+  useEffect(() => {
     RINGS({
       el: "#vanta",
       mouseControls: true,
@@ -53,7 +58,6 @@ const Hero = () => {
       if (typedRef.current) {
         typedRef.current.destroy();
       }
-      document.body.removeChild(script);
     };
   }, []);
 

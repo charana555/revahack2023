@@ -45,7 +45,7 @@ function Prizes() {
               // style={{ backgroundColor: "#515151" }}
             >
               <p
-                className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl mb-3 mt-3 xl:mt-10 xl:mb-10"
+                className="text-lg sm:text-3xl md:text-4xl lg:text-6xl xl:text-6xl mb-3 mt-3 xl:mt-10 xl:mb-10"
                 style={{ textAlign: "center" }}
               >
                 Winner
