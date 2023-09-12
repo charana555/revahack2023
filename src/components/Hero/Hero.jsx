@@ -13,12 +13,25 @@ const Hero = () => {
   const typedRef = useRef(null); // Create a ref for the Typed instance
 
   useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://apply.devfolio.co/v2/sdk.js";
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
+    // Define a function to initialize Devfolio after the page has loaded
+    function initializeDevfolio() {
+      const script = document.createElement("script");
+      script.src = "https://apply.devfolio.co/v2/sdk.js";
+      script.async = true;
+      script.defer = true;
+      document.body.appendChild(script);
+    }
 
+    // Add an event listener for the "load" event
+    window.addEventListener("load", initializeDevfolio);
+
+    // Cleanup: Remove the event listener when the component unmounts
+    return () => {
+      window.removeEventListener("load", initializeDevfolio);
+    };
+  }, []);
+
+  useEffect(() => {
     RINGS({
       el: "#vanta",
       mouseControls: true,
@@ -53,7 +66,6 @@ const Hero = () => {
       if (typedRef.current) {
         typedRef.current.destroy();
       }
-      document.body.removeChild(script);
     };
   }, []);
 
