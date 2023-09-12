@@ -97,9 +97,9 @@ const Hero = () => {
                     <div className="bluelearn-logo">
                       <a href="https://www.bluelearn.in/" target="_blank">
                         <img
-                            src="Images/bluelearn-logo-sm.png"
-                            alt="bluelearn"
-                            className="ml-2 h-8 sm:h-10 md:h-10 lg:h-10 xl:h-10" // Set the height here
+                          src="Images/bluelearn-logo-sm.png"
+                          alt="bluelearn"
+                          className="ml-2 h-8 sm:h-10 md:h-10 lg:h-10 xl:h-10" // Set the height here
                         />
                       </a>
                     </div>
@@ -110,16 +110,18 @@ const Hero = () => {
                       In Collaboration with
                     </div>
                     <div className="bluelearn-logo">
-                      <a href="https://gdsc.community.dev/reva-university-bengaluru/" target="_blank">
+                      <a
+                        href="https://gdsc.community.dev/reva-university-bengaluru/"
+                        target="_blank"
+                      >
                         <img
-                            src="Images/gdsc-simple.png"
-                            alt="gdsc"
-                            className="ml-2 h-8 sm:h-10 md:h-10 lg:h-10 xl:h-10" // Set the height here
+                          src="Images/gdsc-simple.png"
+                          alt="gdsc"
+                          className="ml-2 h-8 sm:h-10 md:h-10 lg:h-10 xl:h-10" // Set the height here
                         />
                       </a>
                     </div>
                   </div>
-
                 </div>
               </div>
             </div>
@@ -140,13 +142,13 @@ const Hero = () => {
                 data-button-theme="light"
                 style={{ height: "44px", width: "312px" }}
               >
-                <button>
-                  <span className="mr-4">Register</span>
+                <button className="flex items-center gap-2">
                   <img
                     src={"Images/devfolio.png"}
                     alt="devfolio logo"
                     className="w-6 h-6 md:w-9 md:h-9 ml-3"
                   />
+                  <span className="mr-4">Register button loding...</span>
                 </button>
               </div>
               <a
