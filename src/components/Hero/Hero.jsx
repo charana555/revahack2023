@@ -148,7 +148,7 @@ const Hero = () => {
                     alt="devfolio logo"
                     className="w-6 h-6 md:w-9 md:h-9 ml-3"
                   />
-                  <span className="mr-4">Register button loding...</span>
+                  <span className="mr-4">Register button loading...</span>
                 </button>
               </div>
               <a
