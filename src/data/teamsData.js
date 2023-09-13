@@ -257,7 +257,7 @@ export const teams = [
     },
     member2: {
       photo: "./Images/Sameeksha.jpg",
-      name: "Sameeksha M K ",
+      name: "Sameeksha M K",
       insta: "https://www.instagram.com/sameeksha7104/",
       github: "",
       linkedin: "",
