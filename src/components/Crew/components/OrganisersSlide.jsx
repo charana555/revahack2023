@@ -1,8 +1,8 @@
 import React from "react";
-import Aish from "../Photos/AishwaryaRadder.jpeg";
-import kiran from "../Photos/Kiran.jpg";
-import mohit from "../Photos/MohitKumar.jpg";
-import satish from "../Photos/satish.jpg";
+import kiran from "../Photos/min/Kiran.webp";
+import mohit from "../Photos/min/MohitKumar.webp";
+import Aish from "../Photos/min/aishwaryaradder.webp";
+import satish from "../Photos/min/satish.webp";
 import Card from "./Card";
 import MembersCard from "./MembersCard";
 
