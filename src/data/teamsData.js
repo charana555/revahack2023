@@ -4,7 +4,7 @@ export const teams = [
   // {
   //   teamName: "Organising Crew",
   //   lead1: {
-  //     photo: "./Images/MohitKumar.jpg",
+  //     photo: "./Images/CrewPhotos/min/MohitKumar.webp",
   //     name: "Mohit",
   //     title: "President",
   //     insta:
@@ -13,7 +13,7 @@ export const teams = [
   //     linkedin: "https://linkedin.com/in/mohit20kumar",
   //   },
   //   lead2: {
-  //     photo: "./Images/AishwaryaRadder.jpeg",
+  //     photo: "./Images/CrewPhotos/min/AishwaryaRadder.webp",
   //     name: "Aishwarya S",
   //     title: "Vice President",
   //     insta: "",
@@ -21,7 +21,7 @@ export const teams = [
   //     linkedin: "https://www.linkedin.com/in/aishwarya-radder",
   //   },
   //   member1: {
-  //     photo: "./Images/Rohan.jpg",
+  //     photo: "./Images/CrewPhotos/min/Rohan.webp",
   //     name: "Rohan S",
   //     insta:
   //       "https://instagram.com/r_o_h_a.n?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==",
@@ -29,7 +29,7 @@ export const teams = [
   //     linkedin: "https://www.linkedin.com/in/rohan-sridhar-3332b2249",
   //   },
   //   member2: {
-  //     photo: "./Images/NageshPatil.jpg",
+  //     photo: "./Images/CrewPhotos/min/NageshPatil.webp",
   //     name: "Nagesh Patil",
   //     insta:
   //       "https://instagram.com/__nagesh_patil_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==",
@@ -37,21 +37,21 @@ export const teams = [
   //     linkedin: "https://github.com/nageshToxic",
   //   },
   //   member3: {
-  //     photo: "Images/man.png",
+  //     photo: "Images/man.webp",
   //     name: "",
   //     insta: "",
   //     github: "",
   //     linkedin: "",
   //   },
   //   member4: {
-  //     photo: "Images/man.png",
+  //     photo: "Images/man.webp",
   //     name: "",
   //     insta: "",
   //     github: "",
   //     linkedin: "",
   //   },
   //   member5: {
-  //     photo: "Images/man.png",
+  //     photo: "Images/man.webp",
   //     name: "",
   //     insta: "",
   //     github: "",
@@ -62,7 +62,7 @@ export const teams = [
   {
     teamName: "Technical Team",
     lead1: {
-      photo: "./Images/Charana.jpg",
+      photo: "./Images/CrewPhotos/min/charana.webp",
       name: "Charana",
       title: "4th Year Lead",
       insta:
@@ -71,7 +71,7 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/charana-c",
     },
     lead2: {
-      photo: "Images/person2.png",
+      photo: "./Images/CrewPhotos/min/amogh.webp",
       name: "Amogh",
       title: "3rd Year Lead",
       insta: "https://www.instagram.com/amogh.padukone/",
@@ -79,14 +79,14 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/amogh-padukone-410879251/",
     },
     member1: {
-      photo: "./Images/Bhavika.jpeg",
+      photo: "./Images/CrewPhotos/min/bhavika2.webp",
       name: "Bhavika",
       insta: "",
       github: "https://github.com/bhavikavarshney",
       linkedin: "https://www.linkedin.com/in/bhavika-varshney-30032002/",
     },
     member2: {
-      photo: "./Images/Viraj.jpg",
+      photo: "./Images/CrewPhotos/min/viraj2.webp",
       name: "Viraj",
       insta:
         "https://instagram.com/virajsazzala?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==",
@@ -94,28 +94,28 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/sng-viraj-reddy",
     },
     member3: {
-      photo: "./Images/Dhyuti.jpg",
+      photo: "./Images/CrewPhotos/min/dhyuti2.webp",
       name: "Dhyuti",
       insta: "",
       github: "https://github.com/Dhyuti",
       linkedin: "https://www.linkedin.com/in/dhyuti-tewani-06b772210/",
     },
     member4: {
-      photo: "./Images/man.png",
+      photo: "./Images/CrewPhotos/min/man.webp",
       name: "Gayatri",
       insta: "",
       github: "",
       linkedin: "",
     },
     member5: {
-      photo: "Images/man.png",
+      photo: "./Images/CrewPhotos/min/man.webp",
       name: "",
       insta: "",
       github: "",
       linkedin: "",
     },
     member6: {
-      photo: "Images/man.png",
+      photo: "./Images/CrewPhotos/min/man.webp",
       name: "",
       insta: "",
       github: "",
@@ -126,7 +126,7 @@ export const teams = [
   {
     teamName: "Design Team",
     lead1: {
-      photo: "./Images/Maharshi.jpg",
+      photo: "./Images/CrewPhotos/min/maharshi.webp",
       name: "Maharshi",
       title: "3rd Year Lead",
       insta:
@@ -135,51 +135,51 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/vivekanand-shridhar-290910241/",
     },
     lead2: {
-      photo: "./Images/person2.png",
+      photo: "./Images/CrewPhotos/min/person2.webp",
       name: "Prajna R Patil",
       title: "3rd Year Lead",
-      insta: "",
+      insta: "https://www.instagram.com/prajnapatil_/",
       github: "https://github.com/prajna0906",
       linkedin: "https://www.linkedin.com/in/prajna-r-patil-400b5a227",
     },
 
     member1: {
-      photo: "./Images/Tarun.jpg",
+      photo: "./Images/CrewPhotos/min/tarun.webp",
       name: "Tarun P",
       insta: "https://www.instagram.com/tarun_2503/?next=%2F",
       github: "https://github.com/TarunTechie",
       linkedin: "https://www.linkedin.com/in/tarun-p-23274222a/",
     },
     member2: {
-      photo: "./Images/ArijeetBasu.jpg",
+      photo: "./Images/CrewPhotos/min/arijeetbasu.webp",
       name: "Arijeet Basu",
       insta: "",
       github: "https://github.com/basuarijeet",
       linkedin: "https://www.linkedin.com/in/arijeetbasu/",
     },
     member3: {
-      photo: "Images/man.png",
+      photo: "./Images/CrewPhotos/min/shashank.webp",
       name: "Shashank",
       insta: "https://instagram.com/_shashank_bn_?igshid=OGQ5ZDc2ODk2ZA==",
       github: "https://github.com/Shashank100200",
       linkedin: "https://www.linkedin.com/in/shashank-bn-34778021b",
     },
     member4: {
-      photo: "Images/man.png",
+      photo: "./Images/CrewPhotos/min/shishir.webp",
       name: "Shishir",
       insta: "",
       github: "",
       linkedin: "",
     },
     member5: {
-      photo: "Images/RidhaSalam.jpg",
+      photo: "./Images/CrewPhotos/min/ridhasalam.webp",
       name: "Ridha Salam",
       insta: "",
       github: "https://www.linkedin.com/in/ridha-salam-705446237      ",
       linkedin: "https://github.com/risa2211      ",
     },
     member6: {
-      photo: "Images/Ankush.jpeg",
+      photo: "./Images/CrewPhotos/min/ankush.webp",
       name: "Ankush Raj",
       insta:
         "https://instagram.com/ankush_raj_urs?igshid=YTQwZjQ0NmI0OA==      ",
@@ -191,7 +191,7 @@ export const teams = [
   {
     teamName: "Query Team",
     lead1: {
-      photo: "./Images/Ankit.jpg",
+      photo: "./Images/CrewPhotos/min/ankit.webp",
       name: "Ankit Kumar",
       title: "4th Year Lead",
       insta: "https://instagram.com/ankit.kit.15?igshid=MzNlNGNkZWQ4Mg==",
@@ -199,15 +199,15 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/ankit-kumar-420209225",
     },
     lead2: {
-      photo: "Images/person2.png",
-      name: "",
-      title: "",
-      insta: "",
-      github: "",
-      linkedin: "",
+      photo: "Images/CrewPhotos/min/person2.webp",
+      name: "Shivam Jain",
+      title: "3rd Year Lead",
+      insta: "https://www.instagram.com/shivam.jainn/",
+      github: "https://github.com/shivam-jainn",
+      linkedin: "https://www.linkedin.com/in/shivamjainn/",
     },
     member1: {
-      photo: "./Images/RonakKumar.jpg",
+      photo: "./Images/CrewPhotos/min/ronakkumar.webp",
       name: "Ronak",
       insta:
         "https://instagram.com/ronak_rdj?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==",
@@ -215,14 +215,14 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/ronak-jain-b70362249",
     },
     member2: {
-      photo: "./Images/Niishith.jpg",
+      photo: "./Images/CrewPhotos/min/niishith.webp",
       name: "",
       insta: "https://www.instagram.com/https.niishith/",
       github: "https://github.com/Niishith",
       linkedin: "https://www.linkedin.com/in/aashish-r-goudar-8503a7245/",
     },
     member3: {
-      photo: "Images/rakshita.jpg",
+      photo: "./Images/CrewPhotos/min/rakshita.webp",
       name: "Rakshita Singh",
       insta:
         "https://instagram.com/rakshittasingh?igshid=OGQ5ZDc2ODk2ZA==      ",
@@ -230,21 +230,21 @@ export const teams = [
       linkedin: "",
     },
     member4: {
-      photo: "Images/Rida.jpg",
+      photo: "./Images/CrewPhotos/min/rida.webp",
       name: "Rida Fathima      ",
       insta: "https://instagram.com/rida.f._?igshid=MzMyNGUyNmU2YQ==      ",
       github: "",
       linkedin: "https://www.linkedin.com/in/rida-fathima-a12589244      ",
     },
     member5: {
-      photo: "Images/man.png",
+      photo: "Images/man.webp",
       name: "",
       insta: "",
       github: "",
       linkedin: "",
     },
     member6: {
-      photo: "Images/man.png",
+      photo: "Images/man.webp",
       name: "",
       insta: "",
       github: "",
@@ -256,7 +256,7 @@ export const teams = [
   {
     teamName: "Event Management Team",
     lead1: {
-      photo: "./Images/Jithin.jpeg",
+      photo: "./Images/CrewPhotos/min/jithin.webp",
       name: "Jithin J ",
       title: "4th Year Lead",
       insta: "https://instagram.com/j__jithin?igshid=MzRlODBiNWFlZA==",
@@ -264,7 +264,7 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/jithin-j-775a06209",
     },
     lead2: {
-      photo: "Images/ankita.jpeg",
+      photo: "./Images/CrewPhotos/min/ankita.webp",
       name: "Ankita Ghosh ",
       title: "4th Year Lead",
       insta: "",
@@ -272,14 +272,14 @@ export const teams = [
       linkedin: "",
     },
     member1: {
-      photo: "./Images/Sharon.jpg",
+      photo: "./Images/CrewPhotos/min/sharon.webp",
       name: "Sharon ",
       insta: "https://www.instagram.com/prof.essor3239/",
       github: "https://github.com/Anonymous15052003",
       linkedin: "https://www.linkedin.com/in/sharon-chattopadhyay/",
     },
     member2: {
-      photo: "./Images/Sameeksha.jpg",
+      photo: "./Images/CrewPhotos/min/sameeksha.webp",
       name: "Sameeksha M K ",
       insta: "https://www.instagram.com/sameeksha7104/",
       github: "",
@@ -287,7 +287,7 @@ export const teams = [
     },
 
     member3: {
-      photo: "./Images/Rohan.jpg",
+      photo: "./Images/CrewPhotos/min/rohan.webp",
       name: "Rohan S",
       insta:
         "https://instagram.com/r_o_h_a.n?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==",
@@ -295,21 +295,21 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/rohan-sridhar-3332b2249",
     },
     member4: {
-      photo: "Images/anarg.jpeg",
+      photo: "./Images/CrewPhotos/min/anarg.webp",
       name: "Anarg K Ashokan      ",
-      insta: "",
-      github: "",
-      linkedin: "",
+      insta: "instagram.com/gamefreak_2002/      ",
+      github: "https://github.com/ANARG2002      ",
+      linkedin: "https://www.linkedin.com/in/anarg-k-ashokan-211b46224      ",
     },
     member5: {
-      photo: "Images/man.png",
+      photo: "./Images/CrewPhotos/min/man.webp",
       name: "",
       insta: "",
       github: "",
       linkedin: "",
     },
     member6: {
-      photo: "Images/man.png",
+      photo: "./Images/CrewPhotos/min/man.webp",
       name: "",
       insta: "",
       github: "",
@@ -321,7 +321,7 @@ export const teams = [
   {
     teamName: "Sponsor Team",
     lead1: {
-      photo: "./Images/SaiPrasad.jpg",
+      photo: "./Images/CrewPhotos/min/saiprasad.webp",
       name: "Sai Prasad C",
       title: "4th Year Lead",
       insta: "https://instagram.com/saiprasad_naidu36?igshid=NzZlODBkYWE4Ng==",
@@ -329,7 +329,7 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/sai-prasad-c/",
     },
     lead2: {
-      photo: "Images/person2.png",
+      photo: "./Images/CrewPhotos/min/person2.webp",
       name: "Diksha K",
       title: "3rd Year Lead",
       insta: "",
@@ -337,42 +337,43 @@ export const teams = [
       linkedin: "",
     },
     member1: {
-      photo: "./Images/Ashraff.jpg",
+      photo: "./Images/CrewPhotos/min/ashraff.webp",
       name: "Ashraff",
       insta: "https://www.instagram.com/ashraff_01/",
       github: "",
       linkedin: "www.linkedin.com/in/ashraffsarithala",
     },
     member2: {
-      photo: "./Images/AnitDias.jpeg",
+      photo: "./Images/CrewPhotos/min/anitdias.webp",
       name: "Anit Dias",
       insta: "https://instagram.com/anit._.dias?igshid=OGQ5ZDc2ODk2ZA==",
       github: "",
       linkedin: "https://www.linkedin.com/in/anit-dias-0bbaba241",
     },
     member3: {
-      photo: "./Images/Janhavi.jpeg",
+      photo: "./Images/CrewPhotos/min/janhavi.webp",
       name: "Janhavi Sachdev",
       insta: "https://instagram.com/janhavi_sachdev?igshid=NGVhN2U2NjQ0Yg==",
       github: "",
       linkedin: "https://www.linkedin.com/in/janhavi-sachdev-396a831a7",
     },
     member4: {
-      photo: "Images/man.png",
-      name: "Rohith R      ",
+      photo: "./Images/CrewPhotos/min/rohith.webp",
+      name: "Rohith R",
       insta: "",
       github: "",
-      linkedin: "",
+      linkedin:
+        "https://www.linkedin.com/in/rohith-radhakrishnan-980a251b5      ",
     },
     member5: {
-      photo: "Images/man.png",
-      name: "",
-      insta: "",
-      github: "",
-      linkedin: "",
+      photo: "./Images/CrewPhotos/min/harshit.webp",
+      name: "Harshit Singh",
+      insta: "https://www.instagram.com/_hersheysyrup_/",
+      github: "https://github.com/harshitsingh09",
+      linkedin: "https://www.linkedin.com/in/harshitsingh1      ",
     },
     member6: {
-      photo: "Images/man.png",
+      photo: "./Images/CrewPhotos/min/man.webp",
       name: "",
       insta: "",
       github: "",
@@ -383,7 +384,7 @@ export const teams = [
   {
     teamName: "Curation Team",
     lead1: {
-      photo: "./Images/Harshith.jpg",
+      photo: "./Images/CrewPhotos/min/harshith.webp",
       name: "Harshith G",
       title: "4th Year Lead",
       insta: "",
@@ -391,50 +392,50 @@ export const teams = [
       linkedin: "",
     },
     lead2: {
-      photo: "Images/person2.png",
-      name: "",
-      title: "",
+      photo: "./Images/CrewPhotos/min/Chaithali.webp",
+      name: "Chaithali SK",
+      title: "3rd Year Lead",
       insta: "",
       github: "",
       linkedin: "",
     },
     member1: {
-      photo: "./Images/Vaishnavi.jpg",
+      photo: "./Images/CrewPhotos/min/vaishnavi.webp",
       name: "Vaishnavi S",
       insta: "",
       github: "",
       linkedin: "",
     },
     member2: {
-      photo: "Images/man.png",
+      photo: "./Images/CrewPhotos/min/person2.webp",
       name: "",
       insta: "",
       github: "",
       linkedin: "",
     },
     member3: {
-      photo: "Images/man.png",
-      name: "",
+      photo: "./Images/CrewPhotos/min/gokul.webp",
+      name: "Gokul S",
       insta: "",
       github: "",
       linkedin: "",
     },
     member4: {
-      photo: "Images/man.png",
-      name: "",
+      photo: "./Images/CrewPhotos/min/monisha.webp",
+      name: "Monisha P N",
       insta: "",
       github: "",
       linkedin: "",
     },
     member5: {
-      photo: "Images/man.png",
-      name: "",
+      photo: "./Images/CrewPhotos/min/csitmonisha.webp",
+      name: "Monisha P",
       insta: "",
       github: "",
       linkedin: "",
     },
     member6: {
-      photo: "Images/man.png",
+      photo: "./Images/CrewPhotos/min/man.webp",
       name: "",
       insta: "",
       github: "",
@@ -445,7 +446,7 @@ export const teams = [
   {
     teamName: "Marketing Team",
     lead1: {
-      photo: "./Images/Reem.jpeg",
+      photo: "./Images/CrewPhotos/min/reem.webp",
       name: "Syeda Reema",
       title: "4th Year Lead",
       insta: "https://www.instagram.com/okayreeeeem/",
@@ -453,7 +454,7 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/syedareema/",
     },
     lead2: {
-      photo: "./Images/Saanvi.jpg",
+      photo: "./Images/CrewPhotos/min/saanvi.webp",
       name: "Saanvi Shetty",
       title: "3rd Year Lead",
       insta: "https://instagram.com/san_shetty_?igshid=NzZlODBkYWE4Ng==",
@@ -461,28 +462,28 @@ export const teams = [
       linkedin: "",
     },
     member1: {
-      photo: "./Images/Kavya.jpg",
+      photo: "./Images/CrewPhotos/min/kavya.webp",
       name: "M N Kavya",
       insta: "",
       github: "",
       linkedin: "http://linkedin.com/in/m-n-kavya-585987242",
     },
     member2: {
-      photo: "./Images/Pranam.jpeg",
+      photo: "./Images/CrewPhotos/min/pranam.webp",
       name: "Pranam P",
       insta: "",
       github: "",
       linkedin: "",
     },
     member3: {
-      photo: "./Images/Aryan.png",
+      photo: "./Images/CrewPhotos/min/aryan.webp",
       name: "",
       insta: "https://www.instagram.com/xaryxn_/",
       github: "",
       linkedin: "https://www.linkedin.com/in/aryan-thacker/",
     },
     member4: {
-      photo: "./Images/AbhaySinha.png",
+      photo: "./Images/CrewPhotos/min/abhaysinha.webp",
       name: "Abhay Sinha",
       insta: "https://www.instagram.com/who_abhaysinha/",
       github: "https://github.com/Abhay-Sinha",
@@ -490,14 +491,14 @@ export const teams = [
     },
 
     member5: {
-      photo: "./Images/afrakhan.png",
+      photo: "./Images/CrewPhotos/min/afrakhan.webp",
       name: "Afra Khan",
       insta: "https://www.instagram.com/_afrakhan___/",
       github: "https://github.com/Abhay-Sinha",
       linkedin: "https://www.linkedin.com/in/khan-afra/",
     },
     member6: {
-      photo: "Images/man.png",
+      photo: "./Images/CrewPhotos/min/man.webp",
       name: "",
       insta: "",
       github: "",
@@ -508,7 +509,7 @@ export const teams = [
   {
     teamName: "GDSC Club",
     lead1: {
-      photo: "./Images/diya.jpg",
+      photo: "./Images/CrewPhotos/min/diya.webp",
       name: "Diya Sarah Arun",
       title: "Lead",
       insta: "https://www.instagram.com/diya_sarah_arun/",
@@ -516,7 +517,7 @@ export const teams = [
       linkedin: "http://www.linkedin.com/in/diya-arun-4a7270230",
     },
     lead2: {
-      photo: "Images/person2.png",
+      photo: "./Images/CrewPhotos/min/person2.webp",
       name: "",
       title: "",
       insta: "",
@@ -524,7 +525,7 @@ export const teams = [
       linkedin: "",
     },
     member1: {
-      photo: "./Images/RayonShake.jpg",
+      photo: "./Images/CrewPhotos/min/rayonshake.webp",
       name: "Rayan Sheikh",
       title: "Lead",
       insta: "",
@@ -532,14 +533,14 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/imrayansheikh/",
     },
     member2: {
-      photo: "./Images/Shreyas.jpeg",
+      photo: "./Images/CrewPhotos/min/shreyas.webp",
       name: "Shreyas R",
       insta: "",
       github: "",
       linkedin: "https://www.linkedin.com/in/shreyass-ranganatha/",
     },
     member3: {
-      photo: "./Images/Akhilesh.jpg",
+      photo: "./Images/CrewPhotos/min/akhilesh.webp",
       name: "Akhilesh S",
       insta:
         "https://instagram.com/ak_hil03?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==",
@@ -547,21 +548,21 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/akhilesh-s-57b175253",
     },
     member4: {
-      photo: "./Images/Hitaish.jpg",
+      photo: "./Images/CrewPhotos/min/hitaish.webp",
       name: "Hitaish K G",
       insta: "https://www.instagram.com/hitaishkg/",
       github: "https://github.com/hitaishkg",
       linkedin: "https://www.linkedin.com/in/hitaish-k-g-536a09156/",
     },
     member5: {
-      photo: "Images/man.png",
+      photo: "./Images/CrewPhotos/min/man.webp",
       name: "",
       insta: "",
       github: "",
       linkedin: "",
     },
     member6: {
-      photo: "Images/man.png",
+      photo: "./Images/CrewPhotos/min/man.webp",
       name: "",
       insta: "",
       github: "",

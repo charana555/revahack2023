@@ -17,18 +17,18 @@ import "./Glimpse.css";
 // import "swiper/css/pagination";
 // import "swiper/css/scrollbar";
 
-import glimpse11 from "./GlimpsesPhotos/Gimplse11.jpeg";
-import glimpse1 from "./GlimpsesPhotos/glimpse1.jpg";
-import glimpse10 from "./GlimpsesPhotos/glimpse10.jpg";
-import glimpse12 from "./GlimpsesPhotos/glimpse12.jpeg";
-import glimpse2 from "./GlimpsesPhotos/glimpse2.jpg";
-import glimpse3 from "./GlimpsesPhotos/glimpse3.jpg";
-import glimpse4 from "./GlimpsesPhotos/glimpse4.jpg";
-import glimpse5 from "./GlimpsesPhotos/glimpse5.jpg";
-import glimpse6 from "./GlimpsesPhotos/glimpse6.jpg";
-import glimpse7 from "./GlimpsesPhotos/glimpse7.jpg";
-import glimpse8 from "./GlimpsesPhotos/glimpse8.jpg";
-import glimpse9 from "./GlimpsesPhotos/glimpse9.jpg";
+import glimpse11 from "./GlimpsesPhotos/min/gimplse11.webp";
+import glimpse1 from "./GlimpsesPhotos/min/glimpse1.webp";
+import glimpse10 from "./GlimpsesPhotos/min/glimpse10.webp";
+import glimpse12 from "./GlimpsesPhotos/min/glimpse12.webp";
+import glimpse2 from "./GlimpsesPhotos/min/glimpse2.webp";
+import glimpse3 from "./GlimpsesPhotos/min/glimpse3.webp";
+import glimpse4 from "./GlimpsesPhotos/min/glimpse4.webp";
+import glimpse5 from "./GlimpsesPhotos/min/glimpse5.webp";
+import glimpse6 from "./GlimpsesPhotos/min/glimpse6.webp";
+import glimpse7 from "./GlimpsesPhotos/min/glimpse7.webp";
+import glimpse8 from "./GlimpsesPhotos/min/glimpse8.webp";
+import glimpse9 from "./GlimpsesPhotos/min/glimpse9.webp";
 
 const Glimpse = (props) => {
   return (

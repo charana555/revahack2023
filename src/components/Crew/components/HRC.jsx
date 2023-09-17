@@ -1,11 +1,11 @@
 import React from "react";
-import aryan from "../Photos/Aryan.png";
-import gaurav from "../Photos/Gaurav.webp";
-import nagesh from "../Photos/NageshPatil.jpg";
-import aashish from "../Photos/Niishith.jpg";
-import samuel from "../Photos/Samuel.jpg";
-import Soumya from "../Photos/Soumyajit.jpg";
-import raj from "../Photos/raj.jpg";
+import gaurav from "../Photos/min/Gaurav.webp";
+import nagesh from "../Photos/min/NageshPatil.webp";
+import aashish from "../Photos/min/Niishith.webp";
+import samuel from "../Photos/min/Samuel.webp";
+import Soumya from "../Photos/min/Soumyajit.webp";
+import aryan from "../Photos/min/aryan.webp";
+import raj from "../Photos/min/raj.webp";
 
 const HRC = (props) => {
   return (
