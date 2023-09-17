@@ -101,7 +101,7 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/dhyuti-tewani-06b772210/",
     },
     member4: {
-      photo: "./Images/CrewPhotos/min/man.webp",
+      photo: "./Images/CrewPhotos/min/gayatri.webp",
       name: "Gayatri",
       insta: "",
       github: "",
