@@ -45,7 +45,7 @@ const Sponsors = () => {
         Sponsors
       </div>
 
-      <p className="  text-xs md:text-lg sm:text-xs text-secondary drop-shadow-lg shadow-secondary text-center font-light tracking-wider mt-10 mb-8">
+      <p className="  text-sm lg:text-2xl md:text-lg text-secondary drop-shadow-lg shadow-secondary text-center font-light tracking-wider mt-10 mb-8">
         Interested in Sponsoring? <br />
         Contact us at
         <a className="text-white " href="mailto:revahack@gmail.com">
