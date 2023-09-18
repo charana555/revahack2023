@@ -384,17 +384,17 @@ export const teams = [
   {
     teamName: "Curation Team",
     lead1: {
-      photo: "./Images/CrewPhotos/min/harshith.webp",
-      name: "Harshith G",
+      photo: "./Images/CrewPhotos/min/csitmonisha.webp",
+      name: "Monisha P ",
       title: "4th Year Lead",
       insta: "",
       github: "",
       linkedin: "",
     },
     lead2: {
-      photo: "./Images/CrewPhotos/min/Chaithali.webp",
-      name: "Chaithali SK",
-      title: "3rd Year Lead",
+      photo: "./Images/CrewPhotos/min/harshith.webp",
+      name: "Harshith G",
+      title: "4th Year Lead",
       insta: "",
       github: "",
       linkedin: "",
@@ -428,8 +428,8 @@ export const teams = [
       linkedin: "",
     },
     member5: {
-      photo: "./Images/CrewPhotos/min/csitmonisha.webp",
-      name: "Monisha P",
+      photo: "./Images/CrewPhotos/min/Chaithali.webp",
+      name: "Chaithali SK",
       insta: "",
       github: "",
       linkedin: "",
