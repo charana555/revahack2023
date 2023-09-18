@@ -135,7 +135,7 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/vivekanand-shridhar-290910241/",
     },
     lead2: {
-      photo: "./Images/CrewPhotos/min/person2.webp",
+      photo: "./Images/CrewPhotos/min/designDefault.webp",
       name: "Prajna R Patil",
       title: "3rd Year Lead",
       insta: "https://www.instagram.com/prajnapatil_/",
@@ -199,7 +199,7 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/ankit-kumar-420209225",
     },
     lead2: {
-      photo: "Images/CrewPhotos/min/person2.webp",
+      photo: "Images/CrewPhotos/min/queryDefault.webp",
       name: "Shivam Jain",
       title: "3rd Year Lead",
       insta: "https://www.instagram.com/shivam.jainn/",
@@ -329,7 +329,7 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/sai-prasad-c/",
     },
     lead2: {
-      photo: "./Images/CrewPhotos/min/person2.webp",
+      photo: "./Images/CrewPhotos/min/sponsorDefault.webp",
       name: "Diksha K",
       title: "3rd Year Lead",
       insta: "",
