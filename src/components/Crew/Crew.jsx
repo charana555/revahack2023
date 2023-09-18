@@ -45,13 +45,13 @@ const Crew = () => {
       <Splide
         hasTrack={false}
         options={{
-          arrows: false,
+          arrows: true,
           width: "100%",
           type: "loop",
           autoplay: true,
           classes: {
             // Add classes for arrows.
-            arrows: "splide__arrows your-class-arrows, crew-arrows",
+            arrows: "splide__arrows crew-arrows",
             arrow: "splide__arrow your-class-arrow",
             prev: "splide__arrow--prev your-class-prev",
             next: "splide__arrow--next your-class-next",
