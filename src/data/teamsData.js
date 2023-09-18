@@ -234,7 +234,7 @@ export const teams = [
     teamName: "Event Management Team",
     lead1: {
       photo: "./Images/Jithin.jpeg",
-      name: "Jithin J ",
+      name: "Jithin J",
       title: "4th Year Lead",
       insta: "https://instagram.com/j__jithin?igshid=MzRlODBiNWFlZA==",
       github: "https://github.com/jithinjjj",
