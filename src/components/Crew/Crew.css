@@ -45,3 +45,80 @@
 .my__splide__pagination__page {
   background-color: white !important;
 }
+
+.splide__arrows svg {
+  fill: white !important;
+  border: 1px white solid;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+@media (min-width: 1600px) {
+  .your-class-next,
+  .your-class-prev {
+    margin-top: 2% !important;
+  }
+}
+
+@media (max-width: 1100px) {
+  .your-class-next,
+  .your-class-prev {
+    margin-top: -8% !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .your-class-next,
+  .your-class-prev {
+    margin-top: -10% !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .your-class-next,
+  .your-class-prev {
+    margin-top: -17% !important;
+  }
+}
+
+@media (max-width: 650px) {
+  .your-class-next,
+  .your-class-prev {
+    margin-top: -20% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .your-class-next,
+  .your-class-prev {
+    margin-top: -10% !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .your-class-next,
+  .your-class-prev {
+    margin-top: -40% !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .your-class-next,
+  .your-class-prev {
+    margin-top: -42% !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .your-class-next,
+  .your-class-prev {
+    margin-top: -47% !important;
+  }
+}
+
+@media (max-width: 331px) {
+  .your-class-next,
+  .your-class-prev {
+    margin-top: -117% !important;
+  }
+}
