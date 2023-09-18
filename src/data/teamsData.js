@@ -329,7 +329,7 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/sai-prasad-c/",
     },
     lead2: {
-      photo: "./Images/CrewPhotos/min/sponsorDefault.webp",
+      photo: "./Images/CrewPhotos/min/diksha.webp",
       name: "Diksha K",
       title: "3rd Year Lead",
       insta: "",
