@@ -56,8 +56,7 @@ const Contact = () => {
             05082
           </div>
           <div className=" flex text-lg items-center gap-2  pb-2 px-2 tracking-wider">
-            <AiOutlinePhone className="text-2xl font-extrabold" /> +91 88618
-            30388
+            <AiOutlinePhone className="text-2xl font-extrabold" /> +91 90199 86049
           </div>
           <div className=" flex text-lg items-center gap-2  px-2 tracking-wider">
             <AiOutlineMail className="text-2xl font-extrabold" />{" "}

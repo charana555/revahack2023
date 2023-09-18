@@ -9,37 +9,46 @@ const About = () => {
       <div className="text-NeonPurple  my-[1.5rem] md:my-[4rem] text-[50px] md:text-[72px] font-roboto font-medium ">
         About Us
       </div>
-      <div className="flex flex-col text-center sm:text-justify  gap-8 md:gap-12 font-fira font-light text-sm  md:text-xl xl:text-2xl mx-5">
+      <div className="flex flex-col text-center sm:text-justify  gap-8 md:gap-12 font-fira font-light text-sm  md:text-lg xl:text-xl mx-5">
         <div>
-          <span className="font-regular"> REVA HACK</span>, a renowned tech
-          event organized annually by the Hackathon Club of REVA University, has
-          been a hub of innovation since its inception in 2016. What initially
-          started as an event within the university premises has now gained
-          recognition, drawing exceptional talents from various parts of the
-          world.
+          <span className="font-regular"> REVA HACK</span> 2023, powered by
+          Bluelearn and closely collaborating with GDSC, promises an exceptional
+          tech experience. Bluelearn, our Hiring Partner, is dedicated to
+          nurturing future tech talent, while The Phoenix Guild, our Community
+          Partner, drives our commitment to innovation.
         </div>
         <div>
-          <span className="font-regular"> REVA HACK</span>, the flagship event
-          of REVA University in the tech field, now attracts thousands of
-          participants, making it a gathering for aspiring innovators and tech
-          enthusiasts. The 2022 edition was truly remarkable, with more than
-          1,500 passionate participants and prizes worth INR 5 crore.
+          Welcome to the pinnacle of tech events! Organized annually by the
+          Hackathon Club of REVA University since 2016,{" "}
+          <span className="font-regular"> REVA HACK</span> has grown from a
+          modest university event to a global phenomenon.
         </div>
         <div>
-          But <span className="font-regular"> REVA HACK</span> is not just a
-          competition; it offers an experience. The event includes a variety of
-          workshops, immersive learning sessions, and a range of engaging
-          activities that go beyond just Kahoot games to include refreshing
-          stress relievers. As an added bonus, participants can also look
-          forward to receiving goodies and swag. At The Hackathon Club, our
-          mission is to promote innovation, and through REVA HACK, we bring this
-          vision to life in a way.
+          As the flagship tech extravaganza of REVA University,{" "}
+          <span className="font-regular"> REVA HACK</span> has evolved into a
+          magnetic force, attracting brilliant minds worldwide. In 2022, it left
+          an enduring mark with over 1,500 enthusiastic participants vying for
+          prizes worth INR 7.5 crore, generously sponsored by MLH. MLH's
+          unwavering focus on fostering collaboration and teamwork has
+          consistently yielded groundbreaking projects and invaluable
+          connections.
         </div>
         <div>
-          This year, we're rolling out a 36-hour on-site hackathon. Featuring an
-          array of tech talks from industry experts, exhilarating events,
-          exclusive giveaways, and so much more. Join us for a tech extravaganza
-          like no other!
+          <span className="font-regular"> REVA HACK</span> transcends
+          traditional hackathons; it's an immersive experience. Dive into
+          cutting-edge workshops, immersive learning sessions, and engaging
+          activities. Brace for surprises, stress-relief activities, and
+          exclusive swag. At The Hackathon Club, we embody innovation, and{" "}
+          <span className="font-regular"> REVA HACK</span> brings that vision to
+          life.
+        </div>
+        <div>
+          This year, we raise the stakes with a thrilling 36-hour on-site
+          hackathon. Prepare for a tech-filled extravaganza featuring
+          captivating tech talks by industry titans, pulse-pounding events, and
+          exclusive giveaways. Join us at{" "}
+          <span className="font-regular"> REVA HACK</span> 2023 - the ultimate
+          tech adventure awaits!
         </div>
       </div>
       {/* <p>About</p>

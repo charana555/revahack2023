@@ -17,16 +17,18 @@ import "./Glimpse.css";
 // import "swiper/css/pagination";
 // import "swiper/css/scrollbar";
 
-import glimpse1 from "./GlimpsesPhotos/glimpse1.jpg";
-import glimpse10 from "./GlimpsesPhotos/glimpse10.jpg";
-import glimpse2 from "./GlimpsesPhotos/glimpse2.jpg";
-import glimpse3 from "./GlimpsesPhotos/glimpse3.jpg";
-import glimpse4 from "./GlimpsesPhotos/glimpse4.jpg";
-import glimpse5 from "./GlimpsesPhotos/glimpse5.jpg";
-import glimpse6 from "./GlimpsesPhotos/glimpse6.jpg";
-import glimpse7 from "./GlimpsesPhotos/glimpse7.jpg";
-import glimpse8 from "./GlimpsesPhotos/glimpse8.jpg";
-import glimpse9 from "./GlimpsesPhotos/glimpse9.jpg";
+import glimpse11 from "./GlimpsesPhotos/min/gimplse11.webp";
+import glimpse1 from "./GlimpsesPhotos/min/glimpse1.webp";
+import glimpse10 from "./GlimpsesPhotos/min/glimpse10.webp";
+import glimpse12 from "./GlimpsesPhotos/min/glimpse12.webp";
+import glimpse2 from "./GlimpsesPhotos/min/glimpse2.webp";
+import glimpse3 from "./GlimpsesPhotos/min/glimpse3.webp";
+import glimpse4 from "./GlimpsesPhotos/min/glimpse4.webp";
+import glimpse5 from "./GlimpsesPhotos/min/glimpse5.webp";
+import glimpse6 from "./GlimpsesPhotos/min/glimpse6.webp";
+import glimpse7 from "./GlimpsesPhotos/min/glimpse7.webp";
+import glimpse8 from "./GlimpsesPhotos/min/glimpse8.webp";
+import glimpse9 from "./GlimpsesPhotos/min/glimpse9.webp";
 
 const Glimpse = (props) => {
   return (
@@ -70,34 +72,88 @@ const Glimpse = (props) => {
           >
             <SplideTrack>
               <SplideSlide className="glimpse-slide">
-                <img src={glimpse1}></img>
+                <img
+                  src={glimpse1}
+                  loading="lazy"
+                  alt="revahack 2022 glimpses"
+                ></img>
               </SplideSlide>
               <SplideSlide className="glimpse-slide">
-                <img src={glimpse2}></img>
+                <img
+                  src={glimpse2}
+                  loading="lazy"
+                  alt="revahack 2022 glimpses"
+                ></img>
               </SplideSlide>
               <SplideSlide className="glimpse-slide">
-                <img src={glimpse3}></img>
+                <img
+                  src={glimpse3}
+                  loading="lazy"
+                  alt="revahack 2022 glimpses"
+                ></img>
               </SplideSlide>
               <SplideSlide className="glimpse-slide">
-                <img src={glimpse4}></img>
+                <img
+                  src={glimpse4}
+                  loading="lazy"
+                  alt="revahack 2022 glimpses"
+                ></img>
               </SplideSlide>
               <SplideSlide className="glimpse-slide">
-                <img src={glimpse5}></img>
+                <img
+                  src={glimpse5}
+                  loading="lazy"
+                  alt="revahack 2022 glimpses"
+                ></img>
               </SplideSlide>
               <SplideSlide className="glimpse-slide">
-                <img src={glimpse6}></img>
+                <img
+                  src={glimpse6}
+                  loading="lazy"
+                  alt="revahack 2022 glimpses"
+                ></img>
               </SplideSlide>
               <SplideSlide className="glimpse-slide">
-                <img src={glimpse7}></img>
+                <img
+                  src={glimpse7}
+                  loading="lazy"
+                  alt="revahack 2022 glimpses"
+                ></img>
               </SplideSlide>
               <SplideSlide className="glimpse-slide">
-                <img src={glimpse8}></img>
+                <img
+                  src={glimpse8}
+                  loading="lazy"
+                  alt="revahack 2022 glimpses"
+                ></img>
               </SplideSlide>
               <SplideSlide className="glimpse-slide">
-                <img src={glimpse9}></img>
+                <img
+                  src={glimpse9}
+                  loading="lazy"
+                  alt="revahack 2022 glimpses"
+                ></img>
               </SplideSlide>
               <SplideSlide className="glimpse-slide">
-                <img src={glimpse10}></img>
+                <img
+                  src={glimpse10}
+                  loading="lazy"
+                  alt="revahack 2022 glimpses"
+                ></img>
+              </SplideSlide>
+              <SplideSlide className="glimpse-slide">
+                <img
+                  src={glimpse11}
+                  loading="lazy"
+                  alt="revahack 2022 glimpses"
+                ></img>
+              </SplideSlide>
+              <SplideSlide className="glimpse-slide">
+                <img
+                  src={glimpse12}
+                  loading="lazy"
+                  alt="revahack 2022 glimpses"
+                ></img>
               </SplideSlide>
             </SplideTrack>
           </Splide>

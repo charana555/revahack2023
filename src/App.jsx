@@ -33,7 +33,7 @@ const App = () => {
         />
       </div>
       <div
-        className="block md:hidden fixed top-20 left-0"
+        className="block md:hidden absolute top-20 left-0"
         style={{ zIndex: 9999 }}
       >
         <img
