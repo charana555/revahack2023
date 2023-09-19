@@ -49,7 +49,7 @@ const TimelineA = (props) => {
               <div className="font-fira text-xs  md:text-[15px] glassmorphic p-5 md:max-w-[60%] mr-10 mt-4 xl:ml-[10%]">
                 Explore the exciting world of technology and innovation. Unleash
                 your creative potential and build something extraordinary. Join
-                us on September 11th for a hackaethon like no other!"
+                us on September 11th for a hackathon like no other!"
               </div>
             </div>
           </div>
