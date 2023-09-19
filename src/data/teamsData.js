@@ -237,8 +237,8 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/rida-fathima-a12589244      ",
     },
     member5: {
-      photo: "Images/man.webp",
-      name: "",
+      photo: "./Images/CrewPhotos/min/nafesa.webp",
+      name: "Nafeesa",
       insta: "",
       github: "",
       linkedin: "",
