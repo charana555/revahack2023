@@ -199,7 +199,7 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/ankit-kumar-420209225",
     },
     lead2: {
-      photo: "Images/CrewPhotos/min/queryDefault.webp",
+      photo: "Images/CrewPhotos/min/shivamcutie.webp",
       name: "Shivam Jain",
       title: "3rd Year Lead",
       insta: "https://www.instagram.com/shivam.jainn/",
@@ -237,8 +237,8 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/rida-fathima-a12589244      ",
     },
     member5: {
-      photo: "Images/man.webp",
-      name: "",
+      photo: "./Images/CrewPhotos/min/nafesa.webp",
+      name: "Nafeesa",
       insta: "",
       github: "",
       linkedin: "",
