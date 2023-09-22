@@ -135,7 +135,7 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/vivekanand-shridhar-290910241/",
     },
     lead2: {
-      photo: "./Images/CrewPhotos/min/designDefault.webp",
+      photo: "./Images/CrewPhotos/min/prp.webp",
       name: "Prajna R Patil",
       title: "3rd Year Lead",
       insta: "https://www.instagram.com/prajnapatil_/",
