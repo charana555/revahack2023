@@ -106,18 +106,18 @@ const Hero = () => {
                   </div>
 
                   <div className="powered-by-container mt-3">
-                    <div className="font-thin text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl">
-                      In Collaboration with
+                    <div className="font-thin text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl max-w-[250px]">
+                      {/* In Collaboration with */}
                     </div>
-                    <div className="bluelearn-logo">
+                    <div className="gdsc-logo">
                       <a
                         href="https://gdsc.community.dev/reva-university-bengaluru/"
                         target="_blank"
                       >
                         <img
-                          src="Images/gdsc-simple.png"
+                          src="Images/GDSC-white.png"
                           alt="gdsc"
-                          className="ml-2 h-8 sm:h-10 md:h-10 lg:h-10 xl:h-10" // Set the height here
+                          className=" h-8 sm:h-10 md:h-10 lg:h-10 xl:h-10 "
                         />
                       </a>
                     </div>
@@ -142,7 +142,6 @@ const Hero = () => {
                 data-button-theme="light"
                 style={{ height: "44px", width: "312px" }}
               >
-
                 <a href="https://reva-hack-1.devfolio.co/">
                   <button className="  bg-[#456FF6]  px-12 rounded-[3px] text-white text-2xl flex items-center py-1 justify-center h-[46px] w-[312px] ">
                     <img
@@ -153,7 +152,6 @@ const Hero = () => {
                     <span className="mr-4">Register</span>
                   </button>
                 </a>
-
               </div>
               <a
                 href="https://discord.gg/6Sv9ZdQ4er"
