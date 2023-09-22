@@ -244,11 +244,11 @@ export const teams = [
       linkedin: "",
     },
     member6: {
-      photo: "Images/man.webp",
-      name: "",
-      insta: "",
+      photo: "./Images/CrewPhotos/min/ashraff.webp",
+      name: "Ashraff",
+      insta: "https://www.instagram.com/ashraff_01/",
       github: "",
-      linkedin: "",
+      linkedin: "www.linkedin.com/in/ashraffsarithala",
     },
   },
 
@@ -338,7 +338,7 @@ export const teams = [
     },
     member1: {
       photo: "./Images/CrewPhotos/min/ashraff.webp",
-      name: "Ashraff",
+      name: "",
       insta: "https://www.instagram.com/ashraff_01/",
       github: "",
       linkedin: "www.linkedin.com/in/ashraffsarithala",
