@@ -1,14 +1,14 @@
 import React from "react";
 
 // logos import
+import echo3d from "../../assets/SponsorLogos/Sapling/echo-white.webp";
 import filecoin from "../../assets/SponsorLogos/Sapling/filecoin.png";
 import replit from "../../assets/SponsorLogos/Sapling/replit.png";
 import solana from "../../assets/SponsorLogos/Sapling/solana.png";
 import devfolio from "../../assets/SponsorLogos/Tree/devfolio.png";
 import polygon from "../../assets/SponsorLogos/Tree/polygon.png";
-import ieee from "../../assets/SponsorLogos/titleSponsors/ieee.png";
-
 import ieee2 from "../../assets/SponsorLogos/titleSponsors/ieee.jpg";
+import ieee from "../../assets/SponsorLogos/titleSponsors/ieee.png";
 import ieeebng from "../../assets/SponsorLogos/titleSponsors/ieeebng.png";
 
 import gdsclogo from "../../assets/SponsorLogos/Tree/gdsclogowhite.png";
@@ -32,6 +32,7 @@ const saplinglogos = [
   { logo: filecoin, alt: "filecoin white logo" },
   { logo: replit, alt: "replit white logo" },
   { logo: solana, alt: "solana white logo" },
+  { logo: echo3d, alt: "echo 3d white logo" },
 ];
 
 const Sponsors = () => {
@@ -151,15 +152,15 @@ const Sponsors = () => {
           <SponsorBox image={saplinglogos[0].logo} alt={saplinglogos[0].alt} />
           <SponsorBox image={saplinglogos[1].logo} alt={saplinglogos[1].alt} />
           <SponsorBox image={saplinglogos[2].logo} alt={saplinglogos[2].alt} />
+          <SponsorBox image={saplinglogos[3].logo} alt={saplinglogos[3].alt} />
           <SponsorBox image={saplinglogos[0].logo} alt={saplinglogos[0].alt} />
           <SponsorBox image={saplinglogos[1].logo} alt={saplinglogos[1].alt} />
           <SponsorBox image={saplinglogos[2].logo} alt={saplinglogos[2].alt} />
+          <SponsorBox image={saplinglogos[3].logo} alt={saplinglogos[3].alt} />
           <SponsorBox image={saplinglogos[0].logo} alt={saplinglogos[0].alt} />
           <SponsorBox image={saplinglogos[1].logo} alt={saplinglogos[1].alt} />
           <SponsorBox image={saplinglogos[2].logo} alt={saplinglogos[2].alt} />
-          <SponsorBox image={saplinglogos[0].logo} alt={saplinglogos[0].alt} />
-          <SponsorBox image={saplinglogos[1].logo} alt={saplinglogos[1].alt} />
-          <SponsorBox image={saplinglogos[2].logo} alt={saplinglogos[2].alt} />
+          <SponsorBox image={saplinglogos[3].logo} alt={saplinglogos[3].alt} />
         </div>
       </div>
       {/* <div className="slider2">
