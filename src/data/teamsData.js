@@ -321,7 +321,7 @@ export const teams = [
   {
     teamName: "Sponsor Team",
     lead1: {
-      photo: "./Images/CrewPhotos/min/saiprasad.webp",
+      photo: "./Images/CrewPhotos/min/sai.webp",
       name: "Sai Prasad C",
       title: "4th Year Lead",
       insta: "https://instagram.com/saiprasad_naidu36?igshid=NzZlODBkYWE4Ng==",
