@@ -18,92 +18,100 @@
 
 /* Add this CSS class to style the grey cursor */
 .cursor-grey {
-    color: grey; /* Change the color to grey or any other color you prefer */
+  color: grey; /* Change the color to grey or any other color you prefer */
 }
 
 .powered-by-container {
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(10px); /* Adjust the blur value as needed */
-    border-radius: 10px; /* Adjust the border radius as needed */
-    padding: 10px; /* Adjust the padding as needed */
-    display: inline-flex; /* Keep the container inline with its content */
-    align-items: center; /* Center the content vertically */
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px); /* Adjust the blur value as needed */
+  border-radius: 10px; /* Adjust the border radius as needed */
+  padding: 10px; /* Adjust the padding as needed */
+  display: inline-flex; /* Keep the container inline with its content */
+  align-items: center; /* Center the content vertically */
 }
-
-
-
 
 /* Hero.css */
 .text-glow {
-    text-shadow: 0 0 30px rgba(12, 202, 74, 0.8); /* Adjust the color and intensity as needed */
-    animation: glow 1s ease-in-out infinite alternate;
+  text-shadow: 0 0 30px rgba(12, 202, 74, 0.8); /* Adjust the color and intensity as needed */
+  animation: glow 1s ease-in-out infinite alternate;
 }
 
 @keyframes glow {
-    0% {
-        text-shadow: 0 0 10px rgba(12, 202, 74, 0.8); /* Adjust the color and intensity as needed */
-    }
-    100% {
-        text-shadow: 0 0 20px rgba(12, 202, 74, 0.8); /* Adjust the color and intensity as needed */
-    }
+  0% {
+    text-shadow: 0 0 10px rgba(12, 202, 74, 0.8); /* Adjust the color and intensity as needed */
+  }
+  100% {
+    text-shadow: 0 0 20px rgba(12, 202, 74, 0.8); /* Adjust the color and intensity as needed */
+  }
 }
 
 .neon {
-    color: rgb(157, 0, 255); /* Neon green color (you can change this to your preferred neon color) */
-    letter-spacing: 2px; /* Adjust letter spacing as needed */
-    text-align: center; /* Center the text */
-    text-shadow: 0 0 30px rgb(118, 101, 141); /* Neon glow effect */
+  color: rgb(
+    157,
+    0,
+    255
+  ); /* Neon green color (you can change this to your preferred neon color) */
+  letter-spacing: 2px; /* Adjust letter spacing as needed */
+  text-align: center; /* Center the text */
+  text-shadow: 0 0 30px rgb(118, 101, 141); /* Neon glow effect */
 
-    /* Add flicker animation */
-    animation: flicker 3s linear infinite, flicker-fast 1s linear infinite;
+  /* Add flicker animation */
+  animation: flicker 3s linear infinite, flicker-fast 1s linear infinite;
 }
 
 .neon:hover {
-    /* Add a different glow color when hovering */
-    text-shadow: 0 0 20px rgb(115, 0, 255);
+  /* Add a different glow color when hovering */
+  text-shadow: 0 0 20px rgb(115, 0, 255);
 }
 .neon-white {
-    color: rgb(223, 215, 227); /* Neon green color (you can change this to your preferred neon color) */
-    letter-spacing: 2px; /* Adjust letter spacing as needed */
-    text-align: center; /* Center the text */
-    text-shadow: 0 0 10px rgb(155, 151, 161), 0 0 20px rgba(255, 255, 255, 0); /* Neon glow with drop shadow */
+  color: rgb(
+    223,
+    215,
+    227
+  ); /* Neon green color (you can change this to your preferred neon color) */
+  letter-spacing: 2px; /* Adjust letter spacing as needed */
+  text-align: center; /* Center the text */
+  text-shadow: 0 0 10px rgb(155, 151, 161), 0 0 20px rgba(255, 255, 255, 0); /* Neon glow with drop shadow */
 }
 
 .neon-white:hover {
-    /* Add a different glow color when hovering */
-    text-shadow: 0 0 20px rgb(112, 111, 117);
+  /* Add a different glow color when hovering */
+  text-shadow: 0 0 20px rgb(112, 111, 117);
 }
 /* Define flicker animations */
 .flicker-slow {
-    animation: flicker 3s linear infinite;
+  animation: flicker 3s linear infinite;
 }
 
 .flicker-fast {
-    animation: flicker 1s linear infinite;
+  animation: flicker 1s linear infinite;
 }
 
 @keyframes flicker {
-    0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
-        opacity: 0.99;
-    }
-    20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
-        opacity: 0.4;
-    }
+  0%,
+  19.999%,
+  22%,
+  62.999%,
+  64%,
+  64.999%,
+  70%,
+  100% {
+    opacity: 0.99;
+  }
+  20%,
+  21.999%,
+  63%,
+  63.999%,
+  65%,
+  69.999% {
+    opacity: 0.4;
+  }
 }
 
 .bluelearn-logo img {
-    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
 }
 
 .bluelearn-logo img:hover {
-    transform: scale(1.05); /* Scale the logo slightly when hovered */
+  transform: scale(1.05); /* Scale the logo slightly when hovered */
 }
-
-
-
-
-
-
-
-
-
