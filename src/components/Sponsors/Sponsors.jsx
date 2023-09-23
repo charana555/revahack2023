@@ -5,18 +5,23 @@ import echo3d from "../../assets/SponsorLogos/Sapling/echo-white.webp";
 import filecoin from "../../assets/SponsorLogos/Sapling/filecoin.png";
 import replit from "../../assets/SponsorLogos/Sapling/replit.png";
 import solana from "../../assets/SponsorLogos/Sapling/solana.png";
-import devfolio from "../../assets/SponsorLogos/Tree/devfolio.png";
-import polygon from "../../assets/SponsorLogos/Tree/polygon.png";
 import ieee2 from "../../assets/SponsorLogos/titleSponsors/ieee.jpg";
 import ieee from "../../assets/SponsorLogos/titleSponsors/ieee.png";
 import ieeebng from "../../assets/SponsorLogos/titleSponsors/ieeebng.png";
 
-import gdsclogo from "../../assets/SponsorLogos/Tree/gdsclogowhite.png";
 import bluelearn from "../../assets/SponsorLogos/titleSponsors/bluelearn.png";
 import reva from "../../assets/SponsorLogos/titleSponsors/reva.png";
 import reva2 from "../../assets/SponsorLogos/titleSponsors/reva2.png";
 import revalogo from "../../assets/SponsorLogos/titleSponsors/revalogo.jpg";
 import tgp from "../../assets/SponsorLogos/titleSponsors/tgp.png";
+
+// Tree logos
+import devfolio from "../../assets/SponsorLogos/Tree/devfolio.png";
+import gdsclogo from "../../assets/SponsorLogos/Tree/gdsclogowhite.png";
+import polygon from "../../assets/SponsorLogos/Tree/polygon.png";
+import xyz from "../../assets/SponsorLogos/Tree/xyz_logo_white.png";
+import cake from "../../assets/SponsorLogos/Tree/cake_logo_white.png";
+import voice from "../../assets/SponsorLogos/Tree/voiceflow-logo.png";
 
 import sponsorbg from "../../assets/sponsorBg.png";
 import "./Sponsers.css";
@@ -25,6 +30,9 @@ const treelogos = [
   { logo: devfolio, alt: "devfolio white logo" },
   { logo: polygon, alt: "polygon white logo" },
   { logo: gdsclogo, alt: "gdsc reva logo" },
+  { logo: xyz, alt: "xyz logo" },
+  { logo: cake, alt: "cake logo" },
+  { logo: voice, alt: "voice logo" },
   // { logo: reva, alt: "sad" },
 ];
 
@@ -111,18 +119,40 @@ const Sponsors = () => {
       {/* Scroller */}
       <div className="slider">
         <div className="slide-track">
+          {treelogos.map((item, i) => (
+            <span key={i}>
+              <SponsorBox image={item.logo} alt={item.alt} />
+            </span>
+          ))}
+          {treelogos.map((item, i) => (
+            <span key={i}>
+              <SponsorBox image={item.logo} alt={item.alt} />
+            </span>
+          ))}
+          {treelogos.map((item, i) => (
+            <span key={i}>
+              <SponsorBox image={item.logo} alt={item.alt} />
+            </span>
+          ))}
+          {treelogos.map((item, i) => (
+            <span key={i}>
+              <SponsorBox image={item.logo} alt={item.alt} />
+            </span>
+          ))}
+          {/* <SponsorBox image={treelogos[0].logo} alt={treelogos[0].alt} />
+          <SponsorBox image={treelogos[1].logo} alt={treelogos[1].alt} />
+          <SponsorBox image={treelogos[2].logo} alt={treelogos[2].alt} /> */}
+          {/* <SponsorBox image={treelogos[0].logo} alt={treelogos[0].alt} />
+          <SponsorBox image={treelogos[1].logo} alt={treelogos[1].alt} />
+          <SponsorBox image={treelogos[2].logo} alt={treelogos[2].alt} />
+
           <SponsorBox image={treelogos[0].logo} alt={treelogos[0].alt} />
           <SponsorBox image={treelogos[1].logo} alt={treelogos[1].alt} />
           <SponsorBox image={treelogos[2].logo} alt={treelogos[2].alt} />
+
           <SponsorBox image={treelogos[0].logo} alt={treelogos[0].alt} />
           <SponsorBox image={treelogos[1].logo} alt={treelogos[1].alt} />
-          <SponsorBox image={treelogos[2].logo} alt={treelogos[2].alt} />
-          <SponsorBox image={treelogos[0].logo} alt={treelogos[0].alt} />
-          <SponsorBox image={treelogos[1].logo} alt={treelogos[1].alt} />
-          <SponsorBox image={treelogos[2].logo} alt={treelogos[2].alt} />
-          <SponsorBox image={treelogos[0].logo} alt={treelogos[0].alt} />
-          <SponsorBox image={treelogos[1].logo} alt={treelogos[1].alt} />
-          <SponsorBox image={treelogos[2].logo} alt={treelogos[2].alt} />
+          <SponsorBox image={treelogos[2].logo} alt={treelogos[2].alt} /> */}
         </div>
       </div>
       {/* <div className="slider2">
