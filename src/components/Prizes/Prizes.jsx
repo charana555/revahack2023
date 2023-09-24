@@ -23,7 +23,7 @@ function Prizes() {
           Prizes
         </p>
 
-        <div className="w-[70%] xl:w-[60%] h-auto p-[10px] prize-tag">
+        <div className="w-[70%] xl:w-[60%] h-auto p-[5px] prize-tag">
           <div className="container glass ">
             <a href="https://reva-hack-1.devfolio.co/prizes" target="_blank">
               <div className="flex justify-end">
@@ -32,18 +32,18 @@ function Prizes() {
             </a>
             <hr className="hr mx-auto" />
             <p
-              className="text-lg sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl mb-5"
+              className="font-medium text-lg sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl mb-5"
               style={headerStyle1}
             >
               TOTAL PRIZE POOL OF
             </p>
             <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl mb-[5%]">
-              ₹ 92,00,000
+              ₹ 5,00,000
             </p>
           </div>
         </div>
 
-        <div className="flex justify-center xl:space-x-10">
+        {/* <div className="flex justify-center xl:space-x-10">
           <div className="w-[30%] xl:w-[27%] p-[10px] sm:h-[150px] md:h-[200px] lg:h-[250px] xl:h-[300px] prize-tag">
             <div
               className="container glass"
@@ -79,6 +79,43 @@ function Prizes() {
                 alt="Runner"
                 className="custom-image"
               ></img>
+            </div>
+          </div>
+        </div> */}
+
+        <div className="w-[70%] xl:w-[60%] h-auto p-[5px] mt-[-3%] prize-tag">
+          <div className="container glass flex justify-center">
+            <div className="text-left text-sm md:text-2xl lg:text-3xl xl:text-3xl mt-10 mb-10 xl:mt-14 xl:mb-14">  
+              <div className="mb-8 xl:mb-14">
+                <p className="font-medium"
+                  style={headerStyle1}
+                >
+                  Winner
+                </p>
+                <p className="text-lg md:text-3xl lg:text-5xl xl:text-6xl">
+                  ₹ 40,000
+                </p>
+              </div>
+              <div className="mb-8 xl:mb-14">
+                <p className="font-medium"
+                  style={headerStyle1}
+                >
+                  Runner Up
+                </p>
+                <p className="text-lg md:text-3xl lg:text-5xl xl:text-6xl">
+                  ₹ 20,000
+                </p>
+              </div>
+              <div>
+                <p className="font-medium"
+                  style={headerStyle1}
+                >
+                  Second Runner Up
+                </p>
+                <p className="text-lg md:text-3xl lg:text-5xl xl:text-6xl">
+                  ₹ 15,000
+                </p>
+              </div>
             </div>
           </div>
         </div>
