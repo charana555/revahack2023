@@ -14,16 +14,16 @@ function Prizes() {
     <div>
       <section
         id="Prizes"
-        className="flex flex-col text-white text-3xl h-auto items-center justify-center lg:mb-44"
+        className="flex flex-col text-white text-3xl h-auto items-center justify-center lg:mb-44 font-medium"
       >
         <p
-          className=" font-robot font-medium text-[50px] md:text-[72px]"
+          className=" font-robot text-[50px] md:text-[72px]"
           style={headerStyle}
         >
           Prizes
         </p>
 
-        <div className="w-[70%] xl:w-[60%] h-auto p-[10px] prize-tag">
+        <div className="w-[70%] xl:w-[60%] h-auto p-[5px] prize-tag">
           <div className="container glass ">
             <a
               href="https://reva-hack-1.devfolio.co/prizes?partner=Polygon"
@@ -37,7 +37,7 @@ function Prizes() {
             </a>
             <hr className="hr mx-auto" />
             <p
-              className="text-lg sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl mb-5"
+              className="font-medium text-lg sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl mb-1 xl:mb-5"
               style={headerStyle1}
             >
               TOTAL PRIZE POOL OF
@@ -48,42 +48,49 @@ function Prizes() {
           </div>
         </div>
 
-        <div className="flex justify-center xl:space-x-10">
-          <div className="w-[30%] xl:w-[27%] p-[10px] sm:h-[150px] md:h-[200px] lg:h-[250px] xl:h-[300px] prize-tag">
-            <div
-              className="container glass"
-              // style={{ backgroundColor: "#515151" }}
-            >
-              <p
-                className="text-lg sm:text-3xl md:text-4xl lg:text-6xl xl:text-6xl mb-3 mt-3 xl:mt-10 xl:mb-10"
-                style={{ textAlign: "center" }}
-              >
-                Winner
-              </p>
-              <img
-                // src="./Images/prize_golden.svg"
-                src="./Images/winner.svg"
-                alt="Winner"
-                className="custom-image"
-              ></img>
-            </div>
-          </div>
-          <div className="w-[30%] xl:w-[27%] p-[10px] sm:h-[150px] md:h-[200px] lg:h-[250px] xl:h-[300px] prize-tag">
-            <div
-              className="container glass"
-              // style={{ backgroundColor: "#515151" }}
-            >
-              <p
-                className="text-lg sm:text-3xl md:text-4xl lg:text-6xl xl:text-6xl mb-3 mt-3 xl:mt-10 xl:mb-10"
-                style={{ textAlign: "center" }}
-              >
-                Runner-Up
-              </p>
-              <img
-                src="./Images/runnerup.png"
-                alt="Runner"
-                className="custom-image"
-              ></img>
+        {/* prize amount for sub categories */}
+        <div className="w-[70%] xl:w-[60%] h-auto p-[5px] mt-[-3%] xl:mt-[-2%] prize-tag">
+          <div className="container glass flex justify-center">
+            <div className="text-left text-sm md:text-2xl lg:text-3xl xl:text-3xl mt-10 mb-10 xl:mt-16 xl:mb-16 mx-auto font-medium">  
+              <div className="mb-8 xl:mb-14 flex items-center">
+                <img src="./Images/first.svg" alt="First" className="custom-image h-10 md:h-14 lg:h-20 xl:h-28 w-auto mr-4"></img>
+                <div>  
+                  <p 
+                    style={headerStyle1}
+                  >
+                    Winner
+                  </p>
+                  <p className="text-xl md:text-3xl lg:text-5xl xl:text-6xl">
+                    ₹ 40,000
+                  </p>
+                </div>
+              </div>
+              <div className="mb-8 xl:mb-14 flex items-center">
+                <img src="./Images/second.svg" alt="First" className="custom-image h-10 md:h-14 lg:h-20 xl:h-28 w-auto mr-4"></img>
+                <div>  
+                  <p 
+                    style={headerStyle1}
+                  >
+                    Runner Up
+                  </p>
+                  <p className="text-xl md:text-3xl lg:text-5xl xl:text-6xl">
+                    ₹ 20,000
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center">
+                <img src="./Images/third.svg" alt="First" className="custom-image h-10 md:h-14 lg:h-20 xl:h-28 w-auto mr-4"></img>
+                <div>  
+                  <p 
+                    style={headerStyle1}
+                  >
+                    Second Runner Up
+                  </p>
+                  <p className="text-xl md:text-3xl lg:text-5xl xl:text-6xl">
+                    ₹ 15,000
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
