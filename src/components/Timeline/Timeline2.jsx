@@ -1,5 +1,6 @@
 import React from "react";
 import sponsorbg from "../../assets/sponsorBg.png";
+import close from "./svgs/Close.svg";
 import Day1 from "./svgs/Day1Icon.svg";
 import Day2 from "./svgs/Day2Icon.svg";
 import Day3 from "./svgs/Day3Icon.svg";
@@ -29,13 +30,13 @@ const TimelineA = (props) => {
               <img src={cakeIcon} alt="" className="mx-auto my-5" />
             </div>
             <div
-              className="h-[100%] w-[3px] mx-auto mt-5
+              className="h-[100%] w-[3px] mx-auto mt-2
           
             bg-gradient-to-t from-green-500 via-green-500 to-[#919097]
           "
             ></div>
           </div>
-          <div className="w-11/12  mt-[350px] mb-[100px] md:mb-0">
+          <div className="w-11/12  mt-[350px] mb-[100px] md:mb-[130px]">
             <div className="flex flex-col justify-start text-white pl-4 md:pl-0">
               <div>
                 <div className="font-light text-xs md:text-sm text-white">
@@ -54,6 +55,39 @@ const TimelineA = (props) => {
             </div>
           </div>
         </div>
+
+        <div id="tEXTRAElement" className="flex  ">
+          <div className="w-1/12 flex flex-col justify-center">
+            <div>
+              <img src={close} alt="" className="mx-auto pl-2 my-5" />
+            </div>
+            <div
+              className="h-[100%] w-[3px] mx-auto mt-2
+          
+            bg-gradient-to-t from-green-500 via-green-500 to-[#919097]
+          "
+            ></div>
+          </div>
+          <div className="w-11/12   mb-[100px] md:mb-0">
+            <div className="flex flex-col justify-start text-white pl-4 md:pl-0">
+              <div>
+                <div className="font-light text-xs md:text-sm text-white">
+                  {" "}
+                  11<sup>th</sup> October 2023
+                </div>
+                <div className="font-medium text-3xl md:text-4xl lg:text-5xl font-roboto text-RoyalPurple">
+                  Registrations Close
+                </div>
+              </div>
+              {/* <div className="font-fira text-xs  md:text-[15px] glassmorphic p-5 md:max-w-[60%] mr-10 mt-4 xl:ml-[10%]">
+                Explore the exciting world of technology and innovation. Unleash
+                your creative potential and build something extraordinary. Join
+                us on September 11th for a hackathon like no other!"
+              </div> */}
+            </div>
+          </div>
+        </div>
+
         <div id="tSecondElement" className="flex">
           <div className="w-1/12 flex flex-col items-center relative">
             {" "}
@@ -71,7 +105,7 @@ const TimelineA = (props) => {
                   {" "}
                   12<sup>th</sup> October 2023
                 </div>
-                <div className="font-medium md:max-w-[60%] text-3xl md:text-4xl lg:text-5xl font-roboto text-RoyalPurple">
+                <div className="font-medium md:max-w-[60%] text-3xl md:text-4xl lg:text-5xl font-roboto text-NeonGreen">
                   Announcement of the Selected 50 Teams
                 </div>
               </div>
