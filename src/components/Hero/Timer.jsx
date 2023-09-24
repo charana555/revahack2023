@@ -96,8 +96,10 @@ const Timer = () => {
           </div>
         </div>
       </div>
-      <p className="text-xs :text-sm">
-        Registrations close on 11<sup>th</sup> October 2023
+
+      <p className="text-xs md:text-sm">
+        Registrations end on 12<sup>th</sup> October 2023
+
       </p>
     </div>
   );

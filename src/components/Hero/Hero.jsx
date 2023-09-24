@@ -176,6 +176,17 @@ const Hero = () => {
                 </button>
               </a>
             </div>
+            <div className="mt-5">
+              <p className="text-xs  font-semibold text-purple-100">
+                In case the Devfolio button is missing{" "}
+                <a
+                  className="hover:underline hover:text-[#0CCA4A]"
+                  href="https://reva-hack-1.devfolio.co/"
+                >
+                  click here.
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
