@@ -25,7 +25,10 @@ function Prizes() {
 
         <div className="w-[70%] xl:w-[60%] h-auto p-[10px] prize-tag">
           <div className="container glass ">
-            <a href="https://reva-hack-1.devfolio.co/prizes" target="_blank">
+            <a
+              href="https://reva-hack-1.devfolio.co/prizes?partner=Polygon"
+              target="_blank"
+            >
               <div className="flex justify-end">
                 <button className="btn underline btn-primary btn-prize mt-[3%] mr-[10%] mb-[-5%] text-[15px] md:text-[25px] lg:text-[30px] hover:scale-110 active:scale-90">
                   Bounty
