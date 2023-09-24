@@ -43,7 +43,7 @@ function Prizes() {
               TOTAL PRIZE POOL OF
             </p>
             <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl mb-[5%]">
-              ₹ 92,00,000
+              ₹ 4,15,00,000
             </p>
           </div>
         </div>
