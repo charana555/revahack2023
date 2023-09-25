@@ -74,7 +74,7 @@ function Prizes() {
                     Runner Up
                   </p>
                   <p className="text-xl md:text-3xl lg:text-5xl xl:text-6xl">
-                    ₹ 20,000
+                    ₹ 25,000
                   </p>
                 </div>
               </div>
@@ -87,7 +87,7 @@ function Prizes() {
                     Second Runner Up
                   </p>
                   <p className="text-xl md:text-3xl lg:text-5xl xl:text-6xl">
-                    ₹ 15,000
+                    ₹ 10,000
                   </p>
                 </div>
               </div>
