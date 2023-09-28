@@ -222,7 +222,7 @@ export const teams = [
       linkedin: "https://www.linkedin.com/in/aashish-r-goudar-8503a7245/",
     },
     member3: {
-      photo: "./Images/CrewPhotos/min/rakshita.webp",
+      photo: "./Images/CrewPhotos/min/rakshita2.webp",
       name: "Rakshita Singh",
       insta:
         "https://instagram.com/rakshittasingh?igshid=OGQ5ZDc2ODk2ZA==      ",
@@ -303,10 +303,10 @@ export const teams = [
     },
     member5: {
       photo: "./Images/CrewPhotos/min/man.webp",
-      name: "",
-      insta: "",
-      github: "",
-      linkedin: "",
+      name: "Preran Arya",
+      insta: "https://www.instagram.com/pr_arya04/",
+      github: "https://github.com/preranaryagr24",
+      linkedin: "https://www.linkedin.com/in/preran-arya-g-r/",
     },
     member6: {
       photo: "./Images/CrewPhotos/min/man.webp",
