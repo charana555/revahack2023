@@ -227,7 +227,7 @@ export const teams = [
       insta:
         "https://instagram.com/rakshittasingh?igshid=OGQ5ZDc2ODk2ZA==      ",
       github: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/rakshita-singh-1ab8ab273",
     },
     member4: {
       photo: "./Images/CrewPhotos/min/rida.webp",
