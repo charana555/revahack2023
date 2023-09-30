@@ -99,7 +99,7 @@ function Prizes() {
           </div>
         </div>
 
-        <div className="glass w-[70%] xl:w-[60%] h-auto  prize-tag flex flex-col sm:flex-row items-center  justify-center p-10 gap-5 md:gap-10">
+        <div className="glass w-[70%] xl:w-[60%] h-auto  prize-tag flex flex-col sm:flex-row items-center  justify-center  p-6 md:p-12 gap-5 md:gap-10">
           <div className=" w-2/3 ">
             <img
               src="./Images/bluelearn.png"
@@ -119,7 +119,7 @@ function Prizes() {
         <div
           onClick={handleDivClick}
           style={{ cursor: "pointer" }}
-          className="glass w-[70%] xl:w-[60%] h-auto  prize-tag flex  flex-row justify-center p-10  gap-5 md:gap-10 items-center bounty-styles"
+          className="glass w-[70%] xl:w-[60%] h-auto  prize-tag flex  flex-row justify-center p-6 md:p-12  gap-5 md:gap-10 items-center bounty-styles"
         >
           <div className="w-2/3  sm:w-1/3 flex justify-center">
             <img
