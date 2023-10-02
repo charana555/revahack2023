@@ -127,7 +127,7 @@ const Sponsors = () => {
       <div className="flex justify-center gap-10  ">
         <div className=" title-sponsor glassmorphic flex items-center justify-center  ">
           <img
-            className="p-2 w-10 md:w-24"
+            className="p-2 w-[200px] md:max-w-[110px]"
             src={jb}
             alt="title sponsor reva logo"
           />
