@@ -9,7 +9,7 @@ export const data = [
   },
   {
     faq: "What is the maximum and minimum number of participants allowed in a group?",
-    ans: "A group can have minimum of 3 participants and max 5 participants. It is required to have at least one female participant in each group.",
+    ans: "A group can have minimum of 3 participants and maximum of 5 participants. It is required to have at least one female participant in each group.",
   },
   {
     faq: "Who can apply for REVA HACK 2023?",
