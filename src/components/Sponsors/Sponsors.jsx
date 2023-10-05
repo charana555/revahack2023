@@ -10,6 +10,7 @@ import ieee from "../../assets/SponsorLogos/titleSponsors/ieee.png";
 import ieeebng from "../../assets/SponsorLogos/titleSponsors/ieeebng.png";
 
 import jb from "../../assets/SponsorLogos/jblogo.png";
+import techvester from "../../assets/SponsorLogos/techvester.png";
 
 import bluelearn from "../../assets/SponsorLogos/titleSponsors/bluelearn.png";
 import reva from "../../assets/SponsorLogos/titleSponsors/reva.png";
@@ -130,6 +131,20 @@ const Sponsors = () => {
             className="p-2 w-[200px] md:max-w-[110px]"
             src={jb}
             alt="title sponsor reva logo"
+          />
+        </div>
+      </div>
+
+      {/* technical partner it seems, honestly way too many categories hope they giving good amount of money man, idk why i started ranting in comments but i have already typed soo much soo now this will not be deleted :D */}
+      <div className=" font-[600] py-[4%] md:pb-[1%]   text-xl md:text-2xl ">
+        Technical Partner
+      </div>
+      <div className="flex justify-center gap-10  ">
+        <div className=" title-sponsor glassmorphic flex items-center justify-center  ">
+          <img
+            className="m-4 p-2 "
+            src={techvester}
+            alt=" sponsor techvester logo"
           />
         </div>
       </div>
