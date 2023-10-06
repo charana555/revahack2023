@@ -163,10 +163,6 @@ const TimelineA = (props) => {
                       <td> 6:00pm</td>
                       <td>Hackathon Begins </td>
                     </tr>
-                    <tr>
-                      <td> 11:00pm - 12:30am</td>
-                      <td>First Round of evaluation </td>
-                    </tr>
                   </tbody>
                 </table>
               </div>
@@ -206,16 +202,16 @@ const TimelineA = (props) => {
                   </thead>
                   <tbody>
                     <tr>
-                      <td> 9:30am - 10:30am</td>
-                      <td>Second Round Of Evaluation </td>
+                      <td> 9:30pm - 10:30am</td>
+                      <td>First Round of evaluation </td>
                     </tr>
                     <tr>
                       <td>4:00pm </td>
                       <td>Ice Breaking & Networking sessions </td>
                     </tr>
                     <tr>
-                      <td> 6:00pm-8:00pm</td>
-                      <td>Third round of Evaluation </td>
+                      <td>6:00pm - 8:00pm</td>
+                      <td>Second Round Of Evaluation </td>
                     </tr>
                     <tr>
                       <td> 10:00pm </td>
@@ -264,7 +260,7 @@ const TimelineA = (props) => {
                       <td>Hackathon Stops </td>
                     </tr>
                     <tr>
-                      <td>9:00am-11:30am </td>
+                      <td>9:00am - 11:30am </td>
                       <td>Final Round of Evaluation </td>
                     </tr>
                   </tbody>
