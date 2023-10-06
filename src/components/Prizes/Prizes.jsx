@@ -150,7 +150,7 @@ function Prizes() {
             <p className="text-left md:text-left lg:ml-[-30px] text-lg md:text-2xl xl:text-3xl ">
               Bounty Prizes worth up to{" "}
               <span className="text-NeonGreen">
-                <span className=" text-NeonGreen price-text">$1800</span>
+                <span className=" text-NeonGreen price-text">$7200</span>
                 &nbsp;<span className="  text-NeonGreen bounty-arrow">
                   →
                 </span>{" "}
