@@ -202,7 +202,7 @@ const TimelineA = (props) => {
                   </thead>
                   <tbody>
                     <tr>
-                      <td> 9:30pm - 10:30am</td>
+                      <td> 9:30am - 10:30am</td>
                       <td>First Round of evaluation </td>
                     </tr>
                     <tr>
