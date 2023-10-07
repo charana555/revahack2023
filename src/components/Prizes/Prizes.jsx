@@ -116,8 +116,8 @@ function Prizes() {
           </div>
         </div>
 
-        {/* <div className="glass w-[70%] xl:w-[60%] h-auto  prize-tag flex flex-col sm:flex-row items-center  justify-center  p-6 md:p-12 gap-5 md:gap-10">
-          <div className=" w-2/3 ">
+        <div className="glass w-[70%] xl:w-[60%] h-auto  prize-tag flex flex-col sm:flex-row items-center  justify-center  p-6 md:p-12 gap-5 md:gap-10">
+          <div className="w-2/3  sm:w-1/3 mr-[4%] ">
             <img
               src="./Images/techvesters.png"
               alt="First"
@@ -128,10 +128,10 @@ function Prizes() {
           <div className="mx-auto">
             <p className="text-center md:text-left text-lg md:text-2xl xl:text-3xl ">
               <span className="text-NeonGreen">Internship</span> Opportunities
-              at various tech-startups for 2 Teams from each track
+              from Techvestors
             </p>
           </div>
-        </div> */}
+        </div>
 
         <div
           onClick={handleDivClick}

@@ -13,6 +13,12 @@
   padding: 0 10px;
 }
 
+.community-sponsor {
+  max-width: 150px;
+  height: auto;
+  padding: 10px;
+}
+
 .slider {
   margin: 10px 0;
   background: none;
@@ -132,6 +138,7 @@ second slider
   .title-sponsor {
     width: 200px;
   }
+
   @keyframes scroll {
     0% {
       transform: translateX(0);
@@ -188,6 +195,9 @@ second slider
   }
   .title-sponsor {
     width: 40%;
+  }
+  .community-sponsor {
+    max-width: 100px;
   }
   @keyframes scroll {
     0% {

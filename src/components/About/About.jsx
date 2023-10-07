@@ -12,10 +12,12 @@ const About = () => {
       <div className="flex flex-col text-center sm:text-justify  gap-8 md:gap-12 font-fira font-light text-sm  md:text-lg xl:text-xl mx-5">
         <div>
           <span className="font-regular"> REVA HACK</span> 2023, powered by
-          Bluelearn and closely collaborating with GDSC, promises an exceptional
-          tech experience. Bluelearn, our Hiring Partner, is dedicated to
-          nurturing future tech talent, while The Phoenix Guild, our Community
-          Partner, drives our commitment to innovation.
+          Bluelearn and in close collaboration with GDSC, promises an
+          exceptional tech experience. Bluelearn, our Hiring Partner, is
+          dedicated to nurturing future tech talent, while The Phoenix Guild,
+          our Community Partner, strengthens our commitment to innovation,
+          alongside OS Code Community: the largest offline, multi-college
+          community that assists us in unlocking the power of innovation."
         </div>
         <div>
           Welcome to the pinnacle of tech events! Organized annually by the

@@ -19,6 +19,7 @@ import revalogo from "../../assets/SponsorLogos/titleSponsors/revalogo.jpg";
 import tgp from "../../assets/SponsorLogos/titleSponsors/tgp.png";
 
 // Tree logos
+import occode from "../../assets/SponsorLogos/OSCode.png";
 import cake from "../../assets/SponsorLogos/Tree/cake_logo_white.png";
 import devfolio from "../../assets/SponsorLogos/Tree/devfolio.png";
 import gdsclogo from "../../assets/SponsorLogos/Tree/gdsclogowhite.png";
@@ -98,10 +99,10 @@ const Sponsors = () => {
       <div className=" font-[600] py-[4%] md:pb-[1%]   text-xl md:text-2xl ">
         Community and Hiring Partners
       </div>
-      <div className="flex justify-center gap-10  ">
-        <div className=" title-sponsor glassmorphic flex items-center justify-center  ">
+      <div className="flex justify-center gap-4 md:gap-10  ">
+        <div className=" community-sponsor glassmorphic flex items-center justify-center  ">
           <img
-            className="p-2 w-10 md:w-24"
+            className=" p-1 md:p-2 "
             src={tgp}
             alt="title sponsor reva logo"
           />
@@ -109,8 +110,12 @@ const Sponsors = () => {
         {/* <div className="title-sponsor glassmorphic flex items-center ">
           <img classname="" src={ieee} alt="title sponsor ieee logo" />
         </div> */}
-        <div className="title-sponsor glassmorphic flex items-center ">
-          <img classname="" src={bluelearn} alt="title sponsor ieee logo" />
+        <div className="community-sponsor glassmorphic flex items-center ">
+          <img classname="p-2 " src={bluelearn} alt="title sponsor ieee logo" />
+        </div>
+
+        <div className="community-sponsor glassmorphic flex items-center ">
+          <img classname=" " src={occode} alt="title sponsor ieee logo" />
         </div>
         {/* <div className="title-sponsor glassmorphic flex items-center justify-center ">
           <img
