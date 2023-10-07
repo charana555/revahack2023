@@ -16,7 +16,7 @@ const About = () => {
           exceptional tech experience. Bluelearn, our Hiring Partner, is
           dedicated to nurturing future tech talent, while The Phoenix Guild,
           our Community Partner, strengthens our commitment to innovation,
-          alongside OS Code Community: the largest offline, multi-college
+          alongside OSCode Community: the largest offline, multi-college
           community that assists us in unlocking the power of innovation."
         </div>
         <div>
