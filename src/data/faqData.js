@@ -9,7 +9,7 @@ export const data = [
   },
   {
     faq: "What is the maximum and minimum number of participants allowed in a group?",
-    ans: "A group must have five people. It is required to have at least one female participant in each group.",
+    ans: "A group can have a minimum of 3 participants and a maximum of 5 participants. It is required to have at least one female participant in each group.",
   },
   {
     faq: "Who can apply for REVA HACK 2023?",
@@ -17,7 +17,7 @@ export const data = [
   },
   {
     faq: "What do I pay to register for the event?",
-    ans: "0, Nill, Nought, Cero, Nada. REVA HACK 2023 has no registration fee for all participants apart from rupees 300 paid as a security deposit which will be refunded after the event unless any property damage is caused.",
+    ans: "0, Nill, Nought, Cero, Nada. REVA HACK 2023 has no registration fee for all participants apart from rupees 300 paid on-spot as a security deposit which will be refunded after the event unless any property damage is caused.",
   },
   {
     faq: "How does one avail accommodation facilities?",
