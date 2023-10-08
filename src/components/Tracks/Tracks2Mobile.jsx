@@ -31,10 +31,10 @@ const Tracks2Mobile = (props) => {
         const textToRender = [
           "  Building the Future on Immutable Blocks: Hack the Potential of Blockchain",
           "Ctrl+C Ctrl+V to the Future: Hacking Tomorrow' s Universe with AI",
-          "Unlocking New Realities: Step In, Dive Deep, Hack Beyond.",
-          " Cracking the Code of Trust: Securing the Future in the Digital Age.",
+          "Unlocking New Realities: Step In, Dive Deep, Hack Beyond",
+          " Cracking the Code of Trust: Securing the Future in the Digital Age",
           "Code in the Cloud, Control the World: Building Smart Solutions with IoT and Cloud",
-          "Open Innovation: Where Boundaries Fade, and Solutions Shine.",
+          "Breaking Barriers, Building Bridges: Open Innovation for a Better World",
         ];
 
         addWords(textToRender[index]);

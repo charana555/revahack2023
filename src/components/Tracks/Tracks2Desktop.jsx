@@ -207,7 +207,7 @@ const Tracks2Desktop = (props) => {
                           <h3>AR/VR</h3>
                           <h4>
                             Unlocking New Realities: Step In, Dive Deep, Hack
-                            Beyond.
+                            Beyond
                           </h4>
                         </div>
                       </div>
@@ -436,8 +436,8 @@ const Tracks2Desktop = (props) => {
                         <div className="tracks-card-info-title">
                           <h3>Open Innovation</h3>
                           <h4>
-                            Open Innovation: Where Boundaries Fade, and
-                            Solutions Shine.
+                            Breaking Barriers, Building Bridges: Open Innovation
+                            for a Better World
                           </h4>
                         </div>
                       </div>
@@ -488,7 +488,7 @@ const Tracks2Desktop = (props) => {
                           <h3>CYBERSECURITY</h3>
                           <h4>
                             Cracking the Code of Trust: Securing the Future in
-                            the Digital Age.
+                            the Digital Age
                           </h4>
                         </div>
                       </div>
