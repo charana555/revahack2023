@@ -22,7 +22,7 @@ const FirstSlide = (props) => {
             <div className="card-photo">
               <img src={satish} alt="lead photo" loading="lazy" />
             </div>
-            <div className="card-title">Satish </div>
+            <div className="card-title">G C Sathish</div>
             <div className="card-subtitle">
               <span>Faculty Head</span>
             </div>
