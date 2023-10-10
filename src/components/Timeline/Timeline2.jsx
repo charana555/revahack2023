@@ -50,7 +50,7 @@ const TimelineA = (props) => {
               <div className="font-fira text-xs  md:text-[15px] glassmorphic p-5 md:max-w-[60%] mr-10 mt-4 xl:ml-[10%]">
                 Explore the exciting world of technology and innovation. Unleash
                 your creative potential and build something extraordinary. Join
-                us on September 11th for a hackathon like no other!"
+                us on September 11th for a hackathon like no other!
               </div>
             </div>
           </div>
@@ -129,12 +129,17 @@ const TimelineA = (props) => {
                   </thead>
                   <tbody>
                     <tr>
-                      <td> October 13th </td>
-                      <td>1st Batch </td>
+                      <td>
+                        {" "}
+                        October 13<sup>th</sup>{" "}
+                      </td>
+                      <td>1st Batch Announcement </td>
                     </tr>
                     <tr>
-                      <td>October 18th</td>
-                      <td> 2nd Batch </td>
+                      <td>
+                        October 18<sup>th</sup>
+                      </td>
+                      <td> 2nd Batch Announcement </td>
                     </tr>
                   </tbody>
                 </table>
