@@ -91,19 +91,19 @@ const TimelineA = (props) => {
         <div id="tSecondElement" className="flex">
           <div className="w-1/12 flex flex-col items-center relative">
             {" "}
-            <div className=" h-[100%] md:h-[550px] w-[3px] bg-NeonGreen mx-auto "></div>
+            <div className=" h-[100%] md:h-[750px] w-[3px] bg-NeonGreen mx-auto "></div>
             <img
-              className="hidden md:block absolute bottom-1 secondcurve"
+              className="hidden md:block absolute bottom-56 secondcurve"
               src={secondCurve}
               alt=""
             />
           </div>
           <div className="w-11/12">
-            <div className="flex flex-col md:mt-[20rem] md:pt md:ml-10 xl:ml-5 justify-start text-white pl-5 md:pl-2">
+            <div className="flex flex-col md:mt-[14rem] md:pt-20 md:ml-10 xl:ml-5 justify-start text-white pl-5 md:pl-2">
               <div className="">
                 <div className="font-light md:mt-[-15px] text-xs md:text-sm text-white ">
                   {" "}
-                  12<sup>th</sup> October 2023
+                  {/* 12<sup>th</sup> October 2023 */}
                 </div>
                 <div className="font-medium md:max-w-[60%] text-3xl md:text-4xl lg:text-5xl font-roboto text-NeonGreen">
                   Announcement of the Selected 50 Teams
@@ -111,9 +111,33 @@ const TimelineA = (props) => {
               </div>
 
               <div className="font-fira text-xs  md:text-[15px]  glassmorphic p-5 md:max-w-[60%] mr-10 mt-4 xl:ml-[10%]">
-                Stay tuned for October 12th! In one month, we'll reveal the top
-                50 teams joining our offline 36-hour hackathon. Get ready for
-                their creative innovations!
+                <p>
+                  We will be selecting the top 50 teams in two exhilarating
+                  batches. Stay on the edge of your seats for the announcements
+                  as we meticulously evaluate and choose the absolute best
+                  projects
+                </p>
+                <table
+                  className=" text-xs  md:text-[15px] mt-6"
+                  style={{ border: "1px white solid" }}
+                >
+                  <thead>
+                    <tr>
+                      <th className="bg-NeonViolet">Dates</th>
+                      <th className="bg-NeonViolet">Batch Announcement</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td> October 13th </td>
+                      <td>1st Batch </td>
+                    </tr>
+                    <tr>
+                      <td>October 18th</td>
+                      <td> 2nd Batch </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
