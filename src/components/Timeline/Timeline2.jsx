@@ -73,7 +73,7 @@ const TimelineA = (props) => {
               <div>
                 <div className="font-light text-xs md:text-sm text-white">
                   {" "}
-                  11<sup>th</sup> October 2023
+                  15<sup>th</sup> October 2023 [11:59PM]
                 </div>
                 <div className="font-medium text-3xl md:text-4xl lg:text-5xl font-roboto text-RoyalPurple">
                   Registrations Close
