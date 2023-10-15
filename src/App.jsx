@@ -17,6 +17,7 @@ import Timeline from "./components/Timeline/Timeline";
 import TimelineA from "./components/Timeline/Timeline2";
 import Tracks2 from "./components/Tracks/Tracks2";
 import Tracks2Mobile from "./components/Tracks/Tracks2Mobile";
+import Speakers from "./components/Speakers/Speakers";
 
 const App = () => {
   return (
@@ -48,6 +49,7 @@ const App = () => {
       {/* </section> */}
       <Tracks2 />
       <Prizes />
+      <Speakers />
       {/* <Timeline /> */}
       <TimelineA />
       <Sponsors />
