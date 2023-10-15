@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import About from "../components/About/About";
+import SelectedParticipants from "./SelectedParticipants";
 import Banner from "../components/BottomBanner/Banner";
 import Contact from "../components/Contact/Contact";
 import Crew from "../components/Crew/Crew";
@@ -55,6 +56,7 @@ const Main = (props) => {
         <TimelineA />
         <Sponsors />
         <Crew />
+        <SelectedParticipants />
         <Banner />
         <Glimpse />
         <section className="back w-full">
