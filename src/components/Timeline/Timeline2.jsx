@@ -137,7 +137,7 @@ const TimelineA = (props) => {
                     </tr>
                     <tr>
                       <td>
-                        October 15<sup>th</sup>
+                        October 16<sup>th</sup>
                       </td>
                       <td> 2nd Batch Announcement </td>
                     </tr>
