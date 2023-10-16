@@ -176,7 +176,7 @@ const Hero = () => {
                 </button>
               </a>
             </div>
-            <div className="mt-5">
+            {/* <div className="mt-5">
               <p className="text-xs  font-semibold text-purple-100">
                 In case the Devfolio button is missing{" "}
                 <a
@@ -186,7 +186,7 @@ const Hero = () => {
                   click here.
                 </a>
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
