@@ -1,7 +1,6 @@
 import React from "react";
 import "../App.css";
 import About from "../components/About/About";
-import SelectedParticipants from "./SelectedParticipants";
 import Banner from "../components/BottomBanner/Banner";
 import Contact from "../components/Contact/Contact";
 import Crew from "../components/Crew/Crew";
@@ -19,6 +18,7 @@ import Timeline from "../components/Timeline/Timeline";
 import TimelineA from "../components/Timeline/Timeline2";
 import Tracks2 from "../components/Tracks/Tracks2";
 import Tracks2Mobile from "../components/Tracks/Tracks2Mobile";
+import SelectedParticipants from "./SelectedParticipants";
 
 const Main = (props) => {
   return (
@@ -56,7 +56,6 @@ const Main = (props) => {
         <TimelineA />
         <Sponsors />
         <Crew />
-        <SelectedParticipants />
         <Banner />
         <Glimpse />
         <section className="back w-full">
