@@ -1,6 +1,12 @@
 import React from "react";
-import "./participants.css";
+import Contact from "../components/Contact/Contact";
+import Footer from "../components/Footer/Footer";
+import ParticipantsNavbar from "../components/Participants/ParticipantsNavbar";
+import TeamCard from "../components/Participants/TeamCard";
+import TrackSection from "../components/Participants/TrackSection";
+
 import { participants } from "../data/participantsData.js";
+// import "./participants.css";
 {
   /* checklist
     [] make a simplified navbar
@@ -12,29 +18,49 @@ import { participants } from "../data/participantsData.js";
 }
 
 const SelectedParticipants = (props) => {
+  const BlockchainIcon = "src/components/Participants/Icons/blockchain.png";
+
+  const IOTicon = "src/components/Participants/Icons/iot.png";
+  const arvrIcon = "src/components/Participants/Icons/arvr.png";
+  const cybersecIcon = "src/components/Participants/Icons/cybersec.png";
+  const genaiIcon = "src/components/Participants/Icons/genai.png";
+  const oppeninnoIcon = "src/components/Participants/Icons/openinno.png";
+
+  const blockchainData = participants[0].blockchain;
+  const arvrData = participants[0].arvr;
+  const cybersecData = participants[0].cybersec;
+  const genAIData = participants[0].genAI;
+  const openinnoData = participants[0].openinno;
+  const iot = participants[0].IOT;
   return (
-    <section
-      id="participants"
-      className="flex-col text-white text-3xl w-full flex items-center my-[5%]"
-    >
-      <div className="text-LushGreen  text-[50px] md:text-[72px] font-roboto font-medium ">
+    <>
+      <ParticipantsNavbar />
+      <div className="text-LushGreen  text-[50px] md:text-[72px] font-roboto font-medium text-center my-10">
         Participants
       </div>
+      {/* <TeamCard /> */}
+      <TrackSection
+        icon={BlockchainIcon}
+        track={blockchainData}
+        trackName={"BLOCKCHAIN"}
+      />
 
-      <div className="flex flex-wrap gap-1 md:gap-[1px] px-4 items-center justify-center">
-          {participants.map((participant, index) => (
-            <div key={index} className="text-xl p-5 m-10 glassmorphic flex items-center justify-center">
-              <div className="flex flex-col items-center justify-center">
-                <div className="text-2xl font-bold">{participant.teamName}</div>
-                <div className="text-xl">{participant.track}</div>
-                <div className="text-xl">{participant.leadername}</div>
-                <div className="text-xl">{participant.college}</div>
-                <div className="text-xl">{participant.city}</div>
-              </div>
-            </div>
-          ))}
-      </div>
-    </section>
+      <TrackSection icon={arvrIcon} track={arvrData} trackName={"AR/VR"} />
+      <TrackSection
+        icon={cybersecIcon}
+        track={cybersecData}
+        trackName={"CYBERSECURITY"}
+      />
+      <TrackSection icon={genaiIcon} track={genAIData} trackName={"GEN AI"} />
+      <TrackSection
+        icon={oppeninnoIcon}
+        track={openinnoData}
+        trackName={"OPEN INNOVATION"}
+      />
+      <TrackSection icon={IOTicon} track={iot} trackName={"IOT & CLOUD"} />
+      <Contact />
+      <Footer />
+    </>
   );
 };
 
