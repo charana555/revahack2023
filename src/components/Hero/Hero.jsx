@@ -142,7 +142,7 @@ const Hero = () => {
                 <Link to="/hackers">
                   <button className="  bg-[#456FF6]  px-12 rounded-[3px] text-white text-2xl flex items-center py-1 justify-center h-[46px] w-[312px] gap-3 hover:scale-110 transition-all duration-300 ">
                     <RiTeamFill />
-                    <span className="mr-4">Selected Teams</span>
+                    <span className="">Selected Teams</span>
                   </button>
                 </Link>
               </div>
