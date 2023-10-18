@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import { RiTeamFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import Typed from "typed.js"; // Import the Typed.js library
 import GLOBE from "vanta/src/vanta.globe";
@@ -136,23 +137,14 @@ const Hero = () => {
               <Timer />
             </div>
 
-            <div className="flex flex-col items-center space-y-4 md:flex-row md:space-x-20 md:space-y-0 justify-center mt-6">
-              <div
-                className="apply-button"
-                data-hackathon-slug="reva-hack-1"
-                data-button-theme="light"
-                style={{ height: "44px", width: "312px" }}
-              >
-                <a href="https://reva-hack-1.devfolio.co/">
-                  <button className="  bg-[#456FF6]  px-12 rounded-[3px] text-white text-2xl flex items-center py-1 justify-center h-[46px] w-[312px] ">
-                    <img
-                      src={"Images/devfolio.png"}
-                      alt="devfolio logo"
-                      className="w-8 h-6 mr-3"
-                    />
-                    <span className="mr-4">Register</span>
+            <div className="flex flex-col items-center space-y-4 md:flex-row md:space-x-20 md:space-y-0 justify-center mt-6 ">
+              <div>
+                <Link to="/hackers">
+                  <button className="  bg-[#456FF6]  px-12 rounded-[3px] text-white text-2xl flex items-center py-1 justify-center h-[46px] w-[312px] gap-3 hover:scale-110 transition-all duration-300 ">
+                    <RiTeamFill />
+                    <span className="mr-4">Selected Teams</span>
                   </button>
-                </a>
+                </Link>
               </div>
               <a
                 href="https://discord.gg/6Sv9ZdQ4er"
@@ -160,7 +152,7 @@ const Hero = () => {
                 rel="noreferrer"
               >
                 <button
-                  className="hover:shadow-lg px-12 rounded-[3px] text-white text-2xl flex items-center justify-center h-[44px] w-[312px]"
+                  className="hover:shadow-lg px-12 rounded-[3px] text-white text-2xl flex items-center justify-center h-[44px] w-[312px] hover:scale-110 transition-all duration-300 "
                   style={{ backgroundColor: "#5865F2", border: "none" }}
                 >
                   <img
@@ -178,14 +170,14 @@ const Hero = () => {
               </a>
             </div>
 
-            <div className="mt-5">
+            {/* <div className="mt-5">
               <Link to="/hackers">
                 <p className="text-md hover:text-lg transition-all duration-300 my-[3%]  hover:underline font-semibold text-purple-100">
                   {" "}
                   Check out the Selected Teams {">"}
                 </p>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

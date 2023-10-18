@@ -103,31 +103,27 @@ const Sponsors = () => {
       <div className=" font-[600] py-[4%] md:pb-[1%]   text-xl md:text-2xl ">
         Community and Hiring Partners
       </div>
-      <div className="flex justify-center gap-4 md:gap-10  ">
+      <div className="flex  flex-wrap justify-center gap-4 md:gap-10  ">
         <div className=" community-sponsor glassmorphic flex items-center justify-center  ">
           <img
-            className=" p-1 md:p-2 "
+            className=" p-1 w-[100px] md:p-2 "
             src={tgp}
-            alt="title sponsor reva logo"
+            alt="community sponsor"
           />
         </div>
-        {/* <div className="title-sponsor glassmorphic flex items-center ">
-          <img classname="" src={ieee} alt="title sponsor ieee logo" />
-        </div> */}
         <div className="community-sponsor glassmorphic flex items-center ">
-          <img classname="p-2 " src={bluelearn} alt="title sponsor ieee logo" />
+          <img classname=" " src={movv} alt="title sponsor ieee logo" />
+        </div>
+        <div className="community-sponsor glassmorphic flex items-center ">
+          <img classname=" " src={aptos} alt="title sponsor ieee logo" />
         </div>
 
         <div className="community-sponsor glassmorphic flex items-center ">
-          <img classname=" " src={occode} alt="title sponsor ieee logo" />
+          <img classname="" src={occode} alt="title sponsor ieee logo" />
         </div>
-        {/* <div className="title-sponsor glassmorphic flex items-center justify-center ">
-          <img
-            classname="w-full h-full object-cover"
-            src={ieee}
-            alt="title sponsor ieee logo" 
-          />
-        </div> */}
+        <div className="community-sponsor glassmorphic flex items-center ">
+          <img classname="p-2 " src={bluelearn} alt="title sponsor ieee logo" />
+        </div>
       </div>
 
       {/* Tooling partner */}
