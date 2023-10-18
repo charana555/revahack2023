@@ -178,6 +178,7 @@ const Hero = () => {
               </a>
             </div>
 
+
             <div className="mt-5">
               <Link to="/hackers">
                 <p className="text-md hover:text-lg transition-all duration-300 my-10  hover:underline font-semibold text-purple-100">
@@ -186,6 +187,7 @@ const Hero = () => {
                 </p>
               </Link>
             </div>
+
           </div>
         </div>
       </div>
