@@ -155,7 +155,7 @@
   /* display: none; */
   opacity: 0;
   filter: blur(10px);
-  transform: translateX(50%);
+  transform: translateX(25%);
   transition: all 1s;
 }
 

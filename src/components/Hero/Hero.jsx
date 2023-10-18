@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import Typed from "typed.js"; // Import the Typed.js library
 import GLOBE from "vanta/src/vanta.globe";
 import RINGS from "vanta/src/vanta.rings";
@@ -176,17 +177,17 @@ const Hero = () => {
                 </button>
               </a>
             </div>
-            {/* <div className="mt-5">
-              <p className="text-xs  font-semibold text-purple-100">
-                In case the Devfolio button is missing{" "}
-                <a
-                  className="hover:underline hover:text-[#0CCA4A]"
-                  href="https://reva-hack-1.devfolio.co/"
-                >
-                  click here.
-                </a>
-              </p>
-            </div> */}
+
+
+            <div className="mt-5">
+              <Link to="/hackers">
+                <p className="text-md hover:text-lg transition-all duration-300 my-10  hover:underline font-semibold text-purple-100">
+                  {" "}
+                  Check out the selected teams {">"}
+                </p>
+              </Link>
+            </div>
+
           </div>
         </div>
       </div>

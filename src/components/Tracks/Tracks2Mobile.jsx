@@ -258,6 +258,7 @@ const Tracks2Mobile = (props) => {
             <h4 className="mobile-tracks-card-subtitle"></h4>
           </div>
         </div>
+
         <div
           className={`mobile-tracks-card  ${"bottom-row-default"} ${
             bottomRowIsVisible ? "bottom-row-visible" : ""
