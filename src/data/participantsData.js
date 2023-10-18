@@ -13,7 +13,7 @@ export const participants = [
         projName: "Blood Registry ",
         teamName: "INNOV8ORS",
         teamLead: "Sai Vinay R",
-        loc: "Don Bosco Institute of Technology, Bengaluru",
+        loc: "DBIT, Bengaluru",
       },
       {
         teamId: 13,
