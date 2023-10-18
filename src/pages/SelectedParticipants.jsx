@@ -18,13 +18,13 @@ import { participants } from "../data/participantsData.js";
 }
 
 const SelectedParticipants = (props) => {
-  const BlockchainIcon = "./src/components/Participants/Icons/blockchain.png";
+  const BlockchainIcon = "./TrackIcons/blockchain.png";
 
-  const IOTicon = "./src/components/Participants/Icons/iot.png";
-  const arvrIcon = "./src/components/Participants/Icons/arvr.png";
-  const cybersecIcon = "./src/components/Participants/Icons/cybersec.png";
-  const genaiIcon = "./src/components/Participants/Icons/genai.png";
-  const oppeninnoIcon = "./src/components/Participants/Icons/openinno.png";
+  const IOTicon = "./TrackIcons/iot.png";
+  const arvrIcon = "./TrackIcons/arvr.png";
+  const cybersecIcon = "./TrackIcons/cybersec.png";
+  const genaiIcon = "./TrackIcons/genai.png";
+  const oppeninnoIcon = "./TrackIcons/openinno.png";
 
   const blockchainData = participants[0].blockchain;
   const arvrData = participants[0].arvr;
