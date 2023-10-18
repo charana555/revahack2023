@@ -35,7 +35,7 @@ const SelectedParticipants = (props) => {
   return (
     <>
       <ParticipantsNavbar />
-      <div className="text-LushGreen  text-[50px] md:text-[72px] font-roboto font-medium text-center my-10">
+      <div className="text-NeonPurple text-[50px] md:text-[72px] font-roboto font-medium text-center my-10">
         Participants
       </div>
       {/* <TeamCard /> */}

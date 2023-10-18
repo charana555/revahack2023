@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import collegeLoc from "./Icons/college.svg";
-
 import teamLead from "./Icons/teamLead.svg";
+
 const TeamCard = (props) => {
   window.onload = function () {
     document.getElementById("cards").onmousemove = (e) => {
@@ -16,10 +16,11 @@ const TeamCard = (props) => {
       }
     };
   };
+
   return (
     <div
       className={`flex  justify-start text-left text-white
-    font-fira px-4 md:px-6 py-4 flex-col  min-w-[350px]  max-w-[400px] md:h-[180px]  hover:scale-105 transition-all duration-200 ease-in-out teambg `}
+    font-fira px-4 md:px-6 py-4 flex-col  min-w-[350px]  max-w-[100px] md:h-[180px]  hover:scale-105 transition-all duration-200 ease-in-out teambg `}
     >
       <p className=" text-[20px] md:text-[22px] font-semibold ">
         {props.projName}
