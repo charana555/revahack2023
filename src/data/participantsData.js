@@ -9,6 +9,13 @@ export const participants = [
         loc: "REVA University, Bengaluru",
       },
       {
+        teamId: 124,
+        projName: "Blockchain-based AI for Legal Contracts",
+        teamName: "AUTHRAX",
+        teamLead: "Nikith Ganga",
+        loc: "MSRIT, Bengaluru",
+      },
+      {
         teamId: 12,
         projName: "Blood Registry ",
         teamName: "INNOV8ORS",
@@ -334,13 +341,13 @@ export const participants = [
         teamLead: "Aditya Varshney",
         loc: "MIT, Bengaluru",
       },
-      {
-        teamId: 64,
-        projName: "Waste Management System",
-        teamName: "TrojanZ",
-        teamLead: "Bhagyalakshmi R.A ",
-        loc: "DSU, Bengaluru",
-      },
+   //   {
+   //     teamId: 64,
+  //      projName: "Waste Management System",
+     //   teamName: "TrojanZ",
+     //   teamLead: "Bhagyalakshmi R.A ",
+      // loc: "DSU, Bengaluru",
+     //},
       {
         teamId: 65,
         projName: "Smart Inventory Management",
