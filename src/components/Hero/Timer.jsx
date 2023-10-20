@@ -98,7 +98,7 @@ const Timer = () => {
       </div>
 
       <p className="text-xs md:text-sm">
-        See you at REVA University on 2<sup>nd</sup>November ＼⁠(⁠^⁠o⁠^⁠)⁠／
+        See you at REVA University on 2<sup>nd</sup> November ＼⁠(⁠^⁠o⁠^⁠)⁠／
       </p>
     </div>
   );
