@@ -46,6 +46,13 @@ const Contact = () => {
           >
             Code of Conduct
           </a>
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1fj7afXpnRChw-HscuUbbzvqSmnN9TGMR/view?usp=sharing"
+            className="text-lg px-2 tracking-wider block font-extralight"
+          >
+            REVA University Map
+          </a>
         </div>
 
         <div>
