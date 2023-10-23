@@ -51,7 +51,7 @@ const Contact = () => {
             href="https://drive.google.com/file/d/1fj7afXpnRChw-HscuUbbzvqSmnN9TGMR/view?usp=sharing"
             className="text-lg px-2 tracking-wider block font-extralight"
           >
-            REVA University Map
+            REVA Campus Map
           </a>
         </div>
 
