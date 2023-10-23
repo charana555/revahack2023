@@ -5,6 +5,9 @@ import echo3d from "../../assets/SponsorLogos/Sapling/echo-white.webp";
 import filecoin from "../../assets/SponsorLogos/Sapling/filecoin.png";
 import replit from "../../assets/SponsorLogos/Sapling/replit.png";
 import solana from "../../assets/SponsorLogos/Sapling/solana.png";
+import github from "../../assets/SponsorLogos/github.png";
+import mlh from "../../assets/SponsorLogos/mlh.png";
+import stickerz from "../../assets/SponsorLogos/stickerz.png";
 import ieee2 from "../../assets/SponsorLogos/titleSponsors/ieee.jpg";
 import ieee from "../../assets/SponsorLogos/titleSponsors/ieee.png";
 import ieeebng from "../../assets/SponsorLogos/titleSponsors/ieeebng.png";
@@ -98,6 +101,31 @@ const Sponsors = () => {
         </div>
       </div>
 
+      {/* Event Sponsors  */}
+
+      <div className=" font-[600]  py-[4%] md:pb-[1%] text-xl md:text-2xl">
+        Event Sponsors
+      </div>
+
+      <div className="flex  flex-wrap justify-center gap-4 md:gap-10  ">
+        <div className="community-sponsor glassmorphic flex items-center ">
+          <img
+            classname=" p-1  md:p-2"
+            src={mlh}
+            alt="title sponsor ieee logo"
+          />
+        </div>
+        <div className=" community-sponsor glassmorphic flex items-center justify-center  ">
+          <img className=" p-1  md:p-2 " src={github} alt="community sponsor" />
+        </div>
+        <div className="community-sponsor glassmorphic flex items-center ">
+          <img
+            classname="p-1  md:p-2 "
+            src={stickerz}
+            alt="title sponsor ieee logo"
+          />
+        </div>
+      </div>
       {/* Hiring and Community Partners  */}
 
       <div className=" font-[600] py-[4%] md:pb-[1%]   text-xl md:text-2xl ">

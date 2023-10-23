@@ -25,7 +25,7 @@ const Navbar = () => {
       <nav
         className={`bg-primary fixed w-full z-50 backdrop-filter backdrop-blur-lg bg-opacity-90`}
       >
-        <div className="container mx-auto flex flex-wrap items-center justify-between px-4 font-roboto">
+        <div className=" xl:container mx-auto flex flex-wrap items-center justify-between px-4 font-roboto">
           {/* Logo */}
           <div>
             <Link

@@ -24,8 +24,31 @@ const Main = (props) => {
   return (
     <>
       <>
+        <a
+          className="hidden md:block"
+          id="mlh-trust-badge"
+          style={{
+            maxWidth: "100px",
+            minWidth: "60px",
+            position: "fixed",
+            right: "80px",
+            top: "0",
+            width: "10%",
+            zIndex: "10000",
+          }}
+          href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=white"
+          target="_blank"
+        >
+          <img
+            src={
+              "https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-white.svg"
+            }
+            alt="Major League Hacking 2024 Hackathon Season"
+            style={{ width: "100%" }}
+          />
+        </a>
         <Navbar />
-        <div
+        {/* <div
           className="hidden md:block fixed top-0 right-0 mr-14"
           style={{ zIndex: 9999 }}
         >
@@ -34,16 +57,21 @@ const Main = (props) => {
             alt="ieee-logo"
             className="h-[10rem]"
           />
-        </div>
+        </div> */}
         <div
           className="block md:hidden absolute top-20 left-0"
           style={{ zIndex: 9999 }}
         >
-          <img
-            src="Images/ieee_banner_mob.svg"
-            alt="ieee-logo"
-            className="h-[4rem]"
-          />
+          <a
+            href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=white"
+            target="_blank"
+          >
+            <img
+              src="Images/MLH-m-banner.svg"
+              alt="ieee-logo"
+              className="h-[4rem]"
+            />
+          </a>
         </div>
         {/* <section className="back w-full"> */}
         <Hero />

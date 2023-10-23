@@ -41,7 +41,7 @@ const Contact = () => {
           </a>
           <a
             target="_blank"
-            href="https://devfolio.co/code-of-conduct"
+            href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
             className="text-lg px-2 tracking-wider block font-extralight"
           >
             Code of Conduct
@@ -56,7 +56,8 @@ const Contact = () => {
             05082
           </div>
           <div className=" flex text-lg items-center gap-2  pb-2 px-2 tracking-wider">
-            <AiOutlinePhone className="text-2xl font-extrabold" /> +91 90199 86049
+            <AiOutlinePhone className="text-2xl font-extrabold" /> +91 90199
+            86049
           </div>
           <div className=" flex text-lg items-center gap-2  px-2 tracking-wider">
             <AiOutlineMail className="text-2xl font-extrabold" />{" "}
