@@ -17,6 +17,7 @@
   max-width: 150px;
   height: auto;
   padding: 10px;
+  max-height: 120px;
 }
 
 .slider {
@@ -253,5 +254,12 @@ second slider
   .spiralbg {
     background-image: url("../../assets/sponsorBg.svg");
     z-index: 999;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .community-sponsor img {
+    max-width: 130px;
+    max-height: 100px;
   }
 }
