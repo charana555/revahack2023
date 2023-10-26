@@ -6,3 +6,30 @@
   border-radius: 16px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
+
+/* .team-card:before {
+  content:'';
+  z-index:1;
+  position:absolute;
+  width:80%;
+  height:250%;
+  top:15%;
+  transition: 0.3s opacity ease-in-out;
+  filter:blur(15px);
+  opacity:0;
+  background: linear-gradient(rgba(9, 175, 0, 0.133) 0%, transparent 40%);
+}
+
+.team-card:hover:before {
+  opacity:1;
+  transition: 0.3s opacity ease-in-out;
+  filter:blur(25px);
+  background: linear-gradient(rgba(29, 183, 21, 0.177) 0%, transparent 40%);  
+}
+
+.team-card:after {
+  z-index:5;
+  position:absolute;
+  display:block;
+  background-color:rgb(19, 20, 22);
+} */
