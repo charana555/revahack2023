@@ -91,22 +91,52 @@ const Hero = () => {
                 <span className="neon-white">2023</span>
               </h1>
               <div>
-                <div className="flex flex-col space-y-4 items-center md:flex-row justify-center md:space-x-6">
+                <div className="font-bold text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl mt-8 underline text-gray-500">
+                  Powered by
+                </div>
+                <div className="flex space-y-4 items-center md:flex-row justify-center md:space-x-6">
                   <div className="powered-by-container mt-3">
-                    <div className="font-thin text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl">
-                      Powered by
-                    </div>
                     <div className="bluelearn-logo">
                       <a href="https://www.bluelearn.in/" target="_blank">
                         <img
                           src="Images/bluelearn-logo-sm.png"
                           alt="bluelearn"
-                          className="ml-2 h-8 sm:h-10 md:h-10 lg:h-10 xl:h-10" // Set the height here
+                          className="h-8 sm:h-10 md:h-10 lg:h-10 xl:h-10" // Set the height here
                         />
                       </a>
                     </div>
                   </div>
-
+                  <div className="powered-by-container mt-3">
+                    <div className="font-thin text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl max-w-[250px]">
+                      {/* In Collaboration with */}
+                    </div>
+                    <div className="gdsc-logo">
+                      <a
+                        href="https://aptosfoundation.org/"
+                        target="_blank"
+                      >
+                        <img
+                          src="Images/aptos-small.svg"
+                          alt="gdsc"
+                          className=" h-8 sm:h-10 md:h-10 lg:h-8 xl:h-10 "
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div className="powered-by-container mt-3">
+                    <div className="font-thin text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl max-w-[250px]">
+                      {/* In Collaboration with */}
+                    </div>
+                    <div className="gdsc-logo">
+                      <img
+                        src="Images/mdd-logo.svg"
+                        alt="gdsc"
+                        className=" h-8 sm:h-10 md:h-10 lg:h-8 xl:h-10 "
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-col space-y-4 items-center md:flex-row justify-center md:space-x-6">
                   <div className="powered-by-container mt-3">
                     <div className="font-thin text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl max-w-[250px]">
                       {/* In Collaboration with */}
@@ -119,13 +149,15 @@ const Hero = () => {
                         <img
                           src="Images/GDSC-white.png"
                           alt="gdsc"
-                          className=" h-8 sm:h-10 md:h-10 lg:h-10 xl:h-10 "
+                          className=" h-6 sm:h-8 md:h-8 lg:h-8 xl:h-8 "
                         />
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+            <div>
             </div>
 
             {/* The typewriter text */}
