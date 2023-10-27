@@ -91,7 +91,7 @@ const Hero = () => {
                 <span className="neon-white">2023</span>
               </h1>
               <div>
-                <div className="font-bold text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl mt-8 underline text-gray-500">
+                <div className="font-bold text-md  lg:text-xl  mt-8  text-gray-200">
                   Powered by
                 </div>
                 <div className="flex space-y-4 items-center md:flex-row justify-center md:space-x-6">
@@ -111,10 +111,7 @@ const Hero = () => {
                       {/* In Collaboration with */}
                     </div>
                     <div className="gdsc-logo">
-                      <a
-                        href="https://aptosfoundation.org/"
-                        target="_blank"
-                      >
+                      <a href="https://aptosfoundation.org/" target="_blank">
                         <img
                           src="Images/aptos-small.svg"
                           alt="gdsc"
@@ -135,6 +132,9 @@ const Hero = () => {
                       />
                     </div>
                   </div>
+                </div>
+                <div className="font-bold text-md  lg:text-xl  mt-2  text-gray-200">
+                  In Collaboration with{" "}
                 </div>
                 <div className="flex flex-col space-y-4 items-center md:flex-row justify-center md:space-x-6">
                   <div className="powered-by-container mt-3">
@@ -157,8 +157,7 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            <div>
-            </div>
+            <div></div>
 
             {/* The typewriter text */}
             <div className="text-center text-2xl text-glow md:text-4xl lg:text-4xl xl:text-4xl relative mb-4 font-fira font-[300]">

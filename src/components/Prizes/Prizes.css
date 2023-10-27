@@ -37,9 +37,62 @@
 
 .bounty-styles .bounty-arrow {
   transition: all 300ms;
+  transform: translateX(-2rem);
   opacity: 0;
 }
 .bounty-styles:hover .bounty-arrow {
   transition: all 300ms;
+  transform: translateX(0rem);
   opacity: 1;
 }
+
+.mlh-prize-style {
+  transition: all 300ms;
+}
+
+.mlh-prize-style:hover {
+  scale: 1.05;
+  transition: all 300ms;
+}
+
+.mlh-prize-style:hover .price-heading {
+  color: #0cca4a;
+}
+
+.mlh-prize-style .mlh-arrow {
+  transition: all 300ms;
+  transform: translateX(-2rem);
+  opacity: 0;
+}
+.mlh-prize-style:hover .mlh-arrow {
+  transition: all 300ms;
+  transform: translateX(0.5rem);
+  opacity: 1;
+}
+
+.mlh-title-stlye {
+  transition: all 300ms;
+}
+
+.mlh-title-stlye:hover {
+  scale: 1.05;
+  transition: all 300ms;
+  /* text-decoration: underline;
+  text-decoration-color: #0cca4a;
+  text-underline-offset: 8px; */
+}
+
+.mlh-title-stlye:hover .mlh-title-arrow {
+  color: #0cca4a;
+}
+
+/* .mlh-title-stlye .mlh-title-arrow {
+  transition: all 300ms;
+  transform: translateX(-2rem);
+  opacity: 0;
+}
+.mlh-title-stlye:hover .mlh-title-arrow {
+  transition: all 300ms;
+  transform: translateX(0.5rem);
+  opacity: 1;
+} */

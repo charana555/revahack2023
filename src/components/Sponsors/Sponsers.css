@@ -19,6 +19,12 @@
   padding: 10px;
   max-height: 120px;
 }
+.web3community-sponsor {
+  max-width: 200px;
+  height: auto;
+  padding: 10px;
+  max-height: 220px;
+}
 
 .slider {
   margin: 10px 0;
@@ -200,6 +206,9 @@ second slider
   .community-sponsor {
     max-width: 100px;
   }
+  .web3community-sponsor {
+    max-width: 100px;
+  }
   @keyframes scroll {
     0% {
       transform: translateX(0);
@@ -261,5 +270,9 @@ second slider
   .community-sponsor img {
     max-width: 130px;
     max-height: 100px;
+  }
+  .web3community-sponsor img {
+    max-width: 100%;
+    max-height: 150px;
   }
 }

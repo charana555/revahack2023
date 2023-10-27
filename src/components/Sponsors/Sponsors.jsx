@@ -101,6 +101,20 @@ const Sponsors = () => {
         </div>
       </div>
 
+      {/* Web3 Track Sponsors  */}
+
+      <div className=" font-[600] py-[4%] md:pb-[1%]   text-xl md:text-2xl ">
+        Web3 Track Sponsors
+      </div>
+      <div className="flex  flex-wrap justify-center gap-4 md:gap-10  ">
+        <div className="web3community-sponsor glassmorphic flex items-center ">
+          <img classname="" src={movv} alt="title sponsor ieee logo" />
+        </div>
+        <div className="web3community-sponsor glassmorphic flex items-center ">
+          <img classname=" " src={aptos} alt="title sponsor ieee logo" />
+        </div>
+      </div>
+
       {/* Event Sponsors  */}
 
       <div className=" font-[600]  py-[4%] md:pb-[1%] text-xl md:text-2xl">
@@ -138,12 +152,6 @@ const Sponsors = () => {
             src={tgp}
             alt="community sponsor"
           />
-        </div>
-        <div className="community-sponsor glassmorphic flex items-center ">
-          <img classname=" " src={movv} alt="title sponsor ieee logo" />
-        </div>
-        <div className="community-sponsor glassmorphic flex items-center ">
-          <img classname=" " src={aptos} alt="title sponsor ieee logo" />
         </div>
 
         <div className="community-sponsor glassmorphic flex items-center ">
