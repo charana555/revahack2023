@@ -189,7 +189,7 @@ function Prizes() {
 
         {/* MLH PRIZESSSS~~ */}
         <div
-          className="mlh-title-stlye text-5xl pt-10 pb-5 ;
+          className="mlh-title-stlye  text-center text-3xl lg:text-5xl pt-10 pb-5 ;
 "
         >
           MLH <span className=" text-NeonGreen ">Prizes & Perks</span>
