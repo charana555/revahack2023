@@ -1,5 +1,58 @@
 import React from "react";
+import MLHPriceCard from "./MLHPrizeCard";
 import "./Prizes.css";
+
+const mlhPrizes = [
+  {
+    id: 1,
+    img: "./Images/MLHIcons/hedera.png",
+    title: "Best Use of Hedera",
+    desc: "Build a project on Hedera's test network for a chance to win Mechanical Keyboards for you and your team!",
+    highlightedUrl:
+      "https://hack.mlh.io/prizes#:~:text=with%20Taipy%20%E2%86%92-,Best%20Use%20of%20Hedera,-Glorious%20Modular%20Compact",
+  },
+  {
+    id: 2,
+    img: "./Images/MLHIcons/mongodb.png",
+    title: "Best Use of MongoDB Atlas",
+    desc: "Stand a chance to win a M5GO IoT Starter Kit for you and each member of your team",
+    highlightedUrl:
+      "https://hack.mlh.io/prizes#:~:text=Best%20Use%20of%20MongoDB%20Atlas",
+  },
+  {
+    id: 3,
+    img: "./Images/MLHIcons/github.png",
+    title: "Most Creative Use of GitHub",
+    desc: "Stand a chance to win a GitHub Octocat Puzzle & Sticker bundle",
+    highlightedUrl:
+      "https://hack.mlh.io/prizes#:~:text=GoDaddy%20Registry%20%E2%86%92-,Most%20Creative%20Use%20of%20GitHub,-GitHub%20Octocat%20Puzzle",
+  },
+  {
+    id: 4,
+    img: "./Images/MLHIcons/godaddy.png",
+    title: "Best Domain Name from GoDaddy Registry",
+    desc: "Stand a chance to win a Hack from Home Kit containing wireless earbuds, blue light glasses, selfie ring light.",
+    highlightedUrl:
+      "https://hack.mlh.io/prizes#:~:text=Best%20Domain%20Name%20from%20GoDaddy%20Registry",
+  },
+
+  {
+    id: 5,
+    img: "./Images/MLHIcons/mathworks.png",
+    title: "Best Use of MATLAB",
+    desc: "Stand a chance to win a to win an exclusive MathWorks branded Wireless YoYo Speaker! + a free MATLAB software license",
+    highlightedUrl:
+      "https://hack.mlh.io/prizes#:~:text=with%20Streamlit%20%E2%86%92-,Best%20Use%20of%20MATLAB,-Wireless%20YoYo%20Speaker",
+  },
+  {
+    id: 6,
+    img: "./Images/MLHIcons/streamlit.png",
+    title: "Best Use of Streamlit",
+    desc: "Stand a chance to win a Pimoroni PicoSystem programmable gaming system for you and each member of your team.",
+    highlightedUrl:
+      "https://hack.mlh.io/prizes#:~:text=Best%20Use%20of%20Streamlit",
+  },
+];
 
 function Prizes() {
   const headerStyle = {
@@ -26,7 +79,7 @@ function Prizes() {
         >
           Prizes
         </p>
-
+        {/* Prize Pool */}
         <div className="w-[70%] xl:w-[60%] h-auto mt-10  prize-tag">
           <div className="container glass py-[5%] ">
             {/* <a
@@ -98,7 +151,7 @@ function Prizes() {
             </div>
           </div>
         </div>
-
+        {/* internship from bluelearn */}
         <div className="glass w-[70%] xl:w-[60%] h-auto  prize-tag flex flex-col sm:flex-row items-center  justify-center  p-6 md:p-12 gap-5 md:gap-10">
           <div className=" w-2/3 ">
             <img
@@ -116,6 +169,7 @@ function Prizes() {
           </div>
         </div>
 
+        {/* intership from techvestors */}
         <div className="glass w-[70%] xl:w-[60%] h-auto  prize-tag flex flex-col sm:flex-row items-center  justify-center  p-6 md:p-12 gap-5 md:gap-10">
           <div className="w-2/3  sm:w-1/3 mr-[4%] ">
             <img
@@ -133,6 +187,27 @@ function Prizes() {
           </div>
         </div>
 
+        {/* MLH PRIZESSSS~~ */}
+        <div
+          className="mlh-title-stlye text-5xl pt-10 pb-5 ;
+"
+        >
+          MLH <span className=" text-NeonGreen ">Prizes & Perks</span>
+          {/* <div className=" text-NeonGreen inline-block mlh-title-arrow">
+            →
+          </div>{" "} */}
+        </div>
+        {/* <MLHPriceCard /> */}
+        {mlhPrizes.map((prize) => (
+          <MLHPriceCard
+            key={prize.id}
+            img={prize.img}
+            title={prize.title}
+            desc={prize.desc}
+            highlightedUrl={prize.highlightedUrl}
+          />
+        ))}
+        {/* bounty Prizes */}
         <div
           onClick={handleDivClick}
           style={{ cursor: "pointer" }}
@@ -151,9 +226,10 @@ function Prizes() {
               Bounty Prizes worth up to{" "}
               <span className="text-NeonGreen">
                 <span className=" text-NeonGreen price-text">$7200</span>
-                &nbsp;<span className="  text-NeonGreen bounty-arrow">
+                &nbsp;
+                <div className="inline-block  text-NeonGreen bounty-arrow">
                   →
-                </span>{" "}
+                </div>{" "}
               </span>
             </p>
           </div>

@@ -1,30 +1,81 @@
-import React from "react";
-import "./Banner.css";
+import React from 'react';
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css'; 
+import './Banner.css';
+
+import LeftIcon from './svg/arrow-left-square.svg';
+import RightIcon from './svg/arrow-right-square.svg';
 
 const Speakers = (props) => {
+  const images = [
+    './Images/1.jpeg',
+    './Images/2.jpeg',
+    './Images/3.jpeg',
+    './Images/4.jpeg',
+    './Images/5.jpeg',
+    './Images/6.jpeg',
+    './Images/7.jpeg',
+    './Images/8.jpeg',
+  ];
+
+  const responsive = {
+    0: { items: 1 }, // Display one item per slide for all screen sizes
+  };
+
+  const customPrevButton = (
+    <button className="custom-nav-button custom-prev-button">
+      <img src={LeftIcon} alt="Previous" className="no-filter" />
+    </button>
+  );
+  
+  const customNextButton = (
+    <button className="custom-nav-button custom-next-button">
+       <img src={RightIcon} alt="Next" />
+    </button>
+  );
+
   return (
-    <section className="  flex flex-col text-white text-center text-3xl items-center justify-center pixel-bg mb-20">
-      {/* <div id="img" className="h-auto justify-center items-center">
-        <img src="./Images/pixel.svg" alt="pixel" className="absolute w-[100%] h-[50%]" />
-      </div> */}
-      <div className="flex cursor-pointer flex-col hover:scale-110 ease-in-out duration-300 justify-center items-center mx-auto glassmorphic-card w-[90%] md:max-w-[70%] m-auto py-14 text-center  ">
-        <div className="main text-white font-bold xl:text-7xl  md:text-6xl sm:text-5xl xs:text-4xl">
-          <span className="text-LushGreen uppercase">Speakers and Judges </span>{" "}
-          2023
-        </div>
-        <div className="sub font-semibold text-white md:text-2xl text-xl  mt-3">
-          <a
-            href="https://reva-hack-1.devfolio.co/speakers-judges"
-            target="_blank"
-          >
-            Click Here
-          </a>
-        </div>
+    <section className="flex flex-col justify-center w-full h-auto">
+      <div className="text-center text-6xl lg:text-7xl font-roboto font-bold mt-10 mb-10">
+        <span className="text-LushGreen">Speakers</span>
+      </div>
+      <div className="pixel-bg h-[410px] md:h-[430px] lg:h-[500px] xl:h-[600px]">
+        <AliceCarousel  
+          mouseDragEnabled
+          buttonsDisabled
+          dotsDisabled
+          autoPlay
+          autoPlayInterval={3000}
+          responsive={responsive}
+          infinite 
+          items={images.map((image, index) => (
+            <div key={index} className="image-slide">
+              <div
+                className="image-container mt-6 md:mt-16 xl:mt-12"
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  height: '100%',
+                }}
+              >
+                <img
+                  className="object-cover h-auto w-[80%] md:w-[35%] lg:w-[30%]"
+                  src={image}
+                  alt={`Slide ${index}`}
+                />
+              </div>
+            </div>
+          ))}
+          renderPrevButton={() => customPrevButton} 
+          renderNextButton={() => customNextButton}
+          data={{
+            touchTracking: true, // Enable touch/swipe support
+          }}
+        />
       </div>
     </section>
   );
 };
 
 export default Speakers;
-
-//text-[#7C8590]

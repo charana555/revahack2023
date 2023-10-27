@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import sponsorbg from "../../assets/sponsorBg.png";
 import close from "./svgs/Close.svg";
 import Day1 from "./svgs/Day1Icon.svg";
@@ -137,12 +138,17 @@ const TimelineA = (props) => {
                     </tr>
                     <tr>
                       <td>
-                        October 18<sup>th</sup>
+                        October 16<sup>th</sup>
                       </td>
                       <td> 2nd Batch Announcement </td>
                     </tr>
                   </tbody>
                 </table>
+                <Link to="/hackers">
+                  <p className="mt-5 hover:underline hover:text-[16px] hover:text-NeonGreen transition-all duration-300">
+                    Check out the Selected Teams {"->"}
+                  </p>
+                </Link>
               </div>
             </div>
           </div>

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const Timer = () => {
   // Specify the target date and time in IST (year, month, day, hour, minute)
-  const targetDateIST = new Date("2023-10-16T00:00:00").getTime();
+  const targetDateIST = new Date("2023-11-02T10:00:00").getTime();
 
   // function to convert IST time to UTC
   const convertISTtoUTC = (istTime) => {
@@ -98,7 +98,7 @@ const Timer = () => {
       </div>
 
       <p className="text-xs md:text-sm">
-        Registrations extended till 15<sup>th</sup> October 2023 [11:59PM]
+        See you at REVA University on 2<sup>nd</sup> November ＼⁠(⁠^⁠o⁠^⁠)⁠／
       </p>
     </div>
   );
