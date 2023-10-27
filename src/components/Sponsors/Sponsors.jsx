@@ -34,6 +34,7 @@ import streamyard from "../../assets/SponsorLogos/Sapling/streamyard.png";
 import azure from "../../assets/SponsorLogos/Tree/axure.png";
 import xyz from "../../assets/SponsorLogos/Tree/xyz_logo_white.png";
 
+import { faWineGlass } from "@fortawesome/free-solid-svg-icons";
 import aptos from "../../assets/SponsorLogos/Tree/aptos.png";
 import movv from "../../assets/SponsorLogos/Tree/movv.jpg";
 import sponsorbg from "../../assets/sponsorBg.png";
@@ -62,6 +63,10 @@ const saplinglogos = [
 ];
 
 const Sponsors = () => {
+  const handleStickerClick = () => {
+    window.location.href = "https://www.standoutstickers.com/";
+  };
+
   return (
     <section
       id="Sponsors"
@@ -132,7 +137,10 @@ const Sponsors = () => {
         <div className=" community-sponsor glassmorphic flex items-center justify-center  ">
           <img className=" p-1  md:p-2 " src={github} alt="community sponsor" />
         </div>
-        <div className="community-sponsor glassmorphic flex items-center ">
+        <div
+          className="community-sponsor glassmorphic flex items-center hover:cursor-pointer hover:scale-105 transition-all duration-300"
+          onClick={handleStickerClick}
+        >
           <img
             classname="p-1  md:p-2 "
             src={stickerz}
