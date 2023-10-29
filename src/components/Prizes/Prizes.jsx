@@ -168,6 +168,22 @@ function Prizes() {
             </p>
           </div>
         </div>
+        <div className="glass w-[70%] xl:w-[60%] h-auto  prize-tag flex flex-col sm:flex-row items-center  justify-center  p-6 md:p-6 gap-5 md:gap-10">
+          <div className=" w-2/3 md:mr-[15%]  ">
+            <img
+              src="./Images/OSCode.png"
+              alt="First"
+              className="custom-image  w-[40%] mx-auto"
+            ></img>
+          </div>
+
+          <div className="mx-auto">
+            <p className="text-center md:text-left text-lg md:text-2xl xl:text-3xl md:ml-[-30%]">
+              <span className="text-NeonGreen">Internship</span> Opportunities
+              from OSCode Community for 2 Teams{" "}
+            </p>
+          </div>
+        </div>
 
         {/* intership from techvestors */}
         <div className="glass w-[70%] xl:w-[60%] h-auto  prize-tag flex flex-col sm:flex-row items-center  justify-center  p-6 md:p-12 gap-5 md:gap-10">

@@ -1,21 +1,22 @@
-import React from 'react';
-import AliceCarousel from 'react-alice-carousel';
-import 'react-alice-carousel/lib/alice-carousel.css'; 
-import './Banner.css';
+import React from "react";
+import AliceCarousel from "react-alice-carousel";
+import "react-alice-carousel/lib/alice-carousel.css";
+import "./Banner.css";
 
-import LeftIcon from './svg/arrow-left-square.svg';
-import RightIcon from './svg/arrow-right-square.svg';
+import LeftIcon from "./svg/arrow-left-square.svg";
+import RightIcon from "./svg/arrow-right-square.svg";
 
 const Speakers = (props) => {
   const images = [
-    './Images/1.jpeg',
-    './Images/2.jpeg',
-    './Images/3.jpeg',
-    './Images/4.jpeg',
-    './Images/5.jpeg',
-    './Images/6.jpeg',
-    './Images/7.jpeg',
-    './Images/8.jpeg',
+    "./Images/1.jpeg",
+    "./Images/2.jpeg",
+    "./Images/3.jpeg",
+    "./Images/4.jpeg",
+    "./Images/9.png",
+    "./Images/5.jpeg",
+    "./Images/6.jpeg",
+    "./Images/7.jpeg",
+    "./Images/8.jpeg",
   ];
 
   const responsive = {
@@ -27,10 +28,10 @@ const Speakers = (props) => {
       <img src={LeftIcon} alt="Previous" className="no-filter" />
     </button>
   );
-  
+
   const customNextButton = (
     <button className="custom-nav-button custom-next-button">
-       <img src={RightIcon} alt="Next" />
+      <img src={RightIcon} alt="Next" />
     </button>
   );
 
@@ -40,23 +41,23 @@ const Speakers = (props) => {
         <span className="text-LushGreen">Speakers</span>
       </div>
       <div className="pixel-bg h-[410px] md:h-[430px] lg:h-[500px] xl:h-[600px]">
-        <AliceCarousel  
+        <AliceCarousel
           mouseDragEnabled
           buttonsDisabled
           dotsDisabled
           autoPlay
           autoPlayInterval={3000}
           responsive={responsive}
-          infinite 
+          infinite
           items={images.map((image, index) => (
             <div key={index} className="image-slide">
               <div
                 className="image-container mt-6 md:mt-16 xl:mt-12"
                 style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  height: '100%',
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  height: "100%",
                 }}
               >
                 <img
@@ -67,7 +68,7 @@ const Speakers = (props) => {
               </div>
             </div>
           ))}
-          renderPrevButton={() => customPrevButton} 
+          renderPrevButton={() => customPrevButton}
           renderNextButton={() => customNextButton}
           data={{
             touchTracking: true, // Enable touch/swipe support

@@ -136,7 +136,7 @@ const Hero = () => {
                 <div className="font-bold text-md  lg:text-xl  mt-2  text-gray-200">
                   In Collaboration with{" "}
                 </div>
-                <div className="flex flex-col space-y-4 items-center md:flex-row justify-center md:space-x-6">
+                <div className="flex flex-col  space-y-4 items-center md:flex-row justify-center md:space-x-6">
                   <div className="powered-by-container mt-3">
                     <div className="font-thin text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl max-w-[250px]">
                       {/* In Collaboration with */}
@@ -150,6 +150,20 @@ const Hero = () => {
                           src="Images/GDSC-white.png"
                           alt="gdsc"
                           className=" h-6 sm:h-8 md:h-8 lg:h-8 xl:h-8 "
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div className="powered-by-container ">
+                    <div className="font-thin text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl max-w-[250px]">
+                      {/* In Collaboration with */}
+                    </div>
+                    <div className="os-logo">
+                      <a href="" target="_blank">
+                        <img
+                          src="Images/OSCode.png"
+                          alt="gdsc"
+                          className=" h-12 xl:h-14 "
                         />
                       </a>
                     </div>
