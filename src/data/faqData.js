@@ -17,7 +17,7 @@ export const data = [
   },
   {
     faq: "What do I pay to register for the event?",
-    ans: "0, Nill, Nought, Cero, Nada. REVA HACK 2023 has no registration fee for all participants apart from rupees 300 paid on-spot as a security deposit which will be refunded after the event unless any property damage is caused.",
+    ans: "0, Nill, Nought, Cero, Nada. REVA HACK 2023 has no registration fee for all participants apart from rupees 500 paid on-spot as a security deposit which will be refunded after the event unless any property damage is caused.",
   },
   {
     faq: "How does one avail accommodation facilities?",
