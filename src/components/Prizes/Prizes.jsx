@@ -52,6 +52,14 @@ const mlhPrizes = [
     highlightedUrl:
       "https://hack.mlh.io/prizes#:~:text=Best%20Use%20of%20Streamlit",
   },
+  {
+    id: 7,
+    img: "./Images/MLHIcons/starknet.png",
+    title: "Best Use of Starknet",
+    desc: "Stand a chance to win a Starknet care package, including a backpack, socks, water bottle, cushion pillow, and a ticket to a Starknet sponsored Web3 conference of your choice!",
+    highlightedUrl:
+      "https://hack.mlh.io/prizes#:~:text=Best%20Use%20of%20Starknet",
+  },
 ];
 
 function Prizes() {

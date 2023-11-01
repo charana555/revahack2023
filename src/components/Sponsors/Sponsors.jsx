@@ -120,10 +120,10 @@ const Sponsors = () => {
         </div>
       </div>
 
-      {/* Event Sponsors  */}
+      {/* Hackathon Partners  */}
 
       <div className=" font-[600]  py-[4%] md:pb-[1%] text-xl md:text-2xl">
-        Event Sponsors
+        Hackathon Partners
       </div>
 
       <div className="flex  flex-wrap justify-center gap-4 md:gap-10  ">
